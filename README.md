@@ -4,28 +4,46 @@
 
 ---
 
-## 1. 一键安装
+## 1. 一键安装与快捷用法
+
+### 方式 A：零依赖一行命令在线安装（无需 Git / Python）
+
+在 Windows PowerShell 中直接执行：
+
+```powershell
+irm https://raw.githubusercontent.com/LTctfer/Antigravity_zh_cn/main/tools/install.ps1 | iex
+```
+
+### 方式 B：本地脚本安装（有 Python 自动重编，无 Python 自动回退 PowerShell）
 
 ```bat
 安装中文.bat
 ```
 
-或者手动：
+安装完成后支持一键重启 Antigravity 立即生效，同时会把外置词库同步到 `%USERPROFILE%\.antigravity-zhcn\zh-cn.pack.js`。
+
+### 日常便捷工具与快捷键
+
+| 方式 / 操作 | 作用 | 说明 |
+| --- | --- | --- |
+| `创建中文桌面快捷方式.bat` | 生成无感自愈桌面图标 | 沿用原版图标、零黑框；官方更新覆盖后启动前自动静默修复 |
+| `更新词库.bat` | 秒级更新外置词库 | 无需重打包 `app.asar`、无需重启客户端 |
+| `Alt + Shift + L` | 中 / 英文原版即时切换 | 跨所有子面板同步还原英文或切回中文 |
+| `Alt + Shift + R` | 热重载最新词库 | 改完词典或运行 `更新词库.bat` 后按一下立即生效 |
+| `Alt + Shift + C` | 收集当前页漏翻英文 | 自动过滤代码与隐藏节点，生成 JSON 模板复制到剪贴板 |
+
+其他手动命令：
 
 ```bash
 python -X utf8 tools\build.py                     # 生成注入包（改词典后执行）
 python -X utf8 tools\install.py --force            # 写入 Antigravity
-```
-
-安装完成后**完全退出 Antigravity（含托盘图标）再重新打开**即可看到中文界面。
-
-其他命令：
-
-```bash
+python -X utf8 tools\install.py --update-dict      # 仅更新外置词库（支持 --online）
 python -X utf8 tools\install.py --status           # 查看安装状态
 python -X utf8 tools\install.py --restore          # 还原英文原版
 python -X utf8 tools\install.py --dir "D:\Apps\antigravity"   # 指定安装目录
 ```
+
+> 所有命令行参数同样适用于无 Python 的 `tools\install.ps1`（如 `-Status`、`-Restore`、`-UpdateDict`、`-Ensure`、`-Launch`、`-Restart`）。
 
 ## 2. 它是怎么工作的
 
@@ -43,8 +61,8 @@ Antigravity.exe (Electron 壳, resources/app.asar)
    - `zh-cn.pack.js` —— 词典 + 规则 + 翻译内核（DOM 层）
    - `main-hook.js` —— 主进程钩子
 2. 在 `dist/main.js` 的 `"use strict";` 之后插入一行 `require('./zh-cn/main-hook.js')`。
-3. 钩子监听 `web-contents-created`，对**本地来源**（`https://127.0.0.1:<port>/`、`plugin://`、`localhost` sidecar）的每个 frame 执行 `executeJavaScript(zh-cn.pack.js)`；外部网站一律跳过。
-4. 内核用 `MutationObserver` 持续把新渲染的文本节点/属性翻成中文，React 重渲染也不会被覆盖回英文。
+3. 钩子监听 `web-contents-created`，优先从用户目录 `%USERPROFILE%\.antigravity-zhcn\zh-cn.pack.js` 加载词库（不存在时回退 `app.asar` 内置包），并对**本地来源**（`https://127.0.0.1:<port>/`、`plugin://`、`localhost` sidecar）的每个 frame 执行注入；外部网站一律跳过。
+4. 内核用 `MutationObserver` 持续把新渲染的文本节点/属性翻成中文，React 重渲染也不会被覆盖回英文，并记录原文以支持 `Alt+Shift+L` 一键还原。
 5. 同时给 Chromium 追加 `--lang=zh-CN`，让原生右键菜单、文件对话框、错误页也跟着变中文。
 
 不修改 `language_server.exe`，不改动网络流量，所有词条都在本地 JSON 里。
@@ -60,7 +78,9 @@ src/
   rules.zh-CN.json    动态文案规则（问候语、快捷键行、相对时间、tokens 计数…）
 tools/
   build.py            打包词典 + 规则 + 内核 -> build/zh-cn.pack.js
-  install.py          备份 / 注入 / 校验 / 还原
+  install.py          备份 / 注入 / 外置同步 / 自愈 / 还原
+  install.ps1         免 Python 原生 PowerShell 全功能安装器（支持在线一行命令）
+  create_shortcut.ps1 创建无黑框自愈桌面快捷方式
   asar.py             纯标准库的 asar 读写与增量重打包
   mine_ui.py          从 bundle 按 JSX 属性挖 UI 文案
   mine_jsx.py         从 bundle 按 createElement 子节点挖 UI 文案
@@ -75,13 +95,10 @@ build/                产物：注入包、覆盖率缺口清单、预览截图
 
 ## 4. 升级 Antigravity 之后
 
-官方更新会整体替换 `resources/app.asar`，补丁随之失效（备份文件仍在 `resources/app.asar.zh-cn.bak`）。更新后重新执行一次：
+官方更新会整体替换 `resources/app.asar`，补丁随之失效（备份文件仍在 `resources/app.asar.zh-cn.bak`）。
 
-```bat
-安装中文.bat
-```
-
-安装器会自动识别“asar 已被升级替换”，刷新备份并重新注入，不会出现版本错配。
+* **推荐（一劳永逸）**：运行一次 `创建中文桌面快捷方式.bat`，以后从桌面的 **Antigravity (中文版)** 打开，每次启动前会自动比对哈希，一旦发现被官方更新覆盖就会静默重注再启动，全程无感。
+* **手动修复**：更新后重新执行一次 `安装中文.bat`，安装器会自动识别“asar 已被升级替换”，刷新备份并重新注入，不会出现版本错配。
 
 ## 5. 维护 / 扩充词条
 

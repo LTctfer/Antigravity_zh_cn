@@ -30,6 +30,9 @@ import asar  # noqa: E402
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BUILD = os.path.join(ROOT, 'build')
 SRC = os.path.join(ROOT, 'src')
+USER_DIR = os.path.join(os.path.expanduser('~'), '.antigravity-zhcn')
+EXTERNAL_PACK = os.path.join(USER_DIR, 'zh-cn.pack.js')
+RAW_BASE = 'https://raw.githubusercontent.com/LTctfer/Antigravity_zh_cn/main'
 MARK = "require('./zh-cn/main-hook.js')"
 PREFIX = '/dist/zh-cn/'
 
@@ -107,6 +110,7 @@ def status(p):
         'asar': p['asar'],
         'backup': os.path.isfile(p['backup']),
         'installed': bool(hook_present and patched),
+        'externalPack': EXTERNAL_PACK if os.path.isfile(EXTERNAL_PACK) else None,
         'manifest': m,
         'running': app_running(),
     }
@@ -130,7 +134,79 @@ def patch_main_js(src):
     return out.encode('utf-8', 'surrogateescape')
 
 
-def install(app_dir, force=False):
+def sync_external_pack(pack_path=None):
+    src = pack_path or os.path.join(BUILD, 'zh-cn.pack.js')
+    if not os.path.isfile(src):
+        raise SystemExit('缺少 %s，请先运行 python tools/build.py' % src)
+    os.makedirs(USER_DIR, exist_ok=True)
+    shutil.copy2(src, EXTERNAL_PACK)
+    print('已同步外置词库 ->', EXTERNAL_PACK)
+
+
+def download_to(url, dst):
+    import urllib.request
+    os.makedirs(os.path.dirname(dst), exist_ok=True)
+    req = urllib.request.Request(url, headers={'User-Agent': 'Antigravity-zh-cn-installer'})
+    with urllib.request.urlopen(req, timeout=20) as resp:
+        data = resp.read()
+    with open(dst, 'wb') as f:
+        f.write(data)
+    return data
+
+
+def update_dict(online=False):
+    if online:
+        print('正在从 GitHub 下载最新词库...')
+        download_to(RAW_BASE + '/build/zh-cn.pack.js', EXTERNAL_PACK)
+        print('已更新外置词库 ->', EXTERNAL_PACK)
+    else:
+        sync_external_pack()
+    print('提示：若 Antigravity 正在运行，直接按 Alt+Shift+R 即可热重载生效！')
+
+
+def is_patched_fast(p):
+    """快速判断是否已注入：优先比对 manifest 记录的 patchedSha256，其次检查 asar 内标记。"""
+    if not os.path.isfile(p['asar']):
+        return False
+    m = read_manifest(p)
+    if m and m.get('patchedSha256'):
+        if sha256_file(p['asar']) == m['patchedSha256']:
+            return True
+    try:
+        for k, meta in asar.list_entries(p['asar']):
+            if k == '/dist/main.js':
+                body = asar.read_entry(p['asar'], meta) or b''
+                return MARK.encode('utf-8') in body[:4096]
+    except Exception:
+        pass
+    return False
+
+
+def launch_app(app_dir):
+    exe = os.path.join(app_dir, 'Antigravity.exe')
+    if not os.path.isfile(exe):
+        raise SystemExit('未找到主程序：%s' % exe)
+    creationflags = getattr(subprocess, 'DETACHED_PROCESS', 0) | getattr(subprocess, 'CREATE_NEW_PROCESS_GROUP', 0)
+    subprocess.Popen([exe], cwd=app_dir, creationflags=creationflags, close_fds=True)
+    print('已启动：%s' % exe)
+
+
+def stop_app():
+    if app_running():
+        print('正在关闭 Antigravity...')
+        subprocess.run(['taskkill', '/F', '/IM', 'Antigravity.exe'], capture_output=True, timeout=15)
+        for _ in range(20):
+            if not app_running():
+                break
+            time.sleep(0.25)
+
+
+def restart_app(app_dir):
+    stop_app()
+    launch_app(app_dir)
+
+
+def install(app_dir, force=False, sync_external=True):
     p = paths(app_dir)
     if not os.path.isfile(p['asar']):
         raise SystemExit('未找到 %s' % p['asar'])
@@ -192,20 +268,30 @@ def install(app_dir, force=False):
             os.remove(tmp)
             raise SystemExit('打包校验失败：缺少 %s' % k)
 
-    replaced = False
     try:
         os.replace(tmp, p['asar'])
-        replaced = True
     except OSError as exc:
         if not force:
-            os.remove(tmp)
+            if os.path.isfile(tmp):
+                os.remove(tmp)
             raise SystemExit('替换 app.asar 失败（应用可能仍被占用）：%s' % exc)
-        # 强制模式：先改名再落盘
+        # 强制模式：先改名再落盘，失败时清理临时文件并给出友好提示
         aside = p['asar'] + '.locked'
         try:
             os.replace(p['asar'], aside)
-            os.replace(tmp, p['asar'])
-            replaced = True
+            try:
+                os.replace(tmp, p['asar'])
+            except OSError:
+                if not os.path.isfile(p['asar']) and os.path.isfile(aside):
+                    os.replace(aside, p['asar'])
+                raise
+        except OSError as exc2:
+            if os.path.isfile(tmp):
+                try:
+                    os.remove(tmp)
+                except OSError:
+                    pass
+            raise SystemExit('强制替换 app.asar 失败（Antigravity 正在占用文件，请先完全退出或加上 --restart 自动关闭后重试）：%s' % exc2)
         finally:
             if os.path.isfile(aside):
                 try:
@@ -225,6 +311,9 @@ def install(app_dir, force=False):
     }
     with open(p['manifest'], 'w', encoding='utf-8') as f:
         json.dump(manifest, f, ensure_ascii=False, indent=2)
+
+    if sync_external:
+        sync_external_pack(pack_path)
 
     print('安装完成：%s' % p['dir'])
     print('  注入文件：dist/zh-cn/main-hook.js, dist/zh-cn/zh-cn.pack.js')
@@ -250,7 +339,17 @@ def main():
     ap.add_argument('--status', action='store_true')
     ap.add_argument('--restore', action='store_true')
     ap.add_argument('--force', action='store_true')
+    ap.add_argument('--restart', action='store_true', help='安装/还原后自动重启 Antigravity')
+    ap.add_argument('--ensure', action='store_true', help='若补丁未生效或被官方更新覆盖则静默修复')
+    ap.add_argument('--launch', action='store_true', help='确保汉化有效后启动 Antigravity')
+    ap.add_argument('--update-dict', action='store_true', help='仅更新外置词库，无需重启主进程')
+    ap.add_argument('--online', action='store_true', help='配合 --update-dict 从 GitHub 下载最新词库')
+    ap.add_argument('--no-external', action='store_true', help='安装时不同步外置词库目录')
     args = ap.parse_args()
+
+    if args.update_dict:
+        update_dict(online=args.online)
+        return
 
     app_dir = find_dir(args.dir)
     p = paths(app_dir)
@@ -258,11 +357,34 @@ def main():
         print(json.dumps(status(p), ensure_ascii=False, indent=2))
         return
     if args.restore:
+        if args.restart and app_running():
+            stop_app()
         restore(app_dir)
+        if args.restart:
+            launch_app(app_dir)
         return
-    install(app_dir, force=args.force)
-    print()
-    print(json.dumps(status(p), ensure_ascii=False, indent=2))
+    if args.ensure or args.launch:
+        if is_patched_fast(p):
+            print('汉化补丁状态正常（无需重打）。')
+        else:
+            print('检测到补丁未安装或已被官方更新覆盖，正在自动修复...')
+            if args.restart and app_running():
+                stop_app()
+            install(app_dir, force=True, sync_external=not args.no_external)
+        if args.launch:
+            launch_app(app_dir)
+        return
+
+    need_relaunch = False
+    if args.restart and app_running():
+        stop_app()
+        need_relaunch = True
+    install(app_dir, force=args.force, sync_external=not args.no_external)
+    if args.restart or need_relaunch:
+        launch_app(app_dir)
+    else:
+        print()
+        print(json.dumps(status(p), ensure_ascii=False, indent=2))
 
 
 if __name__ == '__main__':

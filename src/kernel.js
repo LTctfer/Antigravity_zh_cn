@@ -1,15 +1,22 @@
 /* Antigravity 简体中文语言层（内核）
  * 纯 DOM 层翻译：文本节点 + 可见属性 + MutationObserver + 同源 iframe 递归。
+ * 支持：中英即时切换还原、运行期词库热重载、未翻译词条收集、轻量状态提示。
  * 由 tools/build.py 与本包内的 DICT / RULES 一起打包成 zh-cn.pack.js，
  * 由 Electron 主进程通过 webContents/frame.executeJavaScript 注入。
  */
 (function () {
   'use strict';
-  if (window.__zhcn && window.__zhcn.installed) return;
+  var NEW_CFG = window.__ZHCN_CONFIG__ || {};
+  if (window.__zhcn && window.__zhcn.installed) {
+    if (window.__zhcn._cfg !== NEW_CFG && typeof window.__zhcn.reload === 'function') {
+      window.__zhcn.reload(NEW_CFG);
+    }
+    return;
+  }
 
-  var CFG = window.__ZHCN_CONFIG__ || {};
-  var DICT = CFG.dict || {};
-  var RULES = CFG.rules || [];
+  var CFG = NEW_CFG;
+  var DICT = {};
+  var RULES = [];
   var ATTRS = ['placeholder', 'title', 'aria-label', 'alt', 'data-placeholder'];
   var SKIP_TAGS = {
     SCRIPT: 1, STYLE: 1, NOSCRIPT: 1, CODE: 1, PRE: 1, KBD: 1, SAMP: 1,
@@ -24,17 +31,32 @@
   ].join(',');
 
   var compiled = [];
-  for (var i = 0; i < RULES.length; i++) {
-    try { compiled.push([new RegExp(RULES[i][0]), RULES[i][1]]); } catch (e) {}
+  var lookup = Object.create(null);
+  var memo = Object.create(null);
+  var phraseRe = null;
+  var phraseMap = Object.create(null);
+
+  function loadConfig(cfg) {
+    CFG = cfg || {};
+    DICT = CFG.dict || {};
+    RULES = CFG.rules || [];
+    compiled = [];
+    for (var i = 0; i < RULES.length; i++) {
+      try { compiled.push([new RegExp(RULES[i][0]), RULES[i][1]]); } catch (e) {}
+    }
+    lookup = Object.create(null);
+    Object.keys(DICT).forEach(function (k) { lookup[k] = DICT[k]; });
+    memo = Object.create(null);
+    phraseRe = null;
+    phraseMap = Object.create(null);
   }
 
-  var lookup = Object.create(null);
-  Object.keys(DICT).forEach(function (k) { lookup[k] = DICT[k]; });
+  loadConfig(CFG);
 
-  var memo = Object.create(null);
   var skipCache = new WeakMap();
   var appliedText = new WeakMap();   // textNode -> 原文
   var appliedAttr = new WeakMap();   // el -> {attr: 原文}
+  var origTitles = new WeakMap();    // doc -> 原 title
   var stats = { text: 0, attr: 0, docs: 0 };
   var enabled = true;
   var writing = false;
@@ -88,9 +110,6 @@
     return g;
   }
 
-  var phraseRe = null;
-  var phraseMap = Object.create(null);
-
   function escapeRe(s) {
     return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   }
@@ -107,7 +126,9 @@
     }
     keys.sort(function (a, b) { return b.length - a.length; });
     for (var i = 0; i < keys.length; i++) phraseMap[keys[i]] = DICT[keys[i]];
-    phraseRe = new RegExp('(^|[^A-Za-z0-9])(' + keys.map(escapeRe).join('|') + ')(?![A-Za-z0-9])', 'g');
+    phraseRe = keys.length
+      ? new RegExp('(^|[^A-Za-z0-9])(' + keys.map(escapeRe).join('|') + ')(?![A-Za-z0-9])', 'g')
+      : /(?!)/g;
   }
 
   function applyPhrases(s) {
@@ -147,7 +168,7 @@
     if (!raw || raw.length > 4000) return;
     var zh = translateString(raw);
     if (!zh) return;
-    appliedText.set(node, raw);
+    if (!appliedText.has(node)) appliedText.set(node, raw);
     stats.text++;
     writing = true;
     try { node.nodeValue = zh; } finally { writing = false; }
@@ -164,14 +185,12 @@
     var zh = translateString(raw);
     if (!zh) return;
     var rec = appliedAttr.get(el) || {};
-    rec[attr] = raw;
+    if (!(attr in rec)) rec[attr] = raw;
     appliedAttr.set(el, rec);
     stats.attr++;
     writing = true;
     try { el.setAttribute(attr, zh); } finally { writing = false; }
   }
-
-  var ATTR_ONLY_TAGS = { INPUT: 1, TEXTAREA: 1, SELECT: 1, IFRAME: 1, CANVAS: 1 };
 
   // 属性是否允许翻译：INPUT/TEXTAREA 等本身不承载正文，但 placeholder/title 要翻。
   function isSkippedForAttr(el) {
@@ -247,13 +266,80 @@
     while ((n = walker.nextNode()) && guard++ < 200000) procText(n);
   }
 
+  // 遍历当前页面内所有可见根（含 Shadow DOM 与同源 iframe）
+  function walkAllRoots(doc, fn, seen) {
+    if (!doc || !seen) return;
+    if (seen.has(doc)) return;
+    seen.add(doc);
+    var root = doc.body || doc.documentElement || doc;
+    fn(root, doc);
+    try {
+      var all = root.querySelectorAll ? root.querySelectorAll('*') : [];
+      for (var i = 0; i < all.length; i++) {
+        if (all[i].shadowRoot) walkAllRoots(all[i].shadowRoot, fn, seen);
+      }
+      var iframes = root.querySelectorAll ? root.querySelectorAll('iframe') : [];
+      for (var j = 0; j < iframes.length; j++) {
+        try {
+          if (iframes[j].contentDocument) walkAllRoots(iframes[j].contentDocument, fn, seen);
+        } catch (e) {}
+      }
+    } catch (e) {}
+  }
+
+  function restoreRoot(root, doc) {
+    if (!root) return;
+    writing = true;
+    try {
+      if (doc && doc.documentElement && doc.documentElement.getAttribute('lang') === 'zh-CN') {
+        doc.documentElement.setAttribute('lang', 'en');
+      }
+      if (doc === document && origTitles.has(doc)) {
+        doc.title = origTitles.get(doc);
+      }
+      if (root.querySelectorAll) {
+        var list = root.querySelectorAll(ATTR_SELECTOR);
+        for (var i = 0; i < list.length; i++) {
+          var el = list[i];
+          var rec = appliedAttr.get(el);
+          if (!rec) continue;
+          for (var attr in rec) {
+            if (Object.prototype.hasOwnProperty.call(rec, attr)) {
+              el.setAttribute(attr, rec[attr]);
+            }
+          }
+          appliedAttr.delete(el);
+        }
+      }
+      var owner = root.ownerDocument || (root.nodeType === 9 ? root : document);
+      var walker = owner.createTreeWalker(root, NodeFilter.SHOW_TEXT, null);
+      var n, guard = 0;
+      while ((n = walker.nextNode()) && guard++ < 200000) {
+        if (appliedText.has(n)) {
+          n.nodeValue = appliedText.get(n);
+          appliedText.delete(n);
+        }
+      }
+    } catch (e) {} finally {
+      writing = false;
+    }
+  }
+
+  function restoreAll() {
+    queue = [];
+    walkAllRoots(document, restoreRoot, new Set());
+  }
+
   function hookDoc(doc, isShadow) {
     if (!doc || doc.__zhcnHooked) return;
     doc.__zhcnHooked = true;
     stats.docs++;
     try {
       if (doc.documentElement) doc.documentElement.setAttribute('lang', 'zh-CN');
-      if (doc === document) doc.title = translateString(doc.title) || doc.title;
+      if (doc === document) {
+        if (!origTitles.has(doc)) origTitles.set(doc, doc.title);
+        doc.title = translateString(doc.title) || doc.title;
+      }
       var titleEl = doc.querySelector && doc.querySelector('title');
       if (titleEl) procText(titleEl.firstChild || titleEl);
     } catch (e) {}
@@ -303,22 +389,155 @@
   }
 
   function rescan() {
+    if (!enabled) return;
     try {
-      if (document.documentElement) document.documentElement.setAttribute('lang', 'zh-CN');
-      walk(document.body || document.documentElement);
+      walkAllRoots(document, function (root, doc) {
+        if (doc && doc.documentElement) doc.documentElement.setAttribute('lang', 'zh-CN');
+        if (doc === document && doc.title) doc.title = translateString(doc.title) || doc.title;
+        walk(root);
+      }, new Set());
     } catch (e) {}
+  }
+
+  var toastTimer = null;
+  function toast(msg) {
+    if (window !== window.top) return;
+    try {
+      var host = document.body || document.documentElement;
+      if (!host) return;
+      var el = document.getElementById('__zhcn-toast__');
+      if (!el) {
+        el = document.createElement('div');
+        el.id = '__zhcn-toast__';
+        el.setAttribute('data-zhcn-skip', '1');
+        el.style.cssText = [
+          'position:fixed', 'top:16px', 'right:16px', 'z-index:2147483647',
+          'padding:8px 14px', 'border-radius:8px',
+          'background:rgba(24,24,27,0.92)', 'color:#f4f4f5',
+          'border:1px solid rgba(255,255,255,0.14)',
+          'box-shadow:0 8px 24px rgba(0,0,0,0.38)',
+          'font:13px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Microsoft YaHei",sans-serif',
+          'pointer-events:none', 'transition:opacity .22s ease', 'opacity:0'
+        ].join(';');
+        host.appendChild(el);
+      }
+      el.textContent = msg;
+      el.style.opacity = '1';
+      if (toastTimer) clearTimeout(toastTimer);
+      toastTimer = setTimeout(function () {
+        el.style.opacity = '0';
+      }, 2200);
+    } catch (e) {}
+  }
+
+  function isLikelyUiEnglish(s) {
+    if (!s || s.length < 2 || s.length > 180) return false;
+    if (!/[A-Za-z]{2}/.test(s)) return false;
+    // 跳过已含中文、URL、路径、邮箱、纯版本号、代码符号密集行
+    if (/[\u4e00-\u9fff]/.test(s)) return false;
+    if (/^(https?:\/\/|file:\/\/|[A-Za-z]:\\|\/[\w.-]+)/i.test(s)) return false;
+    if (/^[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}$/.test(s)) return false;
+    if (/^v?\d+(\.\d+)+([-.]\w+)?$/i.test(s)) return false;
+    return true;
+  }
+
+  function isElVisible(el) {
+    if (!el || !el.getBoundingClientRect) return false;
+    try {
+      var st = window.getComputedStyle(el);
+      if (st.display === 'none' || st.visibility === 'hidden' || st.opacity === '0') return false;
+      var rect = el.getBoundingClientRect();
+      return rect.width > 0 && rect.height > 0;
+    } catch (e) { return true; }
+  }
+
+  function collectMissing() {
+    var out = [];
+    var seen = Object.create(null);
+    function push(raw) {
+      var core = norm(raw || '');
+      if (!isLikelyUiEnglish(core)) return;
+      if (seen[core]) return;
+      if (translateString(core)) return;
+      seen[core] = 1;
+      out.push(core);
+    }
+    walkAllRoots(document, function (root) {
+      if (!root) return;
+      var owner = root.ownerDocument || (root.nodeType === 9 ? root : document);
+      try {
+        var walker = owner.createTreeWalker(root, NodeFilter.SHOW_TEXT, null);
+        var n, guard = 0;
+        while ((n = walker.nextNode()) && guard++ < 100000) {
+          var p = n.parentElement;
+          if (!p || isSkipped(p) || !isElVisible(p)) continue;
+          if (appliedText.has(n)) continue;
+          push(n.nodeValue);
+        }
+        if (root.querySelectorAll) {
+          var list = root.querySelectorAll(ATTR_SELECTOR);
+          for (var i = 0; i < list.length; i++) {
+            var el = list[i];
+            if (isSkippedForAttr(el) || !isElVisible(el)) continue;
+            var rec = appliedAttr.get(el) || {};
+            for (var j = 0; j < ATTRS.length; j++) {
+              var a = ATTRS[j];
+              if (a in rec) continue;
+              if (el.hasAttribute(a)) push(el.getAttribute(a));
+            }
+          }
+        }
+      } catch (e) {}
+    }, new Set());
+    return out;
+  }
+
+  function setEnabled(next, showToast) {
+    enabled = !!next;
+    if (!enabled) {
+      restoreAll();
+      if (showToast) toast('已切换为英文原版（Alt+Shift+L 切回中文）');
+    } else {
+      rescan();
+      if (showToast) toast('已切换为简体中文');
+    }
+    return enabled;
+  }
+
+  function reload(newCfg, showToast) {
+    var wasEnabled = enabled;
+    restoreAll();
+    loadConfig(newCfg);
+    if (window.__zhcn) {
+      window.__zhcn._cfg = CFG;
+      window.__zhcn.version = CFG.version || '1.0.0';
+      window.__zhcn.dict = DICT;
+      window.__zhcn.rules = RULES;
+    }
+    enabled = wasEnabled;
+    if (enabled) rescan();
+    if (showToast) toast('词库已热更新（' + Object.keys(DICT).length + ' 条）');
   }
 
   window.__zhcn = {
     installed: true,
+    _cfg: CFG,
     version: CFG.version || '1.0.0',
     dict: DICT,
     rules: RULES,
     stats: stats,
     translate: translateString,
     rescan: rescan,
-    off: function () { enabled = false; },
-    on: function () { enabled = true; rescan(); }
+    off: function (silent) { return setEnabled(false, !silent); },
+    on: function (silent) { return setEnabled(true, !silent); },
+    toggle: function (forceState, silent) {
+      var next = typeof forceState === 'boolean' ? forceState : !enabled;
+      return setEnabled(next, !silent);
+    },
+    isEnabled: function () { return enabled; },
+    reload: reload,
+    collectMissing: collectMissing,
+    toast: toast
   };
 
   function start() {
