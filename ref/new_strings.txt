@@ -1,0 +1,1164 @@
+15	USER_TAKEOVER
+10	PAGE_NOT_FOUND
+9	&quot;
+8	&amp;
+8	&gt;
+8	&lt;
+7	.thread-group
+6	0px
+6	PAGE_CHANGED
+5	_blank
+4	NAVIGATION_BLOCKED: policy not applied
+4	SUPER_ROOT
+3	$1[REDACTED]
+3	0em
+3	ACTION_FAILED
+3	BEFORE_LOAD
+3	INVALID_ARGUMENT
+3	OP_TIMEOUT
+3	Review contents
+3	__wrapped__
+2	$config
+2	+qm(this.b)+
+2	@lexical/html/DOM
+2	Aa0
+2	Active background color of the command center
+2	Active border color of the command center
+2	Active foreground color of the command center
+2	Active foreground color of the item in the Activity bar when it is on top / bottom. The activity allows to switch between views of the side bar.
+2	Active tab background color in an active group. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
+2	Active tab background color in an unfocused group. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
+2	Active tab foreground color in an active group. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
+2	Active tab foreground color in an unfocused group. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
+2	Activity bar background color for the active item. The activity bar is showing on the far left or right and allows to switch between views of the side bar.
+2	Activity bar background color. The activity bar is showing on the far left or right and allows to switch between views of the side bar.
+2	Activity bar border color for the active item. The activity bar is showing on the far left or right and allows to switch between views of the side bar.
+2	Activity bar border color separating to the side bar. The activity bar is showing on the far left or right and allows to switch between views of the side bar.
+2	Activity bar focus border color for the active item. The activity bar is showing on the far left or right and allows to switch between views of the side bar.
+2	Activity bar item foreground color when it is active. The activity bar is showing on the far left or right and allows to switch between views of the side bar.
+2	Activity bar item foreground color when it is inactive. The activity bar is showing on the far left or right and allows to switch between views of the side bar.
+2	Activity notification badge background color. The activity bar is showing on the far left or right and allows to switch between views of the side bar.
+2	Activity notification badge foreground color. The activity bar is showing on the far left or right and allows to switch between views of the side bar.
+2	Add anyway
+2	Background color for the active item in the Activity bar when it is on top / bottom. The activity allows to switch between views of the side bar.
+2	Background color for the remote indicator on the status bar when hovering.
+2	Background color for the remote indicator on the status bar.
+2	Background color of an empty editor group. Editor groups are the containers of editors.
+2	Background color of sticky scroll in the panel.
+2	Background color of sticky scroll in the side bar.
+2	Background color of text shown over editors when dragging files. This text informs the user that they can hold shift to drop into the editor.
+2	Background color of the activity bar when set to top / bottom.
+2	Background color of the command center
+2	Background color of the editor group title header when tabs are enabled. Editor groups are the containers of editors.
+2	Background color of the editor pane visible on the left and right side of the centered editor layout.
+2	Background color of the selected menu item in the menubar.
+2	Background color when dragging editors around. The color should have transparency so that the editor contents can still shine through.
+2	Background of a selected tab. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
+2	Banner background color. The banner is shown under the title bar of the window.
+2	Banner foreground color. The banner is shown under the title bar of the window.
+2	Banner icon color. The banner is shown under the title bar of the window.
+2	Border color between the activity bar at the top/bottom and the views.
+2	Border color for the active panel title. Panels are shown below the editor area and contain views like output and integrated terminal.
+2	Border color of an empty editor group that is focused. Editor groups are the containers of editors.
+2	Border color of sticky scroll in the panel.
+2	Border color of sticky scroll in the side bar.
+2	Border color of text shown over editors when dragging files. This text informs the user that they can hold shift to drop into the editor.
+2	Border color of the command center
+2	Border color of the command center when the window is inactive
+2	Border color of the editor group title header when tabs are enabled. Editor groups are the containers of editors.
+2	Border color of the editor group title header. Editor groups are the containers of editors.
+2	Border color of the selected menu item in the menubar.
+2	Border on the bottom of an active tab. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
+2	Border to highlight tabs when hovering. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
+2	Border to separate pinned tabs from other tabs. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
+2	Border to separate tabs from each other. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
+2	Border to the top of a selected tab. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
+2	Border to the top of an active tab in an unfocused group. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
+2	Border to the top of an active tab. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
+2	Color of editor active line number
+2	Color of focused breadcrumb items.
+2	Color to separate multiple editor groups from each other. Editor groups are the containers of editors.
+2	Color to separate two editors from each other when shown side by side in an editor group from left to right.
+2	Color to separate two editors from each other when shown side by side in an editor group from top to bottom.
+2	Ctrl+
+2	Drag and drop feedback color for the activity bar items. The activity bar is showing on the far left or right and allows to switch between views of the side bar.
+2	Drag and drop feedback color for the items in the Activity bar when it is on top / bottom. The activity allows to switch between views of the side bar.
+2	Drag and drop feedback color for the panel titles. Panels are shown below the editor area and contain views like output and integrated terminal.
+2	ELEMENT_NOT_VISIBLE
+2	Encountered errors while disposing of store
+2	FAQ
+2	Focus border color for the active item in the Activity bar when it is on top / bottom. The activity allows to switch between views of the side bar.
+2	Foreground color for the remote indicator on the status bar when hovering.
+2	Foreground color for the remote indicator on the status bar.
+2	Foreground color of text shown over editors when dragging files. This text informs the user that they can hold shift to drop into the editor.
+2	Foreground color of the command center
+2	Foreground color of the command center when the window is inactive
+2	Foreground color of the selected menu item in the menubar.
+2	Foreground of a selected tab. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
+2	Google Chrome
+2	Highlight below the word for which a hover is shown. The color must not be opaque so as not to hide underlying decorations.
+2	Inactive foreground color of the item in the Activity bar when it is on top / bottom. The activity allows to switch between views of the side bar.
+2	Inactive tab background color in an active group. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
+2	Inactive tab background color in an unfocused group. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
+2	Inactive tab foreground color in an active group. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
+2	Inactive tab foreground color in an unfocused group. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
+2	Input box border for inputs in the panel.
+2	Notification links foreground color. Notifications slide in from the bottom right of the window.
+2	Notification toast border color. Notifications slide in from the bottom right of the window.
+2	Notifications background color. Notifications slide in from the bottom right of the window.
+2	Notifications border color separating from other notifications in the notifications center. Notifications slide in from the bottom right of the window.
+2	Notifications center border color. Notifications slide in from the bottom right of the window.
+2	Notifications center header background color. Notifications slide in from the bottom right of the window.
+2	Notifications center header foreground color. Notifications slide in from the bottom right of the window.
+2	Notifications foreground color. Notifications slide in from the bottom right of the window.
+2	Output view background color.
+2	Output view sticky scroll background color.
+2	POST
+2	Panel background color. Panels are shown below the editor area and contain views like output and integrated terminal.
+2	Panel border color to separate the panel from the editor. Panels are shown below the editor area and contain views like output and integrated terminal.
+2	Panel section header background color. Panels are shown below the editor area and contain views like output and integrated terminal. Panel sections are views nested within the panels.
+2	Panel section header foreground color. Panels are shown below the editor area and contain views like output and integrated terminal. Panel sections are views nested within the panels.
+2	Panel title badge background color. Panels are shown below the editor area and contain views like output and integrated terminal.
+2	Panel title badge foreground color. Panels are shown below the editor area and contain views like output and integrated terminal.
+2	Panel title border color on the bottom, separating the title from the views. Panels are shown below the editor area and contain views like output and integrated terminal.
+2	Position Constraint
+2	Profile badge background color. The profile badge shows on top of the settings gear icon in the activity bar.
+2	Profile badge foreground color. The profile badge shows on top of the settings gear icon in the activity bar.
+2	STALE_UID
+2	Shadow color of sticky scroll in the panel.
+2	Shadow color of sticky scroll in the side bar.
+2	Side bar background color. The side bar is the container for views like explorer and search.
+2	Side bar border color on the side separating to the editor. The side bar is the container for views like explorer and search.
+2	Side bar foreground color. The side bar is the container for views like explorer and search.
+2	Side bar section header background color. The side bar is the container for views like explorer and search. Side bar sections are views nested within the side bar.
+2	Side bar section header border color. The side bar is the container for views like explorer and search. Side bar sections are views nested within the side bar.
+2	Side bar section header foreground color. The side bar is the container for views like explorer and search. Side bar sections are views nested within the side bar.
+2	Side bar title background color. The side bar is the container for views like explorer and search.
+2	Side bar title border color on the bottom, separating the title from the views. The side bar is the container for views like explorer and search.
+2	Side bar title foreground color. The side bar is the container for views like explorer and search.
+2	Status bar background color when a workspace or folder is opened. The status bar is shown in the bottom of the window.
+2	Status bar background color when no folder is opened. The status bar is shown in the bottom of the window.
+2	Status bar border color separating to the sidebar and editor when no folder is opened. The status bar is shown in the bottom of the window.
+2	Status bar border color separating to the sidebar and editor. The status bar is shown in the bottom of the window.
+2	Status bar border color when focused on keyboard navigation. The status bar is shown in the bottom of the window.
+2	Status bar error items background color when hovering. Error items stand out from other status bar entries to indicate error conditions. The status bar is shown in the bottom of the window.
+2	Status bar error items background color. Error items stand out from other status bar entries to indicate error conditions. The status bar is shown in the bottom of the window.
+2	Status bar error items foreground color when hovering. Error items stand out from other status bar entries to indicate error conditions. The status bar is shown in the bottom of the window.
+2	Status bar error items foreground color. Error items stand out from other status bar entries to indicate error conditions. The status bar is shown in the bottom of the window.
+2	Status bar foreground color when a workspace or folder is opened. The status bar is shown in the bottom of the window.
+2	Status bar foreground color when no folder is opened. The status bar is shown in the bottom of the window.
+2	Status bar item background color when clicking. The status bar is shown in the bottom of the window.
+2	Status bar item background color when hovering an item that contains two hovers. The status bar is shown in the bottom of the window.
+2	Status bar item background color when hovering. The status bar is shown in the bottom of the window.
+2	Status bar item background color when the workbench is offline.
+2	Status bar item background hover color when the workbench is offline.
+2	Status bar item border color when focused on keyboard navigation. The status bar is shown in the bottom of the window.
+2	Status bar item foreground color when hovering. The status bar is shown in the bottom of the window.
+2	Status bar item foreground color when the workbench is offline.
+2	Status bar item foreground hover color when the workbench is offline.
+2	Status bar prominent items background color when hovering. Prominent items stand out from other status bar entries to indicate importance. The status bar is shown in the bottom of the window.
+2	Status bar prominent items background color. Prominent items stand out from other status bar entries to indicate importance. The status bar is shown in the bottom of the window.
+2	Status bar prominent items foreground color when hovering. Prominent items stand out from other status bar entries to indicate importance. The status bar is shown in the bottom of the window.
+2	Status bar prominent items foreground color. Prominent items stand out from other status bar entries to indicate importance. The status bar is shown in the bottom of the window.
+2	Status bar warning items background color when hovering. Warning items stand out from other status bar entries to indicate warning conditions. The status bar is shown in the bottom of the window.
+2	Status bar warning items background color. Warning items stand out from other status bar entries to indicate warning conditions. The status bar is shown in the bottom of the window.
+2	Status bar warning items foreground color when hovering. Warning items stand out from other status bar entries to indicate warning conditions. The status bar is shown in the bottom of the window.
+2	Status bar warning items foreground color. Warning items stand out from other status bar entries to indicate warning conditions. The status bar is shown in the bottom of the window.
+2	Tab background color in an unfocused group when hovering. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
+2	Tab background color when hovering. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
+2	Tab foreground color in an unfocused group when hovering. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
+2	Tab foreground color when hovering. Tabs are the containers for editors in the editor area. Multiple tabs can be opened in one editor group. There can be multiple editor groups.
+2	The color used for the border of the window when it is active on macOS or Linux. Requires custom title bar style and custom or hidden window controls on Linux.
+2	The color used for the border of the window when it is inactive on macOS or Linux. Requires custom title bar style and custom or hidden window controls on Linux.
+2	The color used for the icon of error notifications. Notifications slide in from the bottom right of the window.
+2	The color used for the icon of info notifications. Notifications slide in from the bottom right of the window.
+2	The color used for the icon of warning notifications. Notifications slide in from the bottom right of the window.
+2	Title bar background when the window is inactive.
+2	Title bar border color.
+2	Title bar foreground when the window is active.
+2	Title bar foreground when the window is inactive.
+2	Title color for the active panel. Panels are shown below the editor area and contain views like output and integrated terminal.
+2	Title color for the inactive panel. Panels are shown below the editor area and contain views like output and integrated terminal.
+2	URL
+2	Verify that these licenses were provided by your administrator and that you trust the project ID before proceeding. Account activity and data may be logged by your organization.
+2	[REDACTED]
+2	[redacted-tag]
+1	 (for example, passwords, messages, or credit cards).
+1	 (unsafe)
+1	 Allowed Domains
+1	 Copy the folder elsewhere first if you might want it back.
+1	 Organization MCP Allowlist (Read-Only)
+1	 Pick a model to change it.
+1	 Shadow color of sticky scroll in the editor
+1	 Terms of Service
+1	##local
+1	##other
+1	#FFFFFE
+1	#ffffff
+1	$1 [REDACTED]
+1	% left
+1	&apos;
+1	&lt;$1$2
+1	' not found for 
+1	(Specific to this client's truncation and pagination)
+1	(excluding product analytics data)
+1	+ Add Hook
+1	+ Add Organization policy
+1	+ Add branch policy
+1	+ Add issue policy
+1	+ Add pull request policy
+1	+ Add workflow run policy
+1	+rB(this.c.c,this.a)+
+1	+this.b+
+1	, always on.
+1	, then reopen this dialog.
+1	-1width
+1	-m-1.5 w-[calc(100%+0.75rem)] cursor-pointer rounded-lg p-1.5 text-left outline-none no-focus-ring hover:bg-foreground/5 focus-visible:bg-foreground/5
+1	. Change it in the model menu.
+1	. For non-corp passwords or SSH passphrases, allow the next prompt and re-run your command.
+1	. Reload the window if a change does not take effect.
+1	. The LLM decided that this would yield the best results. If this is not desired, you can simply tell the agent to search without a domain filter.
+1	. Try again.
+1	. Would you like to continue using it or make a new one?
+1	. You can control this from your settings at any point.
+1	.contains()
+1	0actk
+1	0di
+1	0ub
+1	0ubs
+1	0ubsb
+1	1 Draft
+1	1em
+1	1oa
+1	::after
+1	::before
+1	:pd)+
+1	== != in
+1	? This action cannot be undone.
+1	? This removes it from your config directory.
+1	? This will remove it from your MCP configuration.
+1	@lexical/html/DOMImport
+1	@max-[640px]/automation-list:!opacity-100
+1	@min-[640px]/automation-list:grid-cols-[minmax(0,1fr)_150px_150px_112px] @min-[640px]/automation-list:gap-x-4
+1	A chunk is a section of the page. Long pages are chunked so that only the sections that are relevant to your query are read.
+1	A comma-separated list like org-a, org-b, or * for all.
+1	A comma-separated list like repo-a, repo-b, or * for all.
+1	A layout algorithm that is applied to the graph before it is compacted. If this is null, nothing is applied before compaction.
+1	A layout algorithm that is to be applied to each connected component before the components themselves are compacted. If unspecified, the positions of the components' nodes are not altered.
+1	A subtler version of list hover background.
+1	ALL
+1	ARGON_LIMIT_REACHED
+1	ARGON_LIMIT_REACHED_BANNER
+1	ARGON_MODELS_PAGE
+1	ARGON_SETTINGS_PAGE
+1	Access restricted
+1	Access to the DCGraph is intended for the debug view,
+1	Access to the polyominoes is intended for the debug view,
+1	Action List background color for the focused item.
+1	Action List background color.
+1	Action List foreground color for the focused item.
+1	Action List foreground color.
+1	Activate Inside Self Loops
+1	Adapter
+1	Add Unnecessary Bendpoints
+1	Additional Port Space
+1	Additional Wedge Space
+1	Additional Wrapped Edges Spacing
+1	After removing overlaps
+1	Agent: 
+1	Algorithm for packing of unconnected boxes, i.e. graphs without edges.
+1	Algorithms that require a planar or upward planar graph. Most of these algorithms are theoretically interesting, but not practically usable.
+1	Alignment
+1	Alignment of the selected node relative to other nodes; the exact meaning depends on the used algorithm.
+1	Allow Next Non-Corp Prompt
+1	Allow Non-Flow Ports To Switch Sides
+1	Allow reading workflow runs (list, view, watch) across the whole repository.
+1	Allows the user to specify her own cuts for a certain graph.
+1	Allows to set a constraint which specifies of which node the current node is the predecessor. If set to 's' then the node is the predecessor of 's' and is in the same layer
+1	Allows to set a constraint which specifies of which node the current node is the successor. If set to 's' then the node is the successor of 's' and is in the same layer
+1	Allows to specify individual spacing values for graph elements that shall be different from the value specified for the element's parent.
+1	Alt+
+1	An agent is using the built-in browser. Clearing its data signs the agent out of sites and may interrupt its task.
+1	An extra border around active elements to separate them from others for greater contrast.
+1	An extra border around elements to separate them from others for greater contrast.
+1	Animate
+1	Animation Time Factor
+1	Annulus Wedge Criteria
+1	Antigravity
+1	Antigravity would like to use the browser.
+1	Any error messages seen when trying to log in
+1	Apply
+1	Are you sure you want to delete this conversation? This action cannot be undone.
+1	Are you sure you want to delete this side question? This action cannot be undone.
+1	Array types don't match
+1	Automated safeguards help to protect your conversations from insecure or unsafe content. That being said, users should be aware of potential agentic risks, including data exfiltration.
+1	Axis color for the chart.
+1	BK Edge Straightening
+1	BK Fixed Alignment
+1	Background color behind matching brackets
+1	Background color for block quotes in text.
+1	Background color for code blocks in text.
+1	Background color for lines that got inserted. The color must not be opaque so as not to hide underlying decorations.
+1	Background color for lines that got removed. The color must not be opaque so as not to hide underlying decorations.
+1	Background color for odd table rows.
+1	Background color for preformatted text segments.
+1	Background color for text that got inserted. The color must not be opaque so as not to hide underlying decorations.
+1	Background color for text that got removed. The color must not be opaque so as not to hide underlying decorations.
+1	Background color for the border around the line at the cursor position.
+1	Background color for the highlight of line at the cursor position when the editor is not focused.
+1	Background color for the highlight of line at the cursor position.
+1	Background color for the margin where lines got inserted.
+1	Background color for the margin where lines got removed.
+1	Background color for the remote badge in the extensions view.
+1	Background color of activated options in input fields.
+1	Background color of active bracket pair guides (1). Requires enabling bracket pair guides.
+1	Background color of active bracket pair guides (2). Requires enabling bracket pair guides.
+1	Background color of active bracket pair guides (3). Requires enabling bracket pair guides.
+1	Background color of active bracket pair guides (4). Requires enabling bracket pair guides.
+1	Background color of active bracket pair guides (5). Requires enabling bracket pair guides.
+1	Background color of active bracket pair guides (6). Requires enabling bracket pair guides.
+1	Background color of active radio option.
+1	Background color of breadcrumb item picker.
+1	Background color of breadcrumb items.
+1	Background color of checkbox widget when the element it's in is selected.
+1	Background color of checkbox widget.
+1	Background color of editor widgets, such as find/replace.
+1	Background color of error text in the editor. The color must not be opaque so as not to hide underlying decorations.
+1	Background color of highlighted ranges, like by quick open and find features. The color must not be opaque so as not to hide underlying decorations.
+1	Background color of highlighted symbol, like for go to definition or go next/previous symbol. The color must not be opaque so as not to hide underlying decorations.
+1	Background color of inactive active radio option when hovering.
+1	Background color of inactive bracket pair guides (1). Requires enabling bracket pair guides.
+1	Background color of inactive bracket pair guides (2). Requires enabling bracket pair guides.
+1	Background color of inactive bracket pair guides (3). Requires enabling bracket pair guides.
+1	Background color of inactive bracket pair guides (4). Requires enabling bracket pair guides.
+1	Background color of inactive bracket pair guides (5). Requires enabling bracket pair guides.
+1	Background color of inactive bracket pair guides (6). Requires enabling bracket pair guides.
+1	Background color of inactive radio option.
+1	Background color of info text in the editor. The color must not be opaque so as not to hide underlying decorations.
+1	Background color of inline hints
+1	Background color of inline hints for parameters
+1	Background color of inline hints for types
+1	Background color of menu items.
+1	Background color of sticky scroll in the editor
+1	Background color of sticky scroll on hover in the editor
+1	Background color of the border around highlighted ranges.
+1	Background color of the border around highlighted symbols.
+1	Background color of the editor gutter. The gutter contains the glyph margins and the line numbers.
+1	Background color of the editor hover status bar.
+1	Background color of the editor hover.
+1	Background color of the editor overview ruler.
+1	Background color of the error activity badge
+1	Background color of the filtered match.
+1	Background color of the ghost text in the editor.
+1	Background color of the gutter part of sticky scroll in the editor
+1	Background color of the progress bar that can show for long running operations.
+1	Background color of the selected menu item in menus.
+1	Background color of the type filter widget in lists and trees.
+1	Background color of the warning activity badge
+1	Background color of warning text in the editor. The color must not be opaque so as not to hide underlying decorations.
+1	Background color used to highlight unicode characters.
+1	Background color when dragging on top of terminals. The color should have transparency so that the terminal contents can still shine through.
+1	Background hover color of options in input fields.
+1	Background of a disabled checkbox.
+1	Badge background color. Badges are small information labels, e.g. for search results count.
+1	Badge foreground color. Badges are small information labels, e.g. for search results count.
+1	BasicEMap/Entry
+1	Bearer [REDACTED]
+1	Before removing overlaps
+1	Bend Points
+1	Boolean AND, OR, and negation
+1	Border color between the two text editors.
+1	Border color for block quotes in text.
+1	Border color for regions with the same content as the selection.
+1	Border color of activated options in input fields.
+1	Border color of active sashes.
+1	Border color of checkbox widget when the element it's in is selected.
+1	Border color of checkbox widget.
+1	Border color of editor widgets. The color is only used if the widget chooses to have a border and if the color is not overridden by a widget.
+1	Border color of ghost text in the editor.
+1	Border color of menus.
+1	Border color of sticky scroll in the editor
+1	Border color of the Search Editor query matches.
+1	Border color of the active radio option.
+1	Border color of the current search match in the terminal.
+1	Border color of the current search match.
+1	Border color of the editor hover.
+1	Border color of the filtered match.
+1	Border color of the inactive radio option.
+1	Border color of the other search matches in the terminal.
+1	Border color of the other search matches.
+1	Border color of the range limiting the search. The color must not be opaque so as not to hide underlying decorations.
+1	Border color of the resize bar of editor widgets. The color is only used if the widget chooses to have a resize border and if the color is not overridden by a widget.
+1	Border color of the selected menu item in menus.
+1	Border color of unnecessary (unused) source code in the editor.
+1	Border color of widgets such as find/replace inside the editor.
+1	Border color on headers and the splitter in inline merge-conflicts.
+1	Border color used to highlight unicode characters.
+1	Box Layout Mode
+1	Browser is currently being operated by this conversation in another Hub window
+1	Browsing history
+1	Button background color when hovering.
+1	Button background color.
+1	Button border color.
+1	Button foreground color.
+1	Button separator color.
+1	By default, the fixed layout provider will enlarge a graph until it is large enough to contain its children. If this option is set, it won't do so.
+1	CEL Expression Reference
+1	CEL Reference
+1	CSP
+1	Cache:
+1	Calculate the required angle of connected nodes to leave space for an incoming edge. This option should only be used in conjunction with top-down layout.
+1	Can't add a queue to itself
+1	Cannot suppress a null exception.
+1	Cannot use method in read-only mode.
+1	Card 
+1	Center On Root
+1	Centers the layout on the root of the tree i.e. so that the central node is also the center node of the final layout. This introduces additional whitespace.
+1	Child Area Height
+1	Child Area Width
+1	Child movement 1
+1	Children of root nodes must be elements or decorators
+1	Choose what to clear from the built-in browser. It can't be undone.
+1	Chooses an Edge Routing algorithm.
+1	Circle
+1	Cleared Count
+1	Clicking
+1	Close (Escape)
+1	Color for matching brackets boxes
+1	Color for regions with the same content as the selection. The color must not be opaque so as not to hide underlying decorations.
+1	Color for text separators.
+1	Color of a separator menu item in menus.
+1	Color of active links.
+1	Color of editor line numbers.
+1	Color of secondary editor cursors when multiple cursors are present.
+1	Color of selected breadcrumb items.
+1	Color of the Search Editor query matches.
+1	Color of the active editor indentation guides (1).
+1	Color of the active editor indentation guides (2).
+1	Color of the active editor indentation guides (3).
+1	Color of the active editor indentation guides (4).
+1	Color of the active editor indentation guides (5).
+1	Color of the active editor indentation guides (6).
+1	Color of the active editor indentation guides.
+1	Color of the current search match in the terminal. The color must not be opaque so as not to hide underlying terminal content.
+1	Color of the current search match.
+1	Color of the diff editor's diagonal fill. The diagonal fill is used in side-by-side diff views.
+1	Color of the editor cursor.
+1	Color of the editor indentation guides (1).
+1	Color of the editor indentation guides (2).
+1	Color of the editor indentation guides (3).
+1	Color of the editor indentation guides (4).
+1	Color of the editor indentation guides (5).
+1	Color of the editor indentation guides (6).
+1	Color of the editor indentation guides.
+1	Color of the editor rulers.
+1	Color of the editor selection.
+1	Color of the other search matches in the terminal. The color must not be opaque so as not to hide underlying terminal content.
+1	Color of the other search matches. The color must not be opaque so as not to hide underlying decorations.
+1	Color of the overview ruler border.
+1	Color of the primary editor cursor when multiple cursors are present.
+1	Color of the range limiting the search. The color must not be opaque so as not to hide underlying decorations.
+1	Color of the selected text for high contrast.
+1	Color of the selection in an inactive editor. The color must not be opaque so as not to hide underlying decorations.
+1	Color of the text in the search viewlet's completion message.
+1	Color of whitespace characters in the editor.
+1	Colors and styles for the token.
+1	Comment Box
+1	Comment Comment Spacing
+1	Comment Node Spacing
+1	Commented on: 
+1	Common ancestor content background in inline merge-conflicts. The color must not be opaque so as not to hide underlying decorations.
+1	Common ancestor header background in inline merge-conflicts. The color must not be opaque so as not to hide underlying decorations.
+1	Common ancestor overview ruler foreground for inline merge-conflicts.
+1	Compaction Step Size
+1	Compaction iterations
+1	Components Spacing
+1	Confirm the command is safe to run outside of the sandbox with full network and disk access.
+1	Connected Components Compaction
+1	Connected Components Compaction Strategy
+1	Connected Components Layout Algorithm
+1	Consider Model Order
+1	Consider Model Order for Components
+1	Consider Port Order
+1	Console Telemetry
+1	Contact your administrator to set up Gemini Enterprise for this project
+1	Content Alignment
+1	Control+
+1	Cookies and other site data
+1	Cookies, site storage and cache. Signs you out of all sites in the built-in browser and reloads its open tabs.
+1	Correction Factor for Wrapping
+1	Cost Function for Spanning Tree
+1	Couldn't clear browsing data. Try again.
+1	Couldn't load cookies.
+1	Crossing Counter Node Order Influence
+1	Crossing Counter Port Order Influence
+1	Crossing Minimization Strategy
+1	Curated sets of plugins for common workflows and roles.
+1	Current content background in inline merge-conflicts. The color must not be opaque so as not to hide underlying decorations.
+1	Current header background in inline merge-conflicts. The color must not be opaque so as not to hide underlying decorations.
+1	Current overview ruler foreground for inline merge-conflicts.
+1	Current position of a node in the order of nodes
+1	Cutting Strategy
+1	Cycle Breaking Strategy
+1	DCGraph
+1	DOWNLOAD_CANCELLED
+1	DOWNLOAD_NOT_PENDING
+1	DOWNLOAD_RESOLVE_FAILED
+1	DOWNLOAD_RESOLVE_UNSUPPORTED
+1	DUMMY_ROOT
+1	Dampens the movement of nodes to keep the diagram from getting too large.
+1	Debug Mode
+1	Decides on a placement method for port labels; if empty, the node label's position is not modified.
+1	Decorations
+1	Define padding for node labels that are placed inside of a node.
+1	Defines constraints of the position of the ports of a node.
+1	Defines how important it is to have a certain edge point into the direction of the overall layout. This option is evaluated during the cycle breaking phase.
+1	Defines how important it is to keep an edge as short as possible. This option is evaluated during the layering phase.
+1	Defines how important it is to keep an edge straight, i.e. aligned with one of the two axes. This option is evaluated during node placement.
+1	Defines how ports on the eastern side are placed, overriding the node's general port alignment.
+1	Defines how ports on the northern side are placed, overriding the node's general port alignment.
+1	Defines how ports on the southern side are placed, overriding the node's general port alignment.
+1	Defines how ports on the western side are placed, overriding the node's general port alignment.
+1	Defines the default port distribution for a node. May be overridden for each side individually.
+1	Defines the priority of an object; its meaning depends on the specific layout algorithm and the context where it is used.
+1	Definition:
+1	Deprecated use `method` instead
+1	Desired Edge Length
+1	Desired index of node
+1	Determine how the wedge for the node placement is calculated. It can be chosen between wedge determination by the number of leaves or by the maximum sum of diagonals.
+1	Determine the size of steps with which the compaction is done. Step size 1 correlates to a compaction of 1 pixel per Iteration.
+1	Determines a constraint on the placement of the node regarding the layering.
+1	Determines how many bend points are added to the edge; such bend points are regarded as repelling particles in the force model
+1	Determines in which layer center labels of long edges should be placed.
+1	Determines the amount of space to be left between two labels of the same graph element.
+1	Determines the model for force calculation.
+1	Determines which point of a node is considered by interactive layout phases.
+1	Diff overview ruler foreground for inserted content.
+1	Diff overview ruler foreground for removed content.
+1	Dimensions that are permitted to be altered during layout.
+1	Direction
+1	Direction Congruency
+1	Direction Priority
+1	Disk is full. Search will no longer match in conversation bodies until you clear up space and restart.
+1	Distance Penalty When Improving Cuts
+1	Don't enter corp passwords
+1	Dropdown background.
+1	Dropdown border.
+1	Dropdown foreground.
+1	Dropdown list background.
+1	EClass
+1	EEnum
+1	EFactory
+1	ELK Box
+1	ELK Fixed
+1	ELK Force
+1	ELK Layered
+1	ELK Mr. Tree
+1	ELK Radial
+1	ELK Randomizer
+1	ELK Rectangle Packing
+1	ELK SPOrE Compaction
+1	ELK SPOrE Overlap Removal
+1	EList
+1	EOF
+1	EObject
+1	EPackage
+1	ERR_DISALLOWED_URL: Empty URL is not allowed
+1	Eades Repulsion
+1	Edge Center Label Placement Strategy
+1	Edge Edge Between Layer Spacing
+1	Edge End Texture Length
+1	Edge Label Placement
+1	Edge Label Side Selection
+1	Edge Label Spacing
+1	Edge Node Between Layers Spacing
+1	Edge Node Spacing
+1	Edge Routing
+1	Edge Spacing
+1	Edge Thickness
+1	Edge Type
+1	Editor background color.
+1	Editor default foreground color.
+1	Either specified for parent nodes or for individual edges, where the latter takes higher precedence.
+1	Elk
+1	Embedding Limitations
+1	End
+1	Entering your corp password in the web terminal triggers a Chrome Password Alert (Watchword) forced password reset, so this prompt was automatically cancelled.
+1	Enumerator
+1	Error: Artifacts from remote conversations are not available here.
+1	Error: No artifact URI provided in URL parameters.
+1	Exactly one of blob and text must be set
+1	Exception can not suppress itself.
+1	Expand Nodes
+1	Expected a redirect error
+1	FR Temperature
+1	Factor for computation of animation time. The higher the value, the longer the animation time. If the value is 0, the resulting time is always equal to the minimum defined by 'Minimal Animation Time'.
+1	Factor for repulsive forces in Eades' model.
+1	Failed to fetch diffs
+1	Failed to load some diffs
+1	Favor Straight Edges Over Balancing
+1	Feedback Edges
+1	File Diff Comments
+1	File Tree Component is not loaded.
+1	Fill Polyominoes
+1	Find plugins - bundles of skills, agents, MCP servers, UI extensions and more, and install them in one click.
+1	Find the optimal translation of the nodes of the first radii according to this criteria. For example edge crossings can be minimized.
+1	Fixed Graph Size
+1	Fixed Position
+1	Font Name
+1	Font name used for a label.
+1	Font size used for a label.
+1	Font style must be 'italic', 'bold', 'underline' or 'strikethrough' or a combination. The empty string unsets all styles.
+1	For general graphs it is important that not too many edges wrap backwards. Thus a compromise between evenly-distributed cuts and the total number of cut edges is sought.
+1	Force
+1	Force Model
+1	Force Node Model Order
+1	Foreground color for description text providing additional information, for example for a label.
+1	Foreground color for links in text when clicked on and on mouse hover.
+1	Foreground color for links in text.
+1	Foreground color for preformatted text segments.
+1	Foreground color for the remote badge in the extensions view.
+1	Foreground color for the token.
+1	Foreground color of activated options in input fields.
+1	Foreground color of active radio option.
+1	Foreground color of brackets (1). Requires enabling bracket pair colorization.
+1	Foreground color of brackets (2). Requires enabling bracket pair colorization.
+1	Foreground color of brackets (3). Requires enabling bracket pair colorization.
+1	Foreground color of brackets (4). Requires enabling bracket pair colorization.
+1	Foreground color of brackets (5). Requires enabling bracket pair colorization.
+1	Foreground color of brackets (6). Requires enabling bracket pair colorization.
+1	Foreground color of checkbox widget.
+1	Foreground color of editor widgets, such as find/replace.
+1	Foreground color of error squigglies in the editor.
+1	Foreground color of hint squigglies in the editor.
+1	Foreground color of inactive radio option.
+1	Foreground color of info squigglies in the editor.
+1	Foreground color of inline hints
+1	Foreground color of inline hints for parameters
+1	Foreground color of inline hints for types
+1	Foreground color of list items containing errors.
+1	Foreground color of list items containing warnings.
+1	Foreground color of menu items.
+1	Foreground color of the editor hover.
+1	Foreground color of the error activity badge
+1	Foreground color of the ghost text in the editor.
+1	Foreground color of the other search matches.
+1	Foreground color of the selected menu item in menus.
+1	Foreground color of the terminal initial hint.
+1	Foreground color of the warning activity badge
+1	Foreground color of unexpected brackets.
+1	Foreground color of warning squigglies in the editor.
+1	Foreground of a disabled checkbox.
+1	Full output written to
+1	GMT
+1	Generate Position and Layer IDs
+1	Go to the machine you are controlling and quit Antigravity. It installs pending updates the next time it starts.
+1	Google Antigravity - Experience liftoff
+1	Google Chat
+1	Google3 projects are being deprecated. Select a CitC workspace instead.
+1	Grant read access to workflow runs and allow dispatching workflows on specific files and refs.
+1	Graph Wrapping Strategy
+1	Greedy Switch Activation Threshold
+1	Greedy Switch Crossing Minimization
+1	Greedy Switch Crossing Minimization (hierarchical)
+1	Guide line for the chart.
+1	HEARTBEAT
+1	H_ESCAPE
+1	H_RSANITIZE
+1	H_SANITIZE
+1	H_SLSANITIZE
+1	Hierarchical Sweepiness
+1	Hierarchy Handling
+1	High Degree Node Maximum Tree Height
+1	High Degree Node Threshold
+1	High Degree Node Treatment
+1	Highlight background color of a snippet tabstop.
+1	Highlight background color of the final tabstop of a snippet.
+1	Highlight border color of a snippet tabstop.
+1	Highlight border color of the final tabstop of a snippet.
+1	Hints for where node labels are to be placed; if empty, the node label's position is not modified.
+1	Horizontal alignment cannot be null
+1	Horizontal spacing between Label and Port
+1	Horizontal spacing to be preserved between labels and the ports they are associated with. Note that the placement of a label is influenced by the 'portlabels.placement' option.
+1	How likely it is to use cross-hierarchy (1) vs bottom-up (-1).
+1	How much effort should be spent to produce a nice layout.
+1	Hypernode
+1	IFRAME
+1	IInitializable
+1	INPUT
+1	INTERNAL_ERROR
+1	IProperty
+1	If active, nodes are expanded to fill the area of their parent.
+1	If disabled the port order of output ports is derived from the edge order and input ports are ordered by their incoming connections. If enabled all ports are ordered by the port model order.
+1	If set to true this node begins in a new row. Consequently this node cannot be moved in a previous layer during compaction. Width approximation does does not take this into account.
+1	If set to true, modifies the target angle by rotating further such that space is left for an edge to pass in between the nodes. This option should only be used in conjunction with top-down layout.
+1	If set, color of double underlines for errors in the editor.
+1	If set, color of double underlines for hints in the editor.
+1	If set, color of double underlines for infos in the editor.
+1	If set, color of double underlines for warnings in the editor.
+1	Image URL:
+1	Image rendering blocked (strict mode enabled)
+1	Improve Cuts
+1	Improve Wrapped Edges
+1	In Layer Predecessor of
+1	In Layer Successor of
+1	Incoming content background in inline merge-conflicts. The color must not be opaque so as not to hide underlying decorations.
+1	Incoming header background in inline merge-conflicts. The color must not be opaque so as not to hide underlying decorations.
+1	Incoming overview ruler foreground for inline merge-conflicts.
+1	Indent value must be non-negative.
+1	Individual Spacing
+1	Initial capacity must not be negative
+1	Input box background.
+1	Input box border.
+1	Input box foreground color for placeholder text.
+1	Input box foreground.
+1	Input validation background color for error severity.
+1	Input validation background color for information severity.
+1	Input validation background color for warning severity.
+1	Input validation border color for error severity.
+1	Input validation border color for information severity.
+1	Input validation border color for warning severity.
+1	Input validation foreground color for error severity.
+1	Input validation foreground color for information severity.
+1	Input validation foreground color for warning severity.
+1	Inside Self Loop
+1	Install this plugin to see the commands it adds, along with its skills, agents and MCP servers.
+1	Interactive Reference Point
+1	Invalid indent value.
+1	Issued by
+1	Issued to
+1	Iterable
+1	Jetski
+1	Junction Points
+1	Keybinding label background color. The keybinding label is used to represent a keyboard shortcut.
+1	Keybinding label border bottom color. The keybinding label is used to represent a keyboard shortcut.
+1	Keybinding label border color. The keybinding label is used to represent a keyboard shortcut.
+1	Keybinding label foreground color. The keybinding label is used to represent a keyboard shortcut.
+1	LABEL
+1	Label Manager
+1	Label Node Spacing
+1	Label Spacing
+1	Label managers can shorten labels upon a layout algorithm's request.
+1	Layer Choice Constraint
+1	Layer Constraint
+1	Layered
+1	Layout Algorithm
+1	Layout Ancestors
+1	Layout Dimension
+1	Layout Partition
+1	Layout Partitioning
+1	Layout algorithms that follow physical analogies by simulating a system of attractive and repulsive forces. The first successful method of this kind was proposed by Eades in 1984.
+1	Limits the number of iterations for node promotion.
+1	Line color for the chart.
+1	Linear Segments Deflection Dampening
+1	List of Polyominoes
+1	List resources: 
+1	List/Tree background color for the focused item when the list/tree is active. An active list/tree has keyboard focus, an inactive does not.
+1	List/Tree background color for the focused item when the list/tree is inactive. An active list/tree has keyboard focus, an inactive does not.
+1	List/Tree background color for the selected item when the list/tree is active. An active list/tree has keyboard focus, an inactive does not.
+1	List/Tree background color for the selected item when the list/tree is inactive. An active list/tree has keyboard focus, an inactive does not.
+1	List/Tree background when hovering over items using the mouse.
+1	List/Tree drag and drop background when moving items over other items when using the mouse.
+1	List/Tree drag and drop border color when moving items between items when using the mouse.
+1	List/Tree foreground color for invalid items, for example an unresolved root in explorer.
+1	List/Tree foreground color for items that are deemphasized.
+1	List/Tree foreground color for the focused item when the list/tree is active. An active list/tree has keyboard focus, an inactive does not.
+1	List/Tree foreground color for the selected item when the list/tree is active. An active list/tree has keyboard focus, an inactive does not.
+1	List/Tree foreground color for the selected item when the list/tree is inactive. An active list/tree has keyboard focus, an inactive does not.
+1	List/Tree foreground color of the match highlights on actively focused items when searching inside the list/tree.
+1	List/Tree foreground color of the match highlights when searching inside the list/tree.
+1	List/Tree foreground when hovering over items using the mouse.
+1	List/Tree icon foreground color for the selected item when the list/tree is active. An active list/tree has keyboard focus, an inactive does not.
+1	List/Tree icon foreground color for the selected item when the list/tree is inactive. An active list/tree has keyboard focus, an inactive does not.
+1	List/Tree outline color for the focused item when the list/tree is active and selected. An active list/tree has keyboard focus, an inactive does not.
+1	List/Tree outline color for the focused item when the list/tree is active. An active list/tree has keyboard focus, an inactive does not.
+1	List/Tree outline color for the focused item when the list/tree is inactive. An active list/tree has keyboard focus, an inactive does not.
+1	Loading bundles...
+1	Long Edge Ordering Strategy
+1	MSD Freedom
+1	Makes room around high degree nodes to place leafs and trees.
+1	Manually Specified Cuts
+1	Map/Entry
+1	Margins
+1	Match Case (Aa)
+1	Match Whole Word (ab)
+1	Max Node Promotion Iterations
+1	Maximal Animation Time
+1	Maximum height of a subtree connected to a high degree node to be moved to separate layers.
+1	Maximum number of performed iterations. Takes higher precedence than 'epsilon'.
+1	Merge Edges
+1	Merge Hierarchy-Crossing Edges
+1	Method to decide on edge label sides.
+1	Minimal Animation Time
+1	Minimap background color.
+1	Minimap marker color for errors.
+1	Minimap marker color for find matches.
+1	Minimap marker color for infos.
+1	Minimap marker color for repeating editor selections.
+1	Minimap marker color for the editor selection.
+1	Minimap marker color for warnings.
+1	Minimap slider background color when clicked on.
+1	Minimap slider background color when hovering.
+1	Minimap slider background color.
+1	Model context updates are not supported here
+1	NAVIGATION_NEEDS_PERMISSION
+1	Negative initial capacity
+1	Next Match (Enter)
+1	No Layout
+1	No Model Order
+1	No active terminals. Click + to create one.
+1	No bundles available.
+1	No matching project folders. Apply to use the custom URI.
+1	No sites have cookies in the built-in browser.
+1	Node Flexibility
+1	Node Flexibility Default
+1	Node Label Padding
+1	Node Label Placement
+1	Node Layering Strategy
+1	Node Node Between Layers Spacing
+1	Node Placement Strategy
+1	Node Promotion Strategy
+1	Node Self Loop Spacing
+1	Node Size Constraints
+1	Node Size Minimum
+1	Node Size Options
+1	Node Spacing
+1	Non-positive load factor
+1	None (clear inherited style)
+1	Number of columns should be a positive integer
+1	OK
+1	OUTCOME_UNKNOWN
+1	Omit Node Micro Layout
+1	Only element or decorator nodes can be inserted in to the root node
+1	Only relevant for nodes with FIXED_SIDE port constraints. Determines the way a node's ports are distributed on the sides of a node if their order is not prescribed. The option is set on parent nodes.
+1	Open Diff
+1	Open in settings
+1	Optimization Goal
+1	Optional
+1	Orthogonal
+1	Orthogonal Compaction
+1	Outgoing Edge Angles
+1	Outline color for text that got removed.
+1	Outline color for the text that got inserted.
+1	Outline color of the type filter widget in lists and trees, when there are no matches.
+1	Outline color of the type filter widget in lists and trees.
+1	Overall border color for focused elements. This color is only used if not overridden by a component.
+1	Overall direction of edges: horizontal (right / left) or vertical (down / up).
+1	Overall foreground color for error messages. This color is only used if not overridden by a component.
+1	Overall foreground color. This color is only used if not overridden by a component.
+1	Overall foreground for disabled elements. This color is only used if not overridden by a component.
+1	Overview ruler marker color for errors.
+1	Overview ruler marker color for find matches in the terminal.
+1	Overview ruler marker color for find matches. The color must not be opaque so as not to hide underlying decorations.
+1	Overview ruler marker color for infos.
+1	Overview ruler marker color for range highlights. The color must not be opaque so as not to hide underlying decorations.
+1	Overview ruler marker color for selection highlights. The color must not be opaque so as not to hide underlying decorations.
+1	Overview ruler marker color for warnings.
+1	PARSE_PARAMS
+1	Patching reserved attributes like __proto__, prototype and constructor is not allowed
+1	Planar
+1	Polyomino Primary Sorting Criterion
+1	Polyomino Secondary Sorting Criterion
+1	Polyomino Traversal Strategy
+1	Port Alignment (East)
+1	Port Alignment (North)
+1	Port Alignment (South)
+1	Port Alignment (West)
+1	Port Anchor Offset
+1	Port Border Offset
+1	Port Constraints
+1	Port Index
+1	Port Label Placement
+1	Port Labels Next to Port
+1	Port Side
+1	Port Sorting Strategy
+1	Port Spacing
+1	Position Choice Constraint
+1	Position ID
+1	Possible primary sorting criteria for the processing order of polyominoes.
+1	Post Compaction Constraint Calculation
+1	Post Compaction Strategy
+1	Previous Match (Shift+Enter)
+1	Promise
+1	Protocol
+1	Quick picker background color for the focused item.
+1	Quick picker background color. The quick picker widget is the container for pickers like the command palette.
+1	Quick picker color for grouping borders.
+1	Quick picker color for grouping labels.
+1	Quick picker foreground color for the focused item.
+1	Quick picker foreground color. The quick picker widget is the container for pickers like the command palette.
+1	Quick picker icon foreground color for the focused item.
+1	Quick picker title background color. The quick picker widget is the container for pickers like the command palette.
+1	RIFF
+1	Radial
+1	Radial layout algorithms usually position the nodes of the graph on concentric circles.
+1	Randomization Seed
+1	Read resource: 
+1	Reduces number of dummy nodes after layering phase (if possible).
+1	Replacing removes the currently installed plugin and installs the new one in its place.
+1	Repulsive Power
+1	Resolved Layout Algorithm
+1	Restricts the translation of nodes to orthogonal directions in the compaction phase.
+1	Root node for spanning tree construction
+1	Root selection for spanning tree
+1	Row Height Reevaluation
+1	Run the app against a Linux environment. Connecting relaunches the app into the selected WSL distro.
+1	Running (Dev only)
+1	SCRIPT_ERROR
+1	SCRIPT_EXECUTION_DISABLED
+1	SLOT
+1	START
+1	Scale Factor
+1	Scrollbar shadow to indicate that the view is scrolled.
+1	Scrollbar slider background color when clicked on.
+1	Scrollbar slider background color when hovering.
+1	Scrollbar slider background color.
+1	Scrollbar track background color.
+1	Search Order
+1	Secondary button background color when hovering.
+1	Secondary button background color.
+1	Secondary button foreground color.
+1	Seed used for pseudo-random number generators to control the layout algorithm. If the value is 0, the seed shall be determined pseudo-randomly (e.g. from the system time).
+1	Select a specific layout algorithm.
+1	Select text in the PDF and click + Add to start commenting.
+1	Self-Loop Distribution
+1	Self-Loop Ordering
+1	Semi-Interactive Crossing Minimization
+1	Session Summary
+1	Set on a node to not set a model order for this node even though it is a real node.
+1	Sets the all font styles of the rule: 'italic', 'bold', 'underline' or 'strikethrough' or a combination. All styles that are not listed are unset. The empty string unsets all styles.
+1	Shadow color of the type filter widget in lists and trees.
+1	Shadow color of widgets such as find/replace inside the editor.
+1	Shift
+1	Shift Last Placed.
+1	Shift+
+1	Shortness Priority
+1	Should be set to the length of the texture at the end of an edge. This value can be used to improve the Edge Routing.
+1	Sign in in your browser, then paste the authorization code shown on the callback page.
+1	Sign in to an app once and your agent can use it on any device. Open an app to see the account it uses or to disconnect it.
+1	Sign in with a different account
+1	Sloped Edge Zone Width
+1	Sloppy Spline Layer Spacing Factor
+1	Sort the nodes per radius according to the sorting algorithm. The strategies are none, by the given order id, or sorting them by polar coordinates.
+1	Spacing Base Value
+1	Spacing between pairs of ports of the same node.
+1	Spacing factor for routing area between layers when using sloppy spline routing.
+1	Spacing to be preserved between a comment box and other comment boxes connected to the same node. The space left between comment boxes of different nodes is controlled by the node-node spacing.
+1	Spacing to be preserved between a node and its connected comment boxes. The space left between a node and the comments of another node is controlled by the node-node spacing.
+1	Spacing to be preserved between a node and its self loops.
+1	Spacing to be preserved between any two edges. Note that while this can somewhat easily be satisfied for the segments of orthogonally drawn edges, it is harder for general polylines or splines.
+1	Spacing to be preserved between labels and the border of node they are associated with. Note that the placement of a label is influenced by the 'nodelabels.placement' option.
+1	Spacing to be preserved between nodes and edges.
+1	Specialized layout methods for trees, i.e. acyclic graphs. The regular structure of graphs that have no undirected cycles can be emphasized using an algorithm of this type.
+1	Specifies how drawings of the same graph with different layout directions compare to each other: either a natural reading direction is preserved or the drawings are rotated versions of each other.
+1	Specifies whether and how post-process compaction is applied.
+1	Spline Routing Mode
+1	Straightness Priority
+1	Strategy for crossing minimization.
+1	Strategy for expanding nodes such that whitespace in the parent is eliminated.
+1	Strategy for finding an initial placement on nodes.
+1	Strategy for finding an initial width of the drawing.
+1	Strategy for node layering.
+1	Strategy for node placement.
+1	Strategy for packing different connected components in order to save space and enhance readability of a graph.
+1	Stress Epsilon
+1	Structure Extraction Strategy
+1	Style for all symbol declarations.
+1	Style for classes.
+1	Style for comments.
+1	Style for decorators & annotations.
+1	Style for enum members.
+1	Style for enums.
+1	Style for events.
+1	Style for expressions.
+1	Style for interfaces.
+1	Style for keywords.
+1	Style for labels. 
+1	Style for macros.
+1	Style for namespaces.
+1	Style for numbers.
+1	Style for operators.
+1	Style for parameters.
+1	Style for properties.
+1	Style for strings.
+1	Style for structs.
+1	Style for type parameters.
+1	Style for types.
+1	Style for variables.
+1	Style to use for references in documentation.
+1	Style to use for symbols that are abstract.
+1	Style to use for symbols that are async.
+1	Style to use for symbols that are deprecated.
+1	Style to use for symbols that are read-only.
+1	Style to use for symbols that are static.
+1	Style to use for write accesses.
+1	TEXTAREA
+1	Table border color between columns.
+1	Target Angle
+1	Target Width
+1	Tells the BK node placer to use a certain alignment (out of its four) instead of the one producing the smallest height, or the combination of all four.
+1	Termination criterion for the iterative process.
+1	Text color of the current search match.
+1	Text selection is paused for smoother viewing. Search, comments, and annotations still work. Use the toolbar text button when selection is needed.
+1	The agent will wait for you to install the browser extension.
+1	The angle in radians that the layout should be rotated to after layout.
+1	The app is currently connected to a WSL distro. Reopening locally relaunches it directly on Windows.
+1	The aux pane is not supported here
+1	The background color of secondary editor cursors when multiple cursors are present. Allows customizing the color of a character overlapped by a block cursor.
+1	The background color of text selections in the workbench (e.g. for input fields or text areas). Note that this does not apply to selections within the editor.
+1	The background color of the editor cursor. Allows customizing the color of a character overlapped by a block cursor.
+1	The background color of the primary editor cursor when multiple cursors are present. Allows customizing the color of a character overlapped by a block cursor.
+1	The background color of the terminal cursor. Allows customizing the color of a character overlapped by a block cursor.
+1	The background color of the terminal, this allows coloring the terminal differently to the panel.
+1	The background color of unchanged blocks in the diff editor.
+1	The background color of unchanged code in the diff editor.
+1	The background color used in stark buttons when hovered.
+1	The background color used in stark buttons.
+1	The blue color used in chart visualizations.
+1	The border color for an IME composition.
+1	The color of the border that separates split panes within the terminal. This defaults to panel.border.
+1	The color used for horizontal lines in charts.
+1	The color used for the lightbulb AI icon.
+1	The color used for the lightbulb actions icon.
+1	The color used for the lightbulb auto fix actions icon.
+1	The color used for the problems error icon.
+1	The color used for the problems info icon.
+1	The color used for the problems warning icon.
+1	The conversation was compacted to fit within the context window.
+1	The default color for icons in the workbench.
+1	The default terminal command decoration background color.
+1	The desired aspect ratio of the drawing, that is the quotient of width by height.
+1	The fixed size of a hierarchical node when using topdown layout. If this value is set on a parallel node it applies to its children, when set on a hierarchical node it applies to the node itself.
+1	The foreground color of the terminal cursor.
+1	The foreground color of the terminal.
+1	The foreground color of unchanged blocks in the diff editor.
+1	The foreground color used in charts.
+1	The foreground color used in stark buttons.
+1	The green color used in chart visualizations.
+1	The height of the area occupied by the laid out children of a node.
+1	The id can be used to define an order for nodes of one radius. This can be used to sort them in the layer accordingly.
+1	The index for the tree level the node is in
+1	The initial wrapping is performed in a very simple way. As a consequence, edges that wrap from one chunk to another may be unnecessarily long. Activating this option tries to shorten such edges.
+1	The maximal time for animations, in milliseconds.
+1	The maximum number of nodes allowed per layer.
+1	The minimal distance to be preserved between a label and the edge it is associated with. Note that the placement of a label is influenced by the 'edgelabels.placement' option.
+1	The minimal distance to be preserved between each two nodes.
+1	The minimal size to which a node can be reduced.
+1	The minimal time for animations, in milliseconds.
+1	The number of iterations on the force model.
+1	The offset to the port position where connections shall be attached.
+1	The orange color used in chart visualizations.
+1	The overview ruler cursor color.
+1	The overview ruler left-side border color.
+1	The padding to be left to a parent element's border when placing child elements. This can also serve as an output option of a layout algorithm if node size calculation is setup appropriately.
+1	The position of a node, port, or label. This is used by the 'Fixed Layout' algorithm to specify a pre-defined position.
+1	The purple color used in chart visualizations.
+1	The radius option can be used to set the initial radius for the radial layouter.
+1	The rectangles are ordered. Normally according to their definition the the model. This option allows to specify a desired position that has preference over the original position.
+1	The rectangles are ordered. Normally according to their definition the the model. This option specifies the current position of a node.
+1	The red color used in chart visualizations.
+1	The rotate option determines whether a rotation of the layout should be performed.
+1	The selection background color of the terminal when it does not have focus.
+1	The selection background color of the terminal.
+1	The selection foreground color of the terminal. When this is null the selection foreground will be retained and have the minimum contrast ratio feature applied.
+1	The side of a node on which a port is situated. This option must be set if 'Port Constraints' is set to FIXED_SIDE or FIXED_ORDER and no specific positions are given for the ports.
+1	The strategy by which the layer indexes are determined at which the layering crumbles into chunks.
+1	The temperature is used as a scaling factor for particle displacements.
+1	The terminal command decoration background color for error commands.
+1	The terminal command decoration background color for successful commands.
+1	The thickness of an edge. This is a hint on the line width used to draw an edge, possibly requiring more space to be reserved for it.
+1	The type of an edge. This is usually used for UML class diagrams, where associations must be handled differently from generalizations.
+1	The width of the area occupied by the laid out children of a node.
+1	The yellow color used in chart visualizations.
+1	There is no more element.
+1	These MCP allowlist rules are enforced by your organization's administrator.
+1	These allowed domain rules are set by your organization's administrator and cannot be removed.
+1	These settings can only be changed on the computer running the app, not from a remote session.
+1	This color must be transparent or it will obscure content
+1	This conversation grew too large, so the history before this point may be missing or incomplete.
+1	This option defines how the compaction is applied.
+1	This option defines what kind of triangulation or other partitioning of the plane is applied to the vertices.
+1	This project uses Firebase. Do you want to download the Firebase skill?
+1	This sets the method used to select a root node for the construction of a spanning tree
+1	This skill came from the marketplace, so you can add it again whenever you need it.
+1	Toggle Virtual Machine
+1	Toggle checkerboard background
+1	Token background colors are currently not supported.
+1	Toolbar background when holding the mouse over actions
+1	Toolbar background when hovering over actions using the mouse
+1	Toolbar outline when hovering over actions using the mouse
+1	Topdown Hierarchical Node Aspect Ratio
+1	Topdown Hierarchical Node Width
+1	Topdown Node Type
+1	Topdown Scale Cap
+1	Topdown Scale Factor
+1	Topdown Size Approximator
+1	Translation Optimization
+1	Traversal strategy for trying different candidate positions for polyominoes.
+1	Treat Port Labels as Group
+1	Tree Construction Strategy
+1	Tree stroke color for the indentation guides that are not active.
+1	Tree stroke color for the indentation guides.
+1	Tries to further compact components (disconnected sub-graphs).
+1	Try box layout first
+1	Turns on Tree compaction which decreases the size of the whole tree by placing nodes of multiple levels in one large level
+1	Typing your corp password here may trigger a Password Alert reset.
+1	UNSUPPORTED_ACTION
+1	UNSUPPORTED_INPUT_ACTION
+1	UNSUPPORTED_NAV_TYPE
+1	UNSUPPORTED_PAGE_AGENT_ACTION
+1	UNSUPPORTED_TAB_ACTION
+1	UTC
+1	Underlying Layout Algorithm
+1	Unexpected dirty selection to be null
+1	Unexpected empty pending editor state on discrete nested update
+1	Upload Debug Bundle
+1	Uploaded files and connected resources are mounted in your cloud environment.
+1	Upper limit for iterations of overlap removal
+1	Use Regular Expression (.*)
+1	Use the Profile Fill algorithm to fill polyominoes to prevent small polyominoes from being placed inside of big polyominoes with large holes. Might increase packing area.
+1	Use the default color.
+1	Use this if your admin gave you a WIF config. Paste it below to sign in.
+1	VALIDATE_SEARCH
+1	Valid CEL
+1	Valid Indices for Wrapping
+1	Validate Graph
+1	Validification Strategy
+1	Vertical spacing between Label and Port
+1	Vertical spacing to be preserved between labels and the ports they are associated with. Note that the placement of a label is influenced by the 'portlabels.placement' option.
+1	WAVEfmt 
+1	WIF Config
+1	Weighting of Nodes
+1	What quota or feature is being incorrectly limited
+1	When Turbo mode is on, the agent will automatically capture screenshots in the Browser without explicit user input. You can toggle this setting in Antigravity's settings.
+1	When set to a positive number this option will force the algorithm to place the node to the specified position within the trees layer if weighting is set to constraint
+1	When wrapping graphs, one can specify indices that are not allowed as split points. The validification strategy makes sure every computed split point is allowed.
+1	Whether a minimum spanning tree or a maximum spanning tree should be constructed.
+1	Whether a node is considered to have a high degree.
+1	Whether a progress bar shall be displayed during layout computations.
+1	Whether a self loop should be routed inside a node instead of around that node.
+1	Whether additional debug information shall be generated.
+1	Whether each connected component should be processed separately.
+1	Whether feedback edges should be highlighted by routing around the nodes.
+1	Whether it never connects or is intermittent/flaky
+1	Whether the graph should be changeable interactively and by setting constraints
+1	Whether the hierarchy levels on the path from the selected element to the root of the diagram shall be included in the layout process.
+1	Whether the node should be handled as a hypernode.
+1	Whether the shift from the old layout to the new computed layout shall be animated.
+1	Whether the zoom level shall be set to view the whole diagram after layout.
+1	Whether to run a supplementary scanline overlap check.
+1	Which search order to use when computing a spanning tree.
+1	Which weighting to use when computing a node order.
+1	White Space Approximation Strategy
+1	Width Approximation Strategy
+1	With the compacter option it can be determined how compaction on the graph is done. It can be chosen between none, the radial compaction or the compaction of wedges separately.
+1	Worker environment lockdown failed
+1	X-Frame-Options
+1	Your Antigravity use will be associated with provided project. Make sure you trust the project ID before proceeding. Account activity and data may be logged by your organization.
+1	[&_.text-foreground]:text-muted-foreground
+1	[&_:not(.select-none,.select-none_*,img,video)]:[-webkit-touch-callout:default]
+1	[REDACTED_JWT]
+1	[REDACTED_TOKEN]
+1	__lodash_hash_undefined__
+1	__proto__
+1	__storage_test__

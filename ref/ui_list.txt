@@ -1,0 +1,1201 @@
+0	Conversations
+1	Copy
+2	Refresh
+3	Remote
+4	Agents
+5	General
+6	Search
+7	Customizations
+8	Terminal
+9	This Computer
+10	Accept
+11	Background Tasks
+12	Commands
+13	Copy Path
+14	Delete
+15	Select All
+16	Settings
+17	Agent Edits
+18	Artifacts
+19	Automations
+20	Back
+21	Code Search
+22	Cut
+23	Default
+24	Error
+25	Files
+26	Idle
+27	MCP Servers
+28	New Conversation
+29	Open in Code Search
+30	Paste
+31	Plugins
+32	Ready
+33	Rules
+34	Subagents
+35	Unknown error
+36	Zoom In
+37	Zoom Out
+38	Add to Chat
+39	Auto (detected)
+40	Blocked
+41	Cancel Task
+42	Changes
+43	Combobox
+44	Commands Outside Sandbox
+45	Create Project
+46	Custom Agents
+47	Disabled
+48	Documents
+49	Extensions
+50	Failed to refresh credentials
+51	Google Drive
+52	Hooks
+53	In Progress
+54	Kill Terminal
+55	MCP Tools
+56	Model Quota
+57	Modified
+58	Projects
+59	Refreshed credentials for all automations.
+60	Reload
+61	Render failed
+62	Schedule
+63	Skills
+64	Split Terminal
+65	Stop Subagent
+66	Terminal Commands
+67	Terminals
+68	Unknown
+69	Update Available
+70	Uploads
+71	Volume
+72	Workspaces
+73	You should not enter any sensitive information on this site (for example, passwords or credit cards), because it could be stolen by attackers.
+74	Your connection to this site is not secure
+75	Account
+76	Account connected.
+77	Add MCP Server
+78	Add Shortcut
+79	Added (Staged)
+80	Agent
+81	Agent terminated due to error
+82	An error occurred while submitting your feedback. Please try again.
+83	Appearance
+84	Application
+85	Archive project
+86	Artifact
+87	Background Task Output
+88	Branch
+89	Branch Changes
+90	Browser
+91	Build With Google Plugins
+92	Chief of Staff canvas
+93	Close Tab
+94	Connect
+95	Connectors
+96	Context Providers
+97	Continue your work from another device with Remote Control. Scan the QR code or open the link below.
+98	Controls the actions the agent can take.
+99	Conversation History
+100	Coordinator settings
+101	Custom View
+102	Default Customizations
+103	Delete Conversation
+104	Delete Permanently
+105	Delete Side Question
+106	Deleted
+107	Device Name
+108	Disconnect
+109	Download
+110	Edit
+111	Edit Shortcut
+112	Email
+113	Embedded web preview
+114	Enable Notifications
+115	Enable Remote Control
+116	Enable Sandbox Mode
+117	Enter authorization code...
+118	Enter device name...
+119	Error:
+120	Errors
+121	Export as PDF
+122	File explorer
+123	Files Changed
+124	Files modified by the agent in this conversation
+125	Fork
+126	Forward
+127	Full machine
+128	Global
+129	Goals
+130	Google Chat
+131	Include Jetski Default Customizations
+132	Invalid Media
+133	Links
+134	Local
+135	Local Windows environment
+136	Logs
+137	MCP Configuration Error:
+138	MCP Install Error:
+139	Manage Hooks
+140	Minimize
+141	Model quota reached
+142	Modified Files
+143	More
+144	Network Permissions
+145	New Group
+146	New Worktree
+147	Next Page
+148	No documents
+149	No uploads
+150	Open Blame in Code Search
+151	Open Conversation Picker
+152	Open Settings
+153	Open in New Window
+154	Open in Notebook View
+155	Open in Remote Control
+156	Open in Side Panel
+157	Other
+158	Overview
+159	Permission Details
+160	Preview is not available for this file type.
+161	Previous Page
+162	Project Settings
+163	Provide Feedback
+164	Pull Requests
+165	Push succeeded
+166	Read URLs
+167	Remote Control
+168	Remove Shortcut
+169	Remove from Group
+170	Rename
+171	Reset Zoom
+172	Reset to Default
+173	Restricts agent tools to a secure, isolated local sandbox.
+174	Review
+175	Runs as
+176	Scheduled Tasks
+177	Search MCP servers by name
+178	Search conversations...
+179	See Plans
+180	See more results
+181	Select
+182	Select another model
+183	Selected element preview
+184	Side Questions
+185	Split Down
+186	Split Right
+187	Staged Changes
+188	Stop
+189	System default
+190	Terminal Command Auto Execution
+191	This is a CitC workspace (Fig share)
+192	This plugin requires authentication before the agent can use its tools.
+193	Toggle Thumbnails
+194	Tool Permissions
+195	Turbo mode
+196	UI Extensions
+197	Undo
+198	View archived in the sidebar (![filter](icon://filter_list) menu).
+199	Workspace
+200	Your changes were not saved. Please try again.
+201	e.g., /path/to/file
+202	e.g., https://example.com
+203	(Optional) Tell us more or type your reason...
+204	(empty)
+205	+x)),K=new Headers(t.header);for(let M of[
+206	,l),B.createElement(
+207	./script.sh
+208	// Greet a user by name
+209	;Hl(b,a.zb);b.a+=
+210	@lexical/clipboard/GetClipboardData
+211	@lexical/clipboard/Import
+212	@lexical/react/ReactProvider
+213	A label for this computer when you connect from another device. Changing it reconnects.
+214	A nickname for identifying this application in the companion website. Changing this will restart the connection.
+215	A shell setup script run before every command the agent executes.
+216	ABFS Workspace (Alpha)
+217	AI Credits Used to Generate Response
+218	Aborted due to condition callback returning false.
+219	Accent
+220	Accept Step
+221	Access grants
+222	Accessibility
+223	Account connection was not completed.
+224	Accounts
+225	Action required
+226	Actions
+227	Active Skills
+228	Add Hook Card
+229	Add MCP Servers
+230	Add files
+231	Add inline comment
+232	Add screenshot to conversation
+233	Add to Chat/Quote
+234	Added
+235	Admin escalation
+236	Advanced Settings
+237	After
+238	Agent Non-Workspace File Access
+239	All
+240	All Files
+241	All tools (*)
+242	Allow
+243	Allow Once
+244	Allow sandboxed commands to make network requests.
+245	Allow/deny agent browser actuation access to specific URLs.
+246	Allow/deny agent browser file downloads from specific sites.
+247	Allow/deny agent command execution outside the sandbox.
+248	Allow/deny agent read access to specific URLs or domains.
+249	Allow/deny agent read access to specific files or directories.
+250	Allow/deny agent write access to specific files or directories.
+251	Allow/deny specific terminal commands.
+252	Always Allow
+253	Amend
+254	Amend succeeded
+255	Annotation
+256	Announcements and tips
+257	Antigravity
+258	Antigravity Interactive HTML
+259	App update required
+260	App version
+261	Archive
+262	Archive / Restore
+263	Archive This Conversation
+264	Archive Workspace
+265	Arlo
+266	Ask a quick question without interrupting the main conversation.
+267	Ask about your code or any topic, get clear answers.
+268	Ask before sensitive operations.
+269	Ask the agent to diagnose and fix this server
+270	Attach Antigravity server logs
+271	Attach terminal output
+272	Attackers might be able to see the images you're looking at on this site and trick you by modifying them.
+273	Authenticate
+274	Authentication expired
+275	Author
+276	Auto
+277	Automatic Check for Updates
+278	Automatically decide if commands run.
+279	Automatically prompt you to restart the app when a new update is available. When disabled, you can check for updates manually from the app menu.
+280	Automatically reproduce bugs, trace causes, test fixes.
+281	Background
+282	Background tasks and terminals agents left running, across all conversations.
+283	Backoff
+284	Bad Response
+285	Baseline model quota reached
+286	Before
+287	Best of N
+288	Best-of-N Ended
+289	Best-of-N Started
+290	Binary file not shown
+291	Block
+292	Browse MCP resources
+293	Browse and enable plugins from the Build With Google catalog.
+294	Browse rules
+295	Browse the Marketplace
+296	Browser Actuation Permissions
+297	Browser Actuation Rules
+298	Browser Javascript Execution Policy
+299	Browser Subagent
+300	Browser Use
+301	Browser actions
+302	Browser downloads
+303	Browser tools (browser_.*)
+304	Browsing History
+305	Buganizer
+306	Build new features
+307	Build with one agent or a team
+308	Built In
+309	Built to help, not hurt
+310	Button
+311	By default, agents work in folders you choose and ask before sensitive changes. Adjust this anytime in Settings.
+312	Cancel All Tasks
+313	Cancel Generation
+314	Cancel Render Page Failed
+315	Cancel Render Thumbnail Failed
+316	Cancel Sending Message
+317	Cancel download
+318	Cannot parse folder URI.
+319	Capture Console Logs
+320	Capture Screenshot
+321	Change model
+322	Change schedule
+323	Chat
+324	Chat Input
+325	Chat Layout
+326	Check for Updates
+327	Checkbox
+328	Chief of Staff voice mode is active
+329	Choose how much detail is shown during a conversation.
+330	Choose where links open by default when clicked.
+331	Choose where terminal sessions appear.
+332	CitC Clone
+333	CitC Workspace
+334	CitC Workspace Type
+335	Clear Search
+336	Cleo
+337	Click to copy URL
+338	Click to learn more about sources
+339	Click to view or edit comment
+340	Clone current workspace into a new independent workspace
+341	Close
+342	Close (Esc)
+343	Close Other Tabs
+344	Close Tabs to the Left
+345	Close Tabs to the Right
+346	Close Terminal Tab
+347	Close split view and go to forked conversation
+348	Cog Workspace
+349	Collapse All Folders
+350	Command Palette
+351	Command Setup Script
+352	Commands and files these agents can use.
+353	Comment
+354	Comment on Selection
+355	Comment on the plan before your agent starts, and get a walkthrough when it finishes.
+356	Comments
+357	Commit
+358	Commit succeeded
+359	Compacting
+360	Complete Onboarding Step
+361	Complete verification
+362	Configure GitHub access policies.
+363	Configure agent execution, queued message delivery, and permissions.
+364	Configure allowed and denied URLs for reading.
+365	Configure allowed and denied paths for file reads and writes.
+366	Configure allowed commands outside the sandbox.
+367	Configure allowed terminal commands.
+368	Configure built-in browser, link opening, and browser subagent preferences.
+369	Configure external tools via Model Context Protocol.
+370	Configure hooks that run on agent lifecycle events.
+371	Configure the agent's visual theme and display preferences.
+372	Configure the default width of markdown artifacts.
+373	Configure the maximum width of the conversation panel.
+374	Configure when follow-up messages are sent.
+375	Configure workspace-specific permissions, resources, and customizations.
+376	Configures how the agent tries to access files outside of its working folders.
+377	Confirm Undo
+378	Connect GitHub
+379	Connect an account so the agent can use this app.
+380	Connected Google Drive and GitHub resources
+381	Connection is secure
+382	Connection security information is not available for this page
+383	Context and Quota Indicator
+384	Continue Response
+385	Continue with Google
+386	Continue with Google Cloud
+387	Contrast
+388	Controls permissions for remote conversations.
+389	Controls whether terminal commands require your approval before running.
+390	Controls whether the agent can run custom JavaScript to automate complex browser actions.
+391	Conversation
+392	Conversation Archived
+393	Conversation ID
+394	Conversation Name
+395	Conversation Steps
+396	Conversation Unarchived
+397	Conversation Width
+398	Conversation copied as Markdown to clipboard
+399	Conversation limit reached
+400	Conversation name
+401	Conversation unavailable
+402	Cookie
+403	Cookies and site data
+404	Coordinators
+405	Copied
+406	Copy Config File Path
+407	Copy Content
+408	Copy Conversation ID
+409	Copy Conversation Markdown
+410	Copy File Name
+411	Copy File Path
+412	Copy Image
+413	Copy Image Address
+414	Copy Link
+415	Copy Link Address
+416	Copy Message
+417	Copy Trajectory ID
+418	Copy command
+419	Copy debug info
+420	Copy full URL to clipboard
+421	Copy to clipboard
+422	Could not create Cog workspace
+423	Could not create project
+424	Couldn't connect
+425	Couldn't edit queued message
+426	Couldn't load Google Drive link title
+427	Couldn't mark conversations as read
+428	Create a Plugin with the Agent
+429	Create a new project from one or more folders.
+430	Create a new project using normal folders and/or citc workspaces.
+431	Create a project on a machine you reach over SSH. It opens in that host's own window.
+432	Create a project on this computer or remotely.
+433	Created a new branch on GitHub.
+434	Created a new branch on Origin.
+435	Critique
+436	Current workspace
+437	Currently installed
+438	Custom
+439	Custom Agent Error:
+440	Custom Context Menus
+441	Custom Order
+442	Custom agents are not available in Best of N mode.
+443	Customize Global Skills
+444	Daily conversation limit reached
+445	Daily environment time used
+446	Danger Zone
+447	Dark
+448	Dark Theme
+449	Dark preview
+450	Day of the month
+451	Day of the week
+452	Debug and fix
+453	Declaration
+454	Default (Mendel)
+455	Default Cog Branch / Ref
+456	Default Cog Repository
+457	Default Workspace VCS
+458	Delete All Remote Agents Data
+459	Delete All Remote Agents Data?
+460	Delete Handler
+461	Delete Hook
+462	Delete MCP Server
+463	Delete Skill
+464	Delete Task
+465	Delete all recordings?
+466	Delete comment
+467	Deny
+468	Describe what you want. Your agent plans and builds it, and brings in other agents when needed.
+469	Details
+470	Determines the markup language of the output.
+471	Dev mode: Localhost server automatically detected
+472	Developer
+473	Developer-only tools. These settings do not affect other users.
+474	Developer: Reset NUX
+475	Developer: Reset Onboarding
+476	Disabled. Open Details to finish setup or enable.
+477	Disabled. Open the plugin page to finish setup.
+478	Discard
+479	Discard comment draft
+480	Discard unstaged changes
+481	Dismiss
+482	Dismiss service announcement
+483	Display
+484	Docs, Sheets, Slides, and folders
+485	Don't show this for 2 days
+486	Download Diagnostics
+487	Download File
+488	Download Location
+489	Download PDF
+490	Download files
+491	Download this site as an app to get notified when the agent needs your attention or completes a task.
+492	Downloads
+493	Draft documents, emails, and notes that sound like you.
+494	Drag to resize, double-click to reset
+495	Drawer
+496	Drive
+497	E.g. locations/global/workforcePools...
+498	Edit Conversation Title
+499	Edit comment
+500	Edition
+501	Electron (Android Desktop)
+502	Electron (Desktop)
+503	Electron (Gemini App)
+504	Enable
+505	Enable AI Credit Overages
+506	Enable Browser Tools
+507	Enable Notifications for Agent
+508	Enable Overages
+509	Enable Sounds for Agent
+510	Enable Telemetry
+511	Enable Terminal Sandbox
+512	Enable fine-grained GitHub permissions and define the org, repository, and resource-level access the agent is allowed to use.
+513	Enable telemetry in Settings before changing per-conversation telemetry.
+514	Enter a URL (e.g. http://localhost:8080)
+515	Enter always submits. This adds a second shortcut.
+516	Enter project name...
+517	Enter the configuration values this MCP server needs. Saving restarts the server with them.
+518	Enter to Send
+519	Enter tool name or server...
+520	Enterprise
+521	Environment
+522	Environments
+523	Equalize Split Panes
+524	Error Loading Models
+525	Error fetching MCP prompt
+526	Europe
+527	Every command requires approval.
+528	Every day
+529	Every hour
+530	Every week
+531	Every weekday
+532	Execute URLs
+533	Execution
+534	Expand All Folders
+535	Explore other marketplace customizations
+536	Explore the plugin marketplace
+537	Export Artifact
+538	Export artifact
+539	Extension
+540	Extension (Antigravity IDE)
+541	Extension (Cider)
+542	Extension (Eclipse)
+543	Extension (VS Code)
+544	Extension (Visual Studio)
+545	External
+546	External tools the agent can call via Model Context Protocol.
+547	Failed to Amend
+548	Failed to Commit
+549	Failed to Generate Commit Message
+550	Failed to Push
+551	Failed to clone project locally
+552	Failed to continue
+553	Failed to create CitC clone workspace
+554	Failed to create remote project
+555	Failed to create terminal
+556	Failed to create worktree
+557	Failed to delete conversation
+558	Failed to delete side question
+559	Failed to export artifact
+560	Failed to fork conversation
+561	Failed to get all annotations
+562	Failed to get annotations
+563	Failed to inspect license for this project
+564	Failed to load comments
+565	Failed to load resources
+566	Failed to proceed
+567	Failed to read file
+568	Failed to rename conversation
+569	Failed to render diagram
+570	Failed to render math
+571	Failed to revert conversation
+572	Failed to save token to ~/.env
+573	Failed to send side question
+574	Failed to start Best of N mode
+575	Failed to start conversation
+576	Failed to start side question
+577	Failed to stop agent
+578	Failed to stop conversation
+579	Failed to unarchive local project
+580	Failed to upload HTML artifact to Drive
+581	Failed to validate the saved GitHub token.
+582	File Access Rules
+583	File Permissions
+584	File Picker
+585	File Reads
+586	File Writes
+587	Files and resources in cloud workspaces
+588	Files, folders, and repositories you connect are accessible to your agent in this project, including during background or scheduled runs.
+589	Filter
+590	Filter files...
+591	Filter resources...
+592	Filter rows...
+593	Find
+594	Find References
+595	Find in Conversation
+596	Find in Pane
+597	Finn
+598	Fit Mode
+599	Flash
+600	Flash Lite
+601	Focus Input
+602	Fola
+603	Folder
+604	Folder doesn't exist
+605	Folders these agents can access.
+606	Font
+607	Font Size
+608	For example: Morning bug summary
+609	For example: every morning, summarize new bugs assigned to me and anything that changed overnight.
+610	Foreground
+611	Fork conversation in this folder
+612	Fork in New Workspace
+613	Fork in Shared Workspace
+614	Fork warning
+615	From
+616	Full Error
+617	Gemini 2.5 Flash Image
+618	Gemini 3 Pro Image
+619	Gemini 3.1 Flash Image
+620	Gemini Flash Next
+621	Generated image preview
+622	Generations
+623	Gero
+624	Get notified when the agent needs your attention or completes a task.
+625	Getting scripts...
+626	Getting started with Google Antigravity
+627	Git-on-Borg repository used when creating a new Cog workspace from your initial prompt (e.g., chromium/src or android/platform/superproject).
+628	GitHub Permissions
+629	GitHub Personal Access Token
+630	GitHub Policies
+631	GitHub: not signed in
+632	Go Back
+633	Go Back in Pane
+634	Go Forward
+635	Go Forward in Pane
+636	Go to Accounts
+637	Good Response
+638	Google (internal)
+639	Google Docs
+640	Google One Referral
+641	Google Sheets
+642	Google Slides
+643	Google3 Configuration
+644	Got it
+645	Group By
+646	Group name
+647	Hand off a feature and come back to working code.
+648	Hook will only trigger if the tool name matches run_command or view_file.
+649	Hook will only trigger if the tool name matches run_command.
+650	Hook will only trigger if the tool name starts with browser_.
+651	Hook will trigger if any tool is executed.
+652	Host Environment
+653	How often
+654	I prefer an immediate single response to prioritize productivity right now.
+655	Ignore events emitted by automated review or robot accounts (groupagent-*).
+656	Ignore events triggered by the automation owner to avoid self-trigger loops.
+657	Import AI Studio Project
+658	In a rush
+659	Include default customizations, such as default skills.
+660	Include unstaged changes
+661	Inline PDF preview is not available in this environment.
+662	Inline Widget
+663	Input device for voice mode and dictation.
+664	Install or enable the Google Drive plugin in Customizations to search files with @drive: or paste Drive links
+665	Installed
+666	Installed MCP Servers
+667	Insufficient AI Credits
+668	Interface Layout
+669	It was already sent or couldn't be removed from the queue.
+670	Jump to Next Prompt
+671	Jump to Previous Prompt
+672	Keep In Menu Bar
+673	Keep Open
+674	Keep the app accessible from the menu bar and running in the background when all windows are closed.
+675	Keeps working in this folder. Nothing is copied.
+676	Keyboard shortcuts for quick navigation and control.
+677	Label
+678	Labs
+679	Last 7 days
+680	Last Prompt
+681	Last Updated
+682	Learn more
+683	Light
+684	Light Theme
+685	Light preview
+686	Link Settings
+687	Link copied to clipboard.
+688	Linux
+689	Loading apps...
+690	Loading installed plugins...
+691	Loading instances...
+692	Loading subagent...
+693	Local Checkout
+694	Local Permissions
+695	Location
+696	Log back in
+697	Log in to use the agent
+698	Logs each telemetry event to the browser's DevTools console as it fires, with the click or key that caused it. Stays on across reloads until you turn it off.
+699	Lora
+700	MCP Authentication Error:
+701	MCP Restart Error:
+702	MCP server error
+703	MCP servers
+704	MCP tools
+705	Machine
+706	Main Agent
+707	Manage and delete your data anytime
+708	Manage fine-grained permissions for GitHub.
+709	Manage your conversations from the companion website.
+710	Manage your model quota and credits.
+711	Manage your notification preferences.
+712	Manage your plan, credentials, and general preferences.
+713	Managed by Enterprise Gateway
+714	Manifest Changes
+715	Mark All as Read
+716	Mark This Conversation as Read
+717	Mark This Conversation as Unread
+718	Mark as Read
+719	Mark as Unread
+720	Markdown Artifact Width
+721	Marketing Emails
+722	Marketplace
+723	Match when any modified file path starts with the given depot prefix.
+724	Match when push_def equals or is a child of the given PushDef prefix.
+725	Match when the issue component equals or is under the given Buganizer component ID.
+726	Match when the principal belongs to the specified MDB group.
+727	Match when the principal equals any listed username or belongs to any listed mdb/ group.
+728	Maximize
+729	Members
+730	Mention Page
+731	Mentions
+732	Mermaid diagram
+733	Method not found
+734	Microphone
+735	Model Credits
+736	More Actions
+737	More Plugins
+738	More actions
+739	More cloud environments
+740	Mouse button pressed
+741	Mouse button released
+742	Move Conversation Down
+743	Move Conversation Up
+744	Move to Group
+745	Move to New Group
+746	Mute Voice Mic
+747	Mute Voice Speaker
+748	Navigation
+749	Neno
+750	Network Access Rules
+751	New Agent Script
+752	New Conversation Button
+753	New Coordinator
+754	New Project
+755	New Side Question
+756	New Tab
+757	New Terminal Tab
+758	New Window
+759	New Workspace
+760	New hook name
+761	New models have been enabled for you!
+762	Next Side Panel Tab
+763	Next match
+764	Next question
+765	Nickname
+766	No Model Selected
+767	No Models Available
+768	No coordinators
+769	No links
+770	No matching flags
+771	No model specified for Battle Mode, falling back to use current selected model
+772	No models are available for your current project or account. Please check your project settings and IAM permissions.
+773	No plugin loads from this folder.
+774	No plugins available.
+775	Not Signed In
+776	Not signed in
+777	Not suitable for Best-of-N
+778	Notebook cell output
+779	Notification Preferences
+780	Notifications
+781	Number of hours
+782	Offline
+783	Olin
+784	On a schedule
+785	Online
+786	Only stored on your machine.
+787	Open
+788	Open Command Palette
+789	Open Commit Graph
+790	Open Conversation
+791	Open Conversation History
+792	Open Conversation in New Tab
+793	Open File
+794	Open File Search
+795	Open Folder
+796	Open Folder (Interactive)
+797	Open Image in New Tab
+798	Open In
+799	Open Keyboard Shortcuts
+800	Open Link in External Browser
+801	Open Link in New Tab
+802	Open Links In
+803	Open Preferences
+804	Open Search
+805	Open Terminal
+806	Open Trajectory Debug View
+807	Open Workspace Selector
+808	Open in Built-in Browser
+809	Open in Cider
+810	Open in External Browser
+811	Open in New Tab
+812	Open in Tab
+813	Open in external browser
+814	Open in full conversation
+815	Open in new tab
+816	Open in side pane
+817	Open in tab
+818	Open on another device
+819	Open on phone
+820	Open project settings
+821	Open side-by-side view
+822	Operating System
+823	Optimize the interface and terminal output for screen readers.
+824	Optimized for you
+825	Optional branch or ref used when creating a new Cog workspace (defaults to main if unset).
+826	Options
+827	Organization Allowed Domains (Read-Only)
+828	Output
+829	Outside of folders file access policy
+830	Override feature environment
+831	Owner
+832	Paste auth code
+833	Paste authorization code
+834	Paste code
+835	Pause this agent; it keeps its place and streams. Resume to continue.
+836	Pay As You Go
+837	Pending
+838	Permission Preset
+839	Permission Settings
+840	Pick up this remote conversation on your phone or in any browser. Scan the QR code or open the link below.
+841	Pin / Unpin Conversation
+842	Pin This Conversation
+843	Pinned Actions
+844	Pinned Conversations
+845	Plan
+846	Plan upgrade required
+847	Play a sound when your action is needed or the agent finishes.
+848	Please list the steps to reproduce the issue
+849	Plugin Operation Error:
+850	Plugin update required
+851	Preset
+852	Prevent Sleep
+853	Prevent the computer from sleeping while the app is running.
+854	Preview
+855	Previous Side Panel Tab
+856	Previous match
+857	Previous question
+858	Print telemetry to the console
+859	Pro
+860	Proceed with Plan
+861	Project
+862	Project 4K
+863	Project 4K interface without developer tooling.
+864	Project Name
+865	Project options
+866	Prompt to run when triggered...
+867	Prompt too simple
+868	Purchase Credits
+869	Push
+870	Queued Messages
+871	Quota
+872	Quote
+873	Quote Selection
+874	Read files
+875	Reads
+876	Recent
+877	Recent Files
+878	Recent files
+879	Recordings
+880	Refresh MCP servers
+881	Refresh gcert Credentials
+882	Refresh quota and credits data
+883	Reject Step
+884	Remote Agents Data
+885	Remote Control Instances
+886	Remote Control link
+887	Remote agents are busy
+888	Remove from Recent
+889	Remove from Split
+890	Remove from history (Shift+Delete)
+891	Remove from list
+892	Remove individual uploaded files or connected resources in Project Settings, or delete a project or conversation to remove its stored files.
+893	Rename Conversation
+894	Rename Group
+895	Rename This Conversation
+896	Renamed
+897	Render display math flush left.
+898	Render display math in leqno style (left-justified tags).
+899	Reopen Closed Tab
+900	Repeat unit
+901	Replace the default browser right-click menu with quick actions.
+902	Replace with
+903	Replace with New
+904	Repository
+905	Request Review
+906	Research anything
+907	Reset All to Defaults
+908	Reset to preset
+909	Reset zoom (0)
+910	Restore
+911	Restore Conversation
+912	Resume comment draft
+913	Resume it to load this file.
+914	Resume it to open a new terminal. Anything that was running in this one has stopped.
+915	Resume this agent where it paused
+916	Retry
+917	Revert file changes
+918	Review plans and walkthroughs
+919	Run all commands without restrictions.
+920	Run in a new worktree
+921	Run in your current workspace
+922	Run terminal commands with sandbox restrictions.
+923	Running
+924	Runs on this computer
+925	Runs remotely
+926	SSH Config
+927	SSH Host
+928	Sample GDoc
+929	Sandbox Allow Network
+930	Save
+931	Save audio recordings
+932	Screen Reader Mode
+933	Screen Recording
+934	Search Conversations
+935	Search Google Drive
+936	Search branches
+937	Search connectors
+938	Search conversations
+939	Search customizations...
+940	Search file contents...
+941	Search flags
+942	Search for commands...
+943	Search for conversations...
+944	Search projects...
+945	Security
+946	Security Preset
+947	See all
+948	Seek
+949	Select Model
+950	Select Model to Send Message
+951	Select Next Conversation
+952	Select Previous Conversation
+953	Select a folder.
+954	Select a model using the model selector in the input box
+955	Select or enter a workspace URI
+956	Select the workspace type that will be used for new conversations started with the New Workspace option.
+957	Select your license
+958	Selected region
+959	Semantic
+960	Send Now
+961	Send feedback as
+962	Send messages with the keyboard's Enter key instead of starting a new line.
+963	Send reply
+964	Sent
+965	Set the rules, define the boundaries.
+966	Set the volume of agent sounds.
+967	Set up authentication
+968	Settings Unavailable
+969	Setup required
+970	Share
+971	Share your referral link with friends
+972	Shortcuts
+973	Show Details
+974	Show how full the context window is next to the send button. Click it for a breakdown and to see your model quota.
+975	Show in folder
+976	Show system notifications when your action is needed or the agent finishes.
+977	Side Question
+978	Sign in again
+979	Sign in required.
+980	Sign in to finish setting up this plugin.
+981	Sign-in required
+982	Simulate a different host (Electron, desktop or mobile Web, Extension, remote control, or installed PWA).
+983	Simulate a different user cohort (Google, External, Enterprise).
+984	Simulate running on a different OS.
+985	Skills & Rules
+986	Sort By
+987	Sort Conversations
+988	Sound
+989	Split
+990	Split Conversation Horizontally
+991	Split Conversation Vertically
+992	Stage change
+993	Staged index changes and working tree changes
+994	Standalone
+995	Standalone Terminals
+996	Start Voice Recording
+997	Starting
+998	Status
+999	Stay up to date.
+1000	Stop All Subagents
+1001	Stop Editing
+1002	Stop Execution
+1003	Stop Voice Recording
+1004	Stop subagent
+1005	Stop this agent
+1006	Stopped
+1007	Stored and mounted in your cloud environment
+1008	Subagent ended
+1009	Submit Prompt (Alternate to Enter)
+1010	Subscription
+1011	Switch Roles
+1012	Switch To
+1013	Switch to This Computer
+1014	Sync JJ Worktrees to Head
+1015	Sync newly created JJ worktrees to head when starting a conversation.
+1016	System
+1017	Target text in PDF...
+1018	Tari
+1019	Task
+1020	Telemetry
+1021	Telemetry is disabled in Settings
+1022	Terminal & Tooling Permissions
+1023	Terminal Placement
+1024	Terminal: Add to Chat
+1025	Text attachment
+1026	Thank you! Your feedback has been submitted successfully.
+1027	The Hub sent an unexpected response.
+1028	The branch was pushed to GitLab.
+1029	The change was pushed to Gerrit.
+1030	The conversation could not be loaded because its data was not found.
+1031	The conversation was compacted while generating this response.
+1032	The current trigger rate is too high.
+1033	The full developer experience.
+1034	The remote shared a link for this push.
+1035	Theme
+1036	Themes
+1037	There was an error with your authentication. To log in, click
+1038	Thinking
+1039	This computer
+1040	This conversation is also open in another app. Sending messages from both may cause conflicts.
+1041	This conversation is not on disk. Delete it to remove it from your sidebar.
+1042	This prompt is straightforward and does not need alternative comparisons.
+1043	This request is not well-suited for parallel Best-of-N generation.
+1044	Thumbnails
+1045	Time
+1046	Time Zone
+1047	To use the agent, please login
+1048	Toggle
+1049	Toggle Between Light/Dark Themes
+1050	Toggle Environment Selector
+1051	Toggle File Viewer
+1052	Toggle Maximize Side Panel
+1053	Toggle Model Selector
+1054	Toggle Overview Panel
+1055	Toggle Project Selector
+1056	Toggle Side Panel
+1057	Toggle Sidebar
+1058	Toggle Terminal
+1059	Toggle Voice Recording
+1060	Toggle Word Wrap
+1061	Token Usage
+1062	Too many environments running
+1063	Too many requests, please try again in a bit!
+1064	Too many surveys
+1065	Trajectory Debug View
+1066	True changes vs the parent workspace
+1067	Try again
+1068	Turbo
+1069	Turn on a flag you don't have
+1070	Turn on strict / LaTeX faithfulness mode, which throws an error if the input uses features that are not supported by LaTeX.
+1071	Type
+1072	Type a voice variant name, such as rev27.
+1073	Type absolute path or navigate folders...
+1074	UI extensions
+1075	Unauthenticated
+1076	Uncommitted
+1077	Undo to Here
+1078	United States
+1079	Unknown edit
+1080	Unknown file edit
+1081	Unpin This Conversation
+1082	Unsandboxed commands
+1083	Unstage change
+1084	Untitled
+1085	Untracked
+1086	Untracked (Unstaged)
+1087	Updater
+1088	Upload Files
+1089	Uploaded project files and in-chat attachments are stored on Google servers and mounted into your cloud sandbox so your agent can read and work with them.
+1090	Uploaded to Google Drive
+1091	Usage
+1092	Use full Git clones for Best of N
+1093	Use full VCS clones for Best of N
+1094	Use theme to be imported with settings
+1095	User Type
+1096	User uploaded image
+1097	VCS used when creating a new workspace, including workspaces generated based off your initial prompt.
+1098	Verification required
+1099	View
+1100	View Debug
+1101	View MCP servers
+1102	View Page
+1103	View site information
+1104	Voice
+1105	Voice Speed
+1106	Voice engine
+1107	Voice recording is unavailable while the Chief of Staff mic is on
+1108	Web (desktop)
+1109	Web (desktop, PWA)
+1110	Web (desktop, remote control)
+1111	Web (desktop, remote control, PWA)
+1112	Web (mobile)
+1113	Web (mobile, PWA)
+1114	Web (mobile, remote control)
+1115	Web (mobile, remote control, PWA)
+1116	Website
+1117	What should it do?
+1118	What should the agent do on each run?
+1119	What should the agent do on each run? For example: summarize new bugs assigned to me and anything that changed overnight.
+1120	What should this coordinator accomplish?
+1121	Whatever the voice-engine-addr flag serves you.
+1122	When
+1123	When enabled, the agent will include default customizations, including default skills.
+1124	When enabled, the values below replace the auto-detected OS, host, and user type used for feature gating.
+1125	When something happens
+1126	Where
+1127	Where it runs
+1128	Which workspace the New Conversation button and keyboard shortcut start you in.
+1129	Why are you opting out of auto-triggered Best-of-N?
+1130	Window
+1131	Windows
+1132	Work in Google3. Create conversations in new and existing workspaces.
+1133	Work in a CitC workspace.
+1134	Work in a Cog workspace.
+1135	Work in an ABFS workspace.
+1136	Work with local agents from another device.
+1137	Workspace URI query parameter
+1138	Workspace setup warning
+1139	Worktree
+1140	Worktrees are a git feature. This folder is shared as is.
+1141	Write a comment...
+1142	Write and edit docs
+1143	Write files
+1144	You are in control
+1145	You're viewing a blank page
+1146	You're viewing a local or shared file
+1147	Your connection to this site is not fully secure
+1148	Your information (for example, passwords or credit card numbers) is private when it is sent to this site.
+1149	Your session has expired. Please log back in to continue.
+1150	Zoom
+1151	Zoom in (+)
+1152	Zoom out (-)
+1153	bold strikethrough
+1154	bold underline
+1155	bold underline strikethrough
+1156	browser:code-block
+1157	browser:text
+1158	code/timeOrigin
+1159	default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' blob:; worker-src blob:; connect-src 'none'
+1160	e.g. Release helper
+1161	e.g. ci.yml,deploy.yml or *
+1162	e.g. google or *
+1163	e.g. jetski or *
+1164	e.g. main,dev or *
+1165	e.g. work
+1166	e.g., chromium/src
+1167	e.g., curl
+1168	e.g., example.com
+1169	e.g., main or refs/heads/main
+1170	e.g., npm test
+1171	google/protobuf/descriptor.proto
+1172	has_path_prefix(modified_files, ...)
+1173	has_push_def_prefix(push_def, ...)
+1174	has_subcomponent(component_id, ...)
+1175	http://localhost:8080
+1176	image for artifact level comment
+1177	image for comment
+1178	italic bold
+1179	italic bold strikethrough
+1180	italic bold underline
+1181	italic bold underline strikethrough
+1182	italic strikethrough
+1183	italic underline
+1184	italic underline strikethrough
+1185	line bounding box
+1186	run_command or view_file
+1187	script source must not be empty
+1188	square bounding box
+1189	text-[14px] leading-6
+1190	text-[16px] leading-7
+1191	text-amber-600 dark:text-amber-500
+1192	text-green-600 dark:text-green-500
+1193	text-orange-600 dark:text-orange-500
+1194	text-teal-600 dark:text-teal-500
+1195	underline strikethrough
+1196	unknown error
+1197	user@host:port
+1198	view full search results
+1199	view_file read_resource write_to_file replace_file_content multi_replace_file_content sed_file notebook_edit
+1200	you@company.com

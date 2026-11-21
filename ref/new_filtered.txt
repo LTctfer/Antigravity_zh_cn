@@ -1,0 +1,999 @@
+36	Cancel
+6	Loading...
+5	Clear
+5	Having trouble signing in?
+5	Skip
+5	_blank
+4	Access rules
+4	Add
+4	Connected
+4	NAVIGATION_BLOCKED: policy not applied
+4	Sign out
+4	Thinking...
+3	$1[REDACTED]
+3	Add Handler
+3	Command:
+3	Configure
+3	MCP error
+3	Model
+3	Name
+3	New Terminal
+3	No subagents
+3	Paste a code instead
+3	Preview unavailable
+3	Run Now
+3	Sign in
+3	Skill
+3	Timeout:
+3	You said
+3	__wrapped__
+2	+qm(this.b)+
+2	Aa0
+2	Accounts tab
+2	Add Context
+2	Add account
+2	Approve
+2	Arguments
+2	Blocked, needs input
+2	Choose Region
+2	Compaction Strategy
+2	Connecting to language server...
+2	Connections
+2	Continue with different account
+2	Create
+2	Create a project first.
+2	Creating...
+2	Ctrl+
+2	Customize
+2	Customize Sections
+2	Decline
+2	Encountered errors while disposing of store
+2	Failed to toggle plugin. Please try again.
+2	For Turn
+2	Get started
+2	Goal
+2	Google Chrome
+2	Google Privacy Policy
+2	Loading MCP servers...
+2	Loading Notebook View...
+2	Loading customizations...
+2	Loading events...
+2	Manage
+2	Map
+2	Matcher:
+2	Needs attention
+2	Next
+2	No active terminals
+2	No background tasks
+2	No file changes
+2	No quota information available.
+2	Not connected
+2	Only Unread
+2	Open IDE
+2	Open in Antigravity IDE
+2	Output view background color.
+2	Output view sticky scroll background color.
+2	Position Constraint
+2	Previous Worktrees
+2	Prompt
+2	Provide Google Cloud Project
+2	Query
+2	Raw
+2	Refreshing...
+2	Reset
+2	Restart
+2	Set
+2	Set at least one scope filter
+2	Sidecar feature is not available.
+2	Sign In
+2	Title bar border color.
+2	Trigger
+2	Unknown Notebook
+2	Version
+2	View Logs
+2	[REDACTED]
+2	[redacted-tag]
+1	 (for example, passwords, messages, or credit cards).
+1	 (unsafe)
+1	 Allowed Domains
+1	 Copy the folder elsewhere first if you might want it back.
+1	 Organization MCP Allowlist (Read-Only)
+1	 Pick a model to change it.
+1	 Shadow color of sticky scroll in the editor
+1	 Terms of Service
+1	##local
+1	##other
+1	#FFFFFE
+1	#ffffff
+1	$1 [REDACTED]
+1	% left
+1	' not found for 
+1	(Specific to this client's truncation and pagination)
+1	(excluding product analytics data)
+1	+ Add Hook
+1	+ Add Organization policy
+1	+ Add branch policy
+1	+ Add issue policy
+1	+ Add pull request policy
+1	+ Add workflow run policy
+1	+rB(this.c.c,this.a)+
+1	+this.b+
+1	, always on.
+1	, then reopen this dialog.
+1	-1width
+1	0actk
+1	0di
+1	0ub
+1	0ubs
+1	0ubsb
+1	1 Draft
+1	1oa
+1	::after
+1	::before
+1	:pd)+
+1	== != in
+1	? This action cannot be undone.
+1	? This removes it from your config directory.
+1	? This will remove it from your MCP configuration.
+1	A comma-separated list like org-a, org-b, or * for all.
+1	A comma-separated list like repo-a, repo-b, or * for all.
+1	A few things to know, and a couple settings to review.
+1	A group with this name already exists.
+1	A new version is available.
+1	A project with this name already exists.
+1	A subtler version of list hover background.
+1	Accept all
+1	Access to the DCGraph is intended for the debug view,
+1	Access to the polyominoes is intended for the debug view,
+1	Action List background color for the focused item.
+1	Action List background color.
+1	Action List foreground color for the focused item.
+1	Action List foreground color.
+1	Activate Inside Self Loops
+1	Active Tasks & Conversations:
+1	Adapter
+1	Add Model
+1	Add Unnecessary Bendpoints
+1	Add filter
+1	Add schedule
+1	Add them to allow future interactions
+1	Add trigger
+1	Additional Port Space
+1	Additional Wedge Space
+1	Additional Wrapped Edges Spacing
+1	Advanced
+1	After removing overlaps
+1	Agent Hooks Configuration
+1	Agent can
+1	Agent can run
+1	Agent: 
+1	Algorithm for packing of unconnected boxes, i.e. graphs without edges.
+1	Alignment
+1	All Workspaces
+1	All agents
+1	All runs
+1	Allow Next Non-Corp Prompt
+1	Allow Non-Flow Ports To Switch Sides
+1	Allow creating issues and grant access to specific issues.
+1	Allow opening pull requests and grant access to specific PRs.
+1	Allows the user to specify her own cuts for a certain graph.
+1	Alt+
+1	An error was thrown.
+1	Animate
+1	Animation Time Factor
+1	Annulus Wedge Criteria
+1	Antigravity
+1	Antigravity would like to use the browser.
+1	Any error messages seen when trying to log in
+1	Apply
+1	Apps connected to your account
+1	Archived
+1	Archived Only
+1	Array types don't match
+1	Artifact Comments
+1	Artifact updated by agent
+1	Ask /btw
+1	Ask a side question without interrupting the main conversation
+1	Ask questions, report issues, and discuss features
+1	Aspect Ratio
+1	Authentication Required
+1	Authorization code
+1	Auto Pin
+1	Auto-dismissed due to conversation switching
+1	Axis color for the chart.
+1	BK Edge Straightening
+1	BK Fixed Alignment
+1	Back to safety
+1	Background color behind matching brackets
+1	BasicEMap/Entry
+1	Bearer [REDACTED]
+1	Before removing overlaps
+1	Bend Points
+1	Best of N mode is not available
+1	Blocked by organization policy
+1	Boolean AND, OR, and negation
+1	Box Layout Mode
+1	Browse Connectors
+1	Business Account Sign In
+1	Button background color.
+1	Button border color.
+1	Button foreground color.
+1	Button separator color.
+1	Bytes
+1	CEL Expression Reference
+1	CEL Reference
+1	Cache:
+1	Can't add a queue to itself
+1	Cancel Step
+1	Cannot suppress a null exception.
+1	Cannot use method in read-only mode.
+1	Capturing
+1	Card 
+1	Center On Root
+1	Certificate details
+1	Change
+1	Change VCS in General settings, under Advanced
+1	Chat anyways
+1	Child Area Height
+1	Child Area Width
+1	Child movement 1
+1	Children of root nodes must be elements or decorators
+1	Choose a Subscription
+1	Chooses an Edge Routing algorithm.
+1	Circle
+1	Clear cookies and site data
+1	Cleared Count
+1	Click to Open Docs
+1	Click to view more
+1	Clicking
+1	Close (Escape)
+1	Close Panel
+1	Code Change Summary
+1	Colors and styles for the token.
+1	Command
+1	Comment Box
+1	Comment Comment Spacing
+1	Comment Node Spacing
+1	Commented on: 
+1	Common ancestor overview ruler foreground for inline merge-conflicts.
+1	Compaction
+1	Compaction Step Size
+1	Compaction iterations
+1	Components Spacing
+1	Conditions
+1	Configured servers
+1	Confirm
+1	Confirmation required to execute this step
+1	Connected Components Compaction
+1	Connected Components Compaction Strategy
+1	Connected Components Layout Algorithm
+1	Connecting to terminal...
+1	Connection closed
+1	Consider Model Order
+1	Consider Model Order for Components
+1	Consider Port Order
+1	Console Telemetry
+1	Content Alignment
+1	Continue
+1	Control+
+1	Conversation Log
+1	Copy as Markdown
+1	Correction Factor for Wrapping
+1	Cost Function for Spanning Tree
+1	Couldn't delete your data. Try again.
+1	Couldn't load your SSH hosts
+1	Couldn't load your SSH hosts. You can still type one.
+1	Couldn't search files
+1	Count
+1	Create Coordinator
+1	Create New
+1	Create a token
+1	Create with Prompt
+1	Creating projects for your conversations
+1	Crossing Counter Node Order Influence
+1	Crossing Counter Port Order Influence
+1	Crossing Minimization Strategy
+1	Current overview ruler foreground for inline merge-conflicts.
+1	Current position of a node in the order of nodes
+1	Custom Flags
+1	Custom models are only supported on Linux machines.
+1	Cutting Strategy
+1	Cycle Breaking Strategy
+1	DCGraph
+1	Daily
+1	Debug Mode
+1	Decorations
+1	Define padding for node labels that are placed inside of a node.
+1	Defines constraints of the position of the ports of a node.
+1	Definition:
+1	Delete All Data
+1	Delete Terminal
+1	Delete all
+1	Denied Sites
+1	Deprecated use `method` instead
+1	Desired Edge Length
+1	Desired index of node
+1	Determines the model for force calculation.
+1	Did restarting the desktop app help?
+1	Dimensions that are permitted to be altered during layout.
+1	Direction
+1	Direction Congruency
+1	Direction Priority
+1	Distance Penalty When Improving Cuts
+1	Document Answers
+1	Don't enter corp passwords
+1	Done
+1	Drag to move
+1	Drag to select a region to comment
+1	Dropdown background.
+1	Dropdown border.
+1	Dropdown foreground.
+1	Dropdown list background.
+1	EClass
+1	EEnum
+1	EFactory
+1	ELK Box
+1	ELK Fixed
+1	ELK Force
+1	ELK Layered
+1	ELK Mr. Tree
+1	ELK Radial
+1	ELK Randomizer
+1	ELK Rectangle Packing
+1	ELK SPOrE Compaction
+1	ELK SPOrE Overlap Removal
+1	EList
+1	EObject
+1	EPackage
+1	ERR_DISALLOWED_URL: Empty URL is not allowed
+1	Each plugin can be managed on its own.
+1	Eades Repulsion
+1	Edge Center Label Placement Strategy
+1	Edge Edge Between Layer Spacing
+1	Edge End Texture Length
+1	Edge Label Placement
+1	Edge Label Side Selection
+1	Edge Label Spacing
+1	Edge Node Between Layers Spacing
+1	Edge Node Spacing
+1	Edge Routing
+1	Edge Spacing
+1	Edge Thickness
+1	Edge Type
+1	Edit Comment
+1	Edit Model
+1	Editor background color.
+1	Editor default foreground color.
+1	Elk
+1	Embedding Limitations
+1	Empty log
+1	Empty table
+1	Enable Best-of-2
+1	Enable Recommended Skills
+1	Enable the plugin to sign in.
+1	Enable this plugin to manage its accounts.
+1	Encountered an error while running the plugin.
+1	End
+1	Enter
+1	Enter Google Cloud Project Details
+1	Enumerator
+1	Error Details:
+1	Error loading Browser recording
+1	Error rendering playback
+1	Event:
+1	Exactly one of blob and text must be set
+1	Exception can not suppress itself.
+1	Excluded
+1	Execution Identity
+1	Expand
+1	Expand Nodes
+1	Expected a redirect error
+1	FR Temperature
+1	Factor for repulsive forces in Eades' model.
+1	Failed to approve browser interaction
+1	Failed to delete plugin. Please try again.
+1	Failed to delete skill. Please try again.
+1	Failed to fetch diffs
+1	Failed to load image
+1	Failed to load shared conversation
+1	Failed to parse settings. Fix and restart.
+1	Failed to read file content
+1	Failed to reject browser interaction
+1	Failed to send command input
+1	Fallback Summary Used
+1	Favor Straight Edges Over Balancing
+1	Feature Environment Override
+1	Feedback Edges
+1	Fetched network request for page.
+1	Fetched network requests for page.
+1	Fields
+1	File Comments
+1	File Diff Comments
+1	File Tree Component is not loaded.
+1	File not found
+1	Files to edit:
+1	Fill Polyominoes
+1	Finalizing transcription...
+1	Finish signing in in your browser.
+1	Fix with Agent
+1	Fixed Graph Size
+1	Fixed Position
+1	Folder where files downloaded in the built-in browser are saved.
+1	Font Name
+1	Font name used for a label.
+1	Font size used for a label.
+1	Force
+1	Force Model
+1	Force Node Model Order
+1	Forked from
+1	Found references to
+1	Full Logs
+1	Full View
+1	Full output written to
+1	Function
+1	Generate Position and Layer IDs
+1	Get API key
+1	Get More AI Credits
+1	Go to Home
+1	Google
+1	Google Antigravity - Experience liftoff
+1	Google Antigravity Terms of Service
+1	Google Chat
+1	Google Cloud Project ID
+1	Google3 projects are deprecated
+1	Grant create, update, or delete access to specific branches.
+1	Grant repository access
+1	Graph Wrapping Strategy
+1	Greedy Switch Activation Threshold
+1	Greedy Switch Crossing Minimization
+1	Greedy Switch Crossing Minimization (hierarchical)
+1	Guide line for the chart.
+1	Helpers
+1	Here's how you and your agents work together
+1	Hierarchical Sweepiness
+1	Hierarchy Handling
+1	High Degree Node Maximum Tree Height
+1	High Degree Node Threshold
+1	High Degree Node Treatment
+1	Highlight background color of a snippet tabstop.
+1	Highlight background color of the final tabstop of a snippet.
+1	Highlight border color of a snippet tabstop.
+1	Highlight border color of the final tabstop of a snippet.
+1	Horizontal alignment cannot be null
+1	Horizontal spacing between Label and Port
+1	Host
+1	Host Endpoint
+1	Hourly
+1	How likely it is to use cross-hierarchy (1) vs bottom-up (-1).
+1	How much effort should be spent to produce a nice layout.
+1	How this feature would help you and other users
+1	Hypernode
+1	IInitializable
+1	IProperty
+1	If active, nodes are expanded to fill the area of their parent.
+1	If set, color of double underlines for errors in the editor.
+1	If set, color of double underlines for hints in the editor.
+1	If set, color of double underlines for infos in the editor.
+1	If set, color of double underlines for warnings in the editor.
+1	Image Answers
+1	Image URL:
+1	Image preview not available
+1	Image rendering blocked (strict mode enabled)
+1	Improve Cuts
+1	Improve Wrapped Edges
+1	In Layer Predecessor of
+1	In Layer Successor of
+1	In new Row
+1	Incoming overview ruler foreground for inline merge-conflicts.
+1	Indent value must be non-negative.
+1	Individual Spacing
+1	Initial capacity must not be negative
+1	Initializing...
+1	Inline Edge Labels
+1	Input box background.
+1	Input box border.
+1	Input box foreground.
+1	Input:
+1	Insert in Terminal
+1	Inside Self Loop
+1	Installing
+1	Instruction
+1	Instructions
+1	Interactive
+1	Interactive Reference Point
+1	Invalid indent value.
+1	Invite a Friend
+1	Issue creation
+1	Issued by
+1	Issued to
+1	Issues
+1	Iterable
+1	Iteration Limit
+1	Iterations
+1	Jetski
+1	Join the Google Chat space
+1	Junction Points
+1	Keeps your checkout untouched
+1	Knowledge Generation
+1	Label Manager
+1	Label Node Spacing
+1	Label Spacing
+1	Label managers can shorten labels upon a layout algorithm's request.
+1	Last run
+1	Launching the browser...
+1	Layer Choice Constraint
+1	Layer Constraint
+1	Layer ID
+1	Layered
+1	Layout
+1	Layout Algorithm
+1	Layout Ancestors
+1	Layout Dimension
+1	Layout Partition
+1	Layout Partitioning
+1	Let's tailor the experience for you. What best describes your work?
+1	License:
+1	Limits the number of iterations for node promotion.
+1	Line color for the chart.
+1	Linear Segments Deflection Dampening
+1	List
+1	List resources: 
+1	Loading Browser recording...
+1	Loading available plugins...
+1	Loading conversations...
+1	Loading licenses...
+1	Loading logs...
+1	Loading media...
+1	Loading models...
+1	Loading plugins...
+1	Loading resources...
+1	Loading token usage...
+1	Loading trajectory...
+1	Loading workspace customizations...
+1	Loading worktrees...
+1	Local only
+1	Log in
+1	Long Edge Ordering Strategy
+1	MCP Servers Disabled
+1	MSD Freedom
+1	Make default
+1	Makes room around high degree nodes to place leafs and trees.
+1	Manage Permissions
+1	Manually Specified Cuts
+1	Map/Entry
+1	Margins
+1	Match Case (Aa)
+1	Max Node Promotion Iterations
+1	Maximal Animation Time
+1	Merge Conflict
+1	Merge Edges
+1	Merge Hierarchy-Crossing Edges
+1	Method to decide on edge label sides.
+1	Migrate with Agent
+1	Minimal Animation Time
+1	Minimap background color.
+1	Minimap slider background color.
+1	Model Summarization Failed
+1	Model context updates are not supported here
+1	Models Tab
+1	Multi-select
+1	Needs Attention
+1	Needs re-auth
+1	Needs reconnect
+1	Negative initial capacity
+1	New
+1	New Fig Workspace
+1	New chats will be grouped by workspace.
+1	New conversation
+1	Next Match (Enter)
+1	Next run
+1	No Layout
+1	No Model Order
+1	No Plugins Available
+1	No active terminals. Click + to create one.
+1	No agent is working right now.
+1	No browser pages open
+1	No changes to review
+1	No comments yet
+1	No compatible devices found.
+1	No content available for this resource
+1	No customizations match your search.
+1	No environments found
+1	No events recorded.
+1	No extensions available
+1	No files or folders found
+1	No instances yet.
+1	No instructions.
+1	No internet. Agent features may not work.
+1	No keyboard shortcuts found matching your filter.
+1	No matching plugins found.
+1	No matching project folders. Apply to use the custom URI.
+1	No matching resources found.
+1	No matching results
+1	No models available
+1	No previous worktrees
+1	No project selected
+1	No project selected or project management not available.
+1	No projects created
+1	No rate card for this model; showing comparable rates.
+1	No resources available
+1	No results
+1	No runs yet
+1	No sign-in needed
+1	No skills available
+1	No token data available.
+1	No workspaces open.
+1	Node Flexibility
+1	Node Flexibility Default
+1	Node Label Padding
+1	Node Label Placement
+1	Node Layering Strategy
+1	Node Node Between Layers Spacing
+1	Node Placement Strategy
+1	Node Promotion Strategy
+1	Node Self Loop Spacing
+1	Node Size Constraints
+1	Node Size Minimum
+1	Node Size Options
+1	Node Spacing
+1	Non-positive load factor
+1	None (clear inherited style)
+1	Not available
+1	Not scheduled
+1	Nothing is running right now
+1	Nothing said yet
+1	Notification
+1	Number of columns should be a positive integer
+1	Omit Node Micro Layout
+1	Only Archived
+1	Only element or decorator nodes can be inserted in to the root node
+1	Open Antigravity IDE
+1	Open Appearance
+1	Open Diff
+1	Open MCP Config
+1	Open Source Code
+1	Open System Browser
+1	Open URL
+1	Open allowlist
+1	Open extracted DOM in editor
+1	Open in Hub
+1	Open in Side Pane
+1	Open link
+1	Open the page in system browser
+1	Optimization Goal
+1	Optional boolean filter
+1	Order ID
+1	Organizations
+1	Orthogonal
+1	Orthogonal Compaction
+1	Other License
+1	Other sign-in options
+1	Outgoing Edge Angles
+1	Outline color for text that got removed.
+1	Outline color for the text that got inserted.
+1	Outline color of the type filter widget in lists and trees.
+1	Output:
+1	Padding
+1	Page contents
+1	Password Prompt Blocked
+1	Path copied!
+1	Pattern
+1	Pick at most 2 reasons
+1	Planar
+1	Playback available
+1	Please sign in using the Antigravity sidebar panel to view this page.
+1	Polyomino Primary Sorting Criterion
+1	Polyomino Secondary Sorting Criterion
+1	Polyomino Traversal Strategy
+1	Port Alignment (East)
+1	Port Alignment (North)
+1	Port Alignment (South)
+1	Port Alignment (West)
+1	Port Anchor Offset
+1	Port Border Offset
+1	Port Constraints
+1	Port Index
+1	Port Label Placement
+1	Port Labels Next to Port
+1	Port Side
+1	Port Sorting Strategy
+1	Port Spacing
+1	Position
+1	Position Choice Constraint
+1	Position ID
+1	Post Compaction Constraint Calculation
+1	Post Compaction Strategy
+1	Predicate
+1	Press keys...
+1	Previous
+1	Previous Match (Shift+Enter)
+1	Pricing is based on public API pricing
+1	Priority
+1	Proceed Anyway
+1	Progress Bar
+1	Prohibited Use Policy
+1	Promise
+1	Protocol
+1	Pull requests
+1	Questions
+1	Quick Start
+1	Radial
+1	Radius
+1	Randomization Seed
+1	Read URL rejected
+1	Read access
+1	Read access to code, refs, commits, and other repository contents.
+1	Read resource: 
+1	Recent Events
+1	Reconnect
+1	Reduces number of dummy nodes after layering phase (if possible).
+1	Refresh all credentials
+1	Reject
+1	Reject all
+1	Reload Window
+1	Reload this window.
+1	Remote Projects
+1	Remote branches
+1	Remote only
+1	Remove
+1	Rendering playback
+1	Reopen Locally
+1	Repeat every
+1	Repositories
+1	Repulsive Power
+1	Resolved Layout Algorithm
+1	Resolving permissions...
+1	Resource
+1	Resources
+1	Restart sign-in
+1	Root node for spanning tree construction
+1	Root selection for spanning tree
+1	Rotate
+1	Row Height Reevaluation
+1	Run
+1	Run visibility
+1	Running (Dev only)
+1	Running processes are killed. This cannot be undone.
+1	SSH config: 
+1	Saved
+1	Scale Factor
+1	Scheduled
+1	Scope
+1	Screenshot must be under 10 MB
+1	Scrollbar shadow to indicate that the view is scrolled.
+1	Scrollbar slider background color when clicked on.
+1	Scrollbar slider background color when hovering.
+1	Scrollbar slider background color.
+1	Scrollbar track background color.
+1	Search Order
+1	Search for MCP servers to add to your configuration
+1	Secondary button background color when hovering.
+1	Secondary button background color.
+1	Secondary button foreground color.
+1	See Activity
+1	Select Billing Model
+1	Select CitC workspace
+1	Select Environment
+1	Select License
+1	Select Project
+1	Select a specific layout algorithm.
+1	Select an option...
+1	Select text in the PDF and click + Add to start commenting.
+1	Select text in the artifact to add a comment
+1	Select workspace
+1	Select...
+1	Self-Loop Distribution
+1	Self-Loop Ordering
+1	Semi-Interactive Crossing Minimization
+1	Send Feedback
+1	Sending transcribed message...
+1	Sends after agent finishes working
+1	Sent Message
+1	Separate Connected Components
+1	Set up
+1	Setup script failed.
+1	Setup script ran successfully.
+1	Shift
+1	Shift Last Placed.
+1	Shift+
+1	Shortness Priority
+1	Show
+1	Show in Sidebar
+1	Show more
+1	Show or Hide Extensions
+1	Sign In with SSO
+1	Sign in needed
+1	Sign in required
+1	Sign in with a different account
+1	Site Allowlist
+1	Skill deletion is not available.
+1	Skipped
+1	Skipping...
+1	Sloped Edge Zone Width
+1	Sloppy Spline Layer Spacing Factor
+1	Snooze for 24 Hours
+1	Some non-image binary content was truncated.
+1	Something went wrong!
+1	Sorter
+1	Source
+1	Source:
+1	Sources
+1	Spacing Base Value
+1	Spacing between pairs of ports of the same node.
+1	Spacing to be preserved between a node and its self loops.
+1	Spacing to be preserved between nodes and edges.
+1	Specials
+1	Specifies whether and how post-process compaction is applied.
+1	Spline Routing Mode
+1	Start it again.
+1	Step Type
+1	Still running
+1	Stop Side Question
+1	Stop all agents
+1	Straightness Priority
+1	Strategy for crossing minimization.
+1	Strategy for finding an initial placement on nodes.
+1	Strategy for finding an initial width of the drawing.
+1	Strategy for node layering.
+1	Strategy for node placement.
+1	Stream
+1	Stress Epsilon
+1	Structure Extraction Strategy
+1	Style for all symbol declarations.
+1	Style for classes.
+1	Style for comments.
+1	Style for decorators & annotations.
+1	Style for enum members.
+1	Style for enums.
+1	Style for events.
+1	Style for expressions.
+1	Style for interfaces.
+1	Style for keywords.
+1	Style for labels. 
+1	Style for macros.
+1	Style for namespaces.
+1	Style for numbers.
+1	Style for operators.
+1	Style for parameters.
+1	Style for properties.
+1	Style for strings.
+1	Style for structs.
+1	Style for type parameters.
+1	Style for types.
+1	Style for variables.
+1	Style to use for references in documentation.
+1	Style to use for symbols that are abstract.
+1	Style to use for symbols that are async.
+1	Style to use for symbols that are deprecated.
+1	Style to use for symbols that are read-only.
+1	Style to use for symbols that are static.
+1	Style to use for write accesses.
+1	Submit code
+1	Submitting...
+1	Subtitles
+1	Switch IDE Workspace
+1	Table border color between columns.
+1	Taking longer than usual to load
+1	Target
+1	Target Angle
+1	Target Tools:
+1	Target Width
+1	Task Logs
+1	Task not found
+1	Termination criterion for the iterative process.
+1	Terms and Privacy:
+1	Terms of Service & Data Use
+1	Text input
+1	The agent was prevented from accessing some sites
+1	The default terminal command decoration background color.
+1	The overview ruler cursor color.
+1	The overview ruler left-side border color.
+1	There are no customizations enabled.
+1	There is already an extension with this id
+1	There is no more element.
+1	There was an unexpected issue setting up your account.
+1	This bundle has no plugins yet.
+1	This cannot be undone.
+1	This chat's environment is paused
+1	This color must be transparent or it will obscure content
+1	This extension has no declared permissions requiring user input.
+1	This link wants to open an app on your device.
+1	This may take a few minutes
+1	This option defines how the compaction is applied.
+1	This page is going away soon
+1	Thoroughness
+1	Tip:
+1	Title:
+1	To update:
+1	Toggle checkerboard background
+1	Toggle sidebar
+1	Toggle this on to allow creating new issues.
+1	Toggle this on to allow creating new pull requests.
+1	Toggle this on to enable read access on contents.
+1	Token background colors are currently not supported.
+1	Tool Output
+1	Tool arguments
+1	Topdown Hierarchical Node Aspect Ratio
+1	Topdown Hierarchical Node Width
+1	Topdown Node Type
+1	Topdown Scale Cap
+1	Topdown Scale Factor
+1	Topdown Size Approximator
+1	Trajectory Stats
+1	Translation Optimization
+1	Treat Port Labels as Group
+1	Tree
+1	Tree Construction Strategy
+1	Tree Level
+1	Tree stroke color for the indentation guides that are not active.
+1	Tree stroke color for the indentation guides.
+1	Tries to further compact components (disconnected sub-graphs).
+1	Trouble signing in? Enter authorization code
+1	Try Again
+1	Try box layout first
+1	Typing your corp password here may trigger a Password Alert reset.
+1	UI view does not exist.
+1	Unable to resolve audio source URL
+1	Underlying Layout Algorithm
+1	Unexpected dirty selection to be null
+1	Unexpected empty pending editor state on discrete nested update
+1	Upload Debug Bundle
+1	Upper limit for iterations of overlap removal
+1	Uptime
+1	Url
+1	Use Advanced SSO Config
+1	Use Business Account
+1	Use Default
+1	Use Existing
+1	Use Global Settings
+1	Use Regular Expression (.*)
+1	User Intent
+1	User cancelled agent execution.
+1	Valid CEL
+1	Valid Indices for Wrapping
+1	Valid until
+1	Validate
+1	Validate Graph
+1	Validate Options
+1	Validification Strategy
+1	Vertical spacing between Label and Port
+1	View Usage
+1	View could not be opened
+1	View network request
+1	View network requests
+1	View plans
+1	Voice speed
+1	WIF Config
+1	Web Preview
+1	WebMCP unavailable
+1	Weekly
+1	Weighting of Nodes
+1	What is missing in your workflow
+1	What quota or feature is being incorrectly limited
+1	What you would like to see to address this gap in your workflow
+1	What's in this bundle
+1	When should it run?
+1	Where should it run?
+1	Whether a progress bar shall be displayed during layout computations.
+1	Whether additional debug information shall be generated.
+1	Whether each connected component should be processed separately.
+1	Which search order to use when computing a spanning tree.
+1	Which weighting to use when computing a node order.
+1	White Space Approximation Strategy
+1	Width Approximation Strategy
+1	Windows Subsystem for Linux
+1	Work in a New Worktree
+1	Worker environment lockdown failed
+1	Workflow runs
+1	Workspace URI Switcher
+1	X-Frame-Options
+1	Your Antigravity use will be associated with provided project.
+1	Your administrator has disabled MCP servers for this workspace.
+1	Your connection is not private
+1	Zoom to Fit
+1	[&_.text-foreground]:text-muted-foreground
+1	[REDACTED_JWT]
+1	[REDACTED_TOKEN]
+1	__lodash_hash_undefined__
+1	__proto__
+1	__storage_test__

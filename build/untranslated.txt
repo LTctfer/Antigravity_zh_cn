@@ -1,0 +1,128 @@
+14px	/settings
+a11y-debugging	/settings
+Accept payments and grow your business. Stripe's official MCP server enables AI agents to manage customers, products, prices, payment links, invoices, subscriptions, and refunds, as well as search Stripe documentation.	/customizations
+agy-customizations	/settings
+AlphaFold, 3D visualization tools, and protein databases to explore protein structures, sequences, pathways, and drug interactions.	/customizations
+AlphaGenome and major genetics databases to analyze DNA variants, gene regulation, and links between genes and disease.	/customizations
+Alt	/settings
+Android CLI	/customizations
+Antigravity	/,/settings,/customizations
+antigravity-guide	/settings
+Arize AX	/customizations
+Atlassian Teamwork Graph CLI	/customizations
+Auth0	/customizations
+Automatically migrate legacy workflows to modern skills across global and workspace configurations. Scans for existing workflows, creates target SKILL.md files, and safely archives old workflow files.	/settings
+Base44	/customizations
+Better Stack	/customizations
+Bigin	/customizations
+Browserbase	/customizations
+Build and deploy Base44 full-stack apps: CLI project management, JavaScript/TypeScript SDK development, and production troubleshooting skills.	/customizations
+Build and deploy on Netlify: functions, edge functions, blobs, database, identity, forms, image CDN, caching, and AI Gateway, plus the Netlify MCP server.	/customizations
+Build and deploy web apps and AI agents on Vercel with skills for Next.js, AI SDK, and cloud services, plus the official Vercel MCP server.	/customizations
+Build on Google's developer platforms, including Android, Chrome, Gemini, and Google Cloud.	/customizations
+Build Wix apps and headless sites, and manage Wix stores, bookings, CMS and more, with Wix CLI skills and the official Wix MCP server.	/customizations
+Build, deploy and manage apps on Cloudflare Workers, storage and AI, with platform skills and the Cloudflare API through one MCP server.	/customizations
+Build, test, and debug Docusign integrations with developer skills for authentication, template-based signing, envelope status, and troubleshooting.	/customizations
+Built-in Browser	/settings
+Call the Gemini API from the shell with gemini-api. Use for media generation (images, TTS, music, video), file and YouTube analysis, audio/video transcription, Deep Research, and sandboxed agents.	/settings
+Canva	/customizations
+Chrome DevTools	/customizations
+chrome-devtools	/settings
+chrome-devtools-plugin	/settings
+chrome-extensions	/settings
+Clear visited URLs and autocomplete suggestions from the built-in browser.	/settings
+Clerk	/customizations
+ClickUp	/customizations
+Cloudflare	/customizations
+Configure allowed and denied URLs for the browser subagent. It runs in the built-in browser, so no separate browser install is needed.	/settings
+Connect Antigravity to Dropbox to search, inspect, summarize, share, collect uploads, organize folders, and clean up files with confirmation for write actions.	/customizations
+Connect Antigravity to your ClickUp workspace — manage tasks, track time, and collaborate with your team without switching context.	/customizations
+Connect Antigravity to your Notion workspace with the Notion MCP server, plus skills for research, documentation, meeting prep, specs, trackers, and project updates.	/customizations
+Connect to Google Workspace, including Docs, Sheets, Slides, Drive, Calendar, and Gmail.	/customizations
+Connect to your managed Looker MCP server to explore data, run saved Looks, build dashboards, and validate LookML.	/customizations
+Connect your agent to invideo's AI-native video editor. It trims, grades and mixes on a real timeline while you watch every change land.	/customizations
+Context7	/customizations
+cookie-debugging	/settings
+Create, edit, review, resize, and brand-check Canva designs with the Canva MCP server.	/customizations
+Ctrl	/settings
+Databricks	/customizations
+Databricks skills for the CLI, Apps, Lakebase, Model Serving, Lakeflow Jobs, Spark Declarative Pipelines, Declarative Automation Bundles (DABs), and classic-to-serverless migration.	/customizations
+debug-optimize-lcp	/settings
+Default and Auto need the terminal sandbox, which isn't available on this host.	/settings
+Deploy, configure, monitor, and troubleshoot apps, databases, and infrastructure on Railway from Antigravity with Railway's agent skill and hosted MCP server.	/customizations
+Design, implement, and debug autonomous AI agents and multi-agent systems using the Google Antigravity (AGY) SDK. ACTIVATE this skill when the user wants to create, configure, or orchestrate Google Antigravity agents.	/settings
+Docusign	/customizations
+Dropbox	/customizations
+Dynatrace	/customizations
+External Browser	/settings
+Figma	/customizations
+Firebase	/customizations
+Gemini 3.8 Flash	/,/settings
+Gemini API	/customizations
+gemini-api	/settings
+gemini-api-cli	/settings
+gemini-api-dev	/settings
+gemini-live-api-dev	/settings
+gemini-omni-flash-api	/settings
+Give your agent a real browser: navigate, click, type, screenshot, and extract data from any site, locally or on Browserbase cloud browsers.	/customizations
+Gmail	/customizations
+Google AI Pro	/settings
+Google Antigravity SDK	/customizations
+Google Drive	/customizations
+Google Sans	/settings
+Google Workspace	/customizations
+google-antigravity-sdk	/settings
+Granola	/customizations
+Guidelines for interacting with GitHub and request permissions from the user when commands fail due to restrictions in the agent environment.	/settings
+Intercom	/customizations
+Investigate incidents, check who's on call, and query logs, metrics, traces, errors and RUM in Better Stack. Build dashboards and manage uptime monitors.	/customizations
+Investigate production issues with real Dynatrace data: problems and root causes, logs, metrics, traces, and vulnerabilities, via skills and the MCP server.	/customizations
+user@example.com	/settings
+Linear	/customizations
+Looker	/customizations
+Manage your Bigin CRM from Antigravity: review pipelines, find contacts and deals, log calls, plan follow-ups, and email customers.	/customizations
+mcp-app-development	/settings
+memory-leak-debugging	/settings
+migrate-agent-settings	/settings
+migrate-workflows	/settings
+Mobbin	/customizations
+modern-web-guidance	/settings
+modern-web-guidance-plugin	/settings
+Netlify	/customizations
+Notion	/customizations
+Payments, CRM, accounting, data, identity, customer support, marketing, and workflow automation.	/customizations
+permissioned-github	/settings
+Please describe the issue in detail. The more actionable your feedback, the quicker our team can address your request. Some helpful information includes:	/settings
+Prototype, build & run modern apps that users love with Firebase's backend, AI, and operational infrastructure.	/customizations
+Query Arize AX projects, traces, datasets, and experiments from Antigravity, with skills for tracing, evals, and prompt optimization.	/customizations
+Railway	/customizations
+RDKit cheminformatics, reaction and property tools, plus ChEMBL and PubChem, to work with molecules, their properties, and bioactivity data.	/customizations
+Real salaries and company levels from Levels.fyi: check if an offer is fair, compare offers, find jobs with pay shown and add your own salary.	/customizations
+Receive product updates, tips, and promotions from Google Antigravity via email.	/settings
+Reliable automation, in-depth debugging, and performance analysis in Chrome using Chrome DevTools and Puppeteer	/customizations
+Run the app against a Linux environment. Connecting relaunches the app into the selected WSL distro.	/settings
+run-workflow	/settings
+Search Intercom conversations, contacts, and companies, spot support trends, and install the Intercom Messenger with secure identity verification.	/customizations
+Semrush	/customizations
+SEO workflows on live Semrush data: keyword research, site audits, backlinks, competitor, traffic and market analytics, PPC, and AI brand visibility.	/customizations
+Shift	/settings
+Side Question Selection	/settings
+Spacefast	/customizations
+Stripe	/customizations
+Swarm	/,/settings,/customizations
+Terminal: Select All	/settings
+The AI notepad for meetings. Connect to your meeting history and use your conversation context to get things done.	/customizations
+The breakdown below shows token usage from customizations like rules, skills, and MCP. If a budget is exceeded, large rules are demoted to path pointers and large customizations are excluded automatically.	/settings
+The product development system for teams and agents. Manage issues, projects, and documents across your Linear workspace from Antigravity.	/customizations
+To modify notification settings, open your operating system's system preferences.	/settings
+Turn an idea into a website, dashboard, report, or small web tool you can share. Build it in chat or bring your own work, and publish it with Spacefast.	/customizations
+Turn Figma designs into production code, map components with Code Connect, and create or edit Figma files in Antigravity.	/customizations
+Ubuntu	/settings
+ui-plugin-navigation	/settings
+Up-to-date documentation lookup. Pull version-specific documentation and code examples directly from source repositories into your coding agent's context.	/customizations
+Uses Chrome DevTools MCP for accessibility (a11y) debugging and auditing based on web.dev guidelines. Use when testing semantic HTML, ARIA labels, focus states, keyboard navigation, tap targets, and color contrast.	/settings
+Using the Google Antigravity Python SDK to build AI agents	/customizations
+Vercel	/customizations
+When toggled on, Antigravity collects usage data to help Google enhance performance and features.	/settings
+When toggled on, Antigravity will use your AI credits to fulfill model requests once you're out of model quota. Antigravity will always use your model quota first before using AI credits.	/settings
+Wix	/customizations

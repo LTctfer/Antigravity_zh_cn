@@ -1,0 +1,8513 @@
+[
+{
+"text": "Conversations",
+"where": [
+"label",
+"text",
+"title"
+],
+"count": 10
+},
+{
+"text": "Copy",
+"where": [
+"label",
+"title"
+],
+"count": 10
+},
+{
+"text": "Refresh",
+"where": [
+"ariaLabel",
+"tooltip"
+],
+"count": 10
+},
+{
+"text": "Remote",
+"where": [
+"label",
+"name",
+"title"
+],
+"count": 9
+},
+{
+"text": "Agents",
+"where": [
+"label",
+"title"
+],
+"count": 7
+},
+{
+"text": "General",
+"where": [
+"title"
+],
+"count": 7
+},
+{
+"text": "Search",
+"where": [
+"ariaLabel",
+"placeholder",
+"tooltip"
+],
+"count": 7
+},
+{
+"text": "Customizations",
+"where": [
+"name",
+"text",
+"title",
+"tooltipText"
+],
+"count": 6
+},
+{
+"text": "Terminal",
+"where": [
+"label",
+"title"
+],
+"count": 6
+},
+{
+"text": "This Computer",
+"where": [
+"label",
+"title"
+],
+"count": 6
+},
+{
+"text": "Accept",
+"where": [
+"name"
+],
+"count": 5
+},
+{
+"text": "Background Tasks",
+"where": [
+"label",
+"title"
+],
+"count": 5
+},
+{
+"text": "Commands",
+"where": [
+"label",
+"title"
+],
+"count": 5
+},
+{
+"text": "Copy Path",
+"where": [
+"label",
+"tooltip"
+],
+"count": 5
+},
+{
+"text": "Delete",
+"where": [
+"content",
+"label",
+"tooltip"
+],
+"count": 5
+},
+{
+"text": "Select All",
+"where": [
+"label"
+],
+"count": 5
+},
+{
+"text": "Settings",
+"where": [
+"label",
+"text",
+"tooltip",
+"tooltipText"
+],
+"count": 5
+},
+{
+"text": "Agent Edits",
+"where": [
+"label",
+"title"
+],
+"count": 4
+},
+{
+"text": "Artifacts",
+"where": [
+"label",
+"title"
+],
+"count": 4
+},
+{
+"text": "Automations",
+"where": [
+"label",
+"title"
+],
+"count": 4
+},
+{
+"text": "Back",
+"where": [
+"label",
+"title",
+"tooltip"
+],
+"count": 4
+},
+{
+"text": "Code Search",
+"where": [
+"label",
+"title",
+"tooltip"
+],
+"count": 4
+},
+{
+"text": "Cut",
+"where": [
+"label"
+],
+"count": 4
+},
+{
+"text": "Default",
+"where": [
+"displayName",
+"label",
+"title"
+],
+"count": 4
+},
+{
+"text": "Error",
+"where": [
+"label",
+"name",
+"title"
+],
+"count": 4
+},
+{
+"text": "Files",
+"where": [
+"label",
+"title"
+],
+"count": 4
+},
+{
+"text": "Idle",
+"where": [
+"label"
+],
+"count": 4
+},
+{
+"text": "MCP Servers",
+"where": [
+"label",
+"title"
+],
+"count": 4
+},
+{
+"text": "New Conversation",
+"where": [
+"label",
+"text",
+"tooltipText"
+],
+"count": 4
+},
+{
+"text": "Open in Code Search",
+"where": [
+"label",
+"text",
+"tooltip"
+],
+"count": 4
+},
+{
+"text": "Paste",
+"where": [
+"label"
+],
+"count": 4
+},
+{
+"text": "Plugins",
+"where": [
+"label",
+"title"
+],
+"count": 4
+},
+{
+"text": "Ready",
+"where": [
+"label",
+"title"
+],
+"count": 4
+},
+{
+"text": "Rules",
+"where": [
+"label",
+"title"
+],
+"count": 4
+},
+{
+"text": "Subagents",
+"where": [
+"title"
+],
+"count": 4
+},
+{
+"text": "Unknown error",
+"where": [
+"message"
+],
+"count": 4
+},
+{
+"text": "Zoom In",
+"where": [
+"label",
+"title"
+],
+"count": 4
+},
+{
+"text": "Zoom Out",
+"where": [
+"label",
+"title"
+],
+"count": 4
+},
+{
+"text": "Add to Chat",
+"where": [
+"label"
+],
+"count": 3
+},
+{
+"text": "Auto (detected)",
+"where": [
+"label"
+],
+"count": 3
+},
+{
+"text": "Blocked",
+"where": [
+"label"
+],
+"count": 3
+},
+{
+"text": "Cancel Task",
+"where": [
+"ariaLabel",
+"content",
+"tooltip"
+],
+"count": 3
+},
+{
+"text": "Changes",
+"where": [
+"title"
+],
+"count": 3
+},
+{
+"text": "Combobox",
+"where": [
+"name"
+],
+"count": 3
+},
+{
+"text": "Commands Outside Sandbox",
+"where": [
+"label",
+"title"
+],
+"count": 3
+},
+{
+"text": "Create Project",
+"where": [
+"label",
+"title"
+],
+"count": 3
+},
+{
+"text": "Custom Agents",
+"where": [
+"title"
+],
+"count": 3
+},
+{
+"text": "Disabled",
+"where": [
+"label",
+"title"
+],
+"count": 3
+},
+{
+"text": "Documents",
+"where": [
+"title"
+],
+"count": 3
+},
+{
+"text": "Extensions",
+"where": [
+"label",
+"title"
+],
+"count": 3
+},
+{
+"text": "Failed to refresh credentials",
+"where": [
+"title"
+],
+"count": 3
+},
+{
+"text": "Google Drive",
+"where": [
+"displayName",
+"label",
+"tooltip"
+],
+"count": 3
+},
+{
+"text": "Hooks",
+"where": [
+"label",
+"title"
+],
+"count": 3
+},
+{
+"text": "In Progress",
+"where": [
+"label"
+],
+"count": 3
+},
+{
+"text": "Kill Terminal",
+"where": [
+"label",
+"tooltip"
+],
+"count": 3
+},
+{
+"text": "MCP Tools",
+"where": [
+"label",
+"title"
+],
+"count": 3
+},
+{
+"text": "Model Quota",
+"where": [
+"title"
+],
+"count": 3
+},
+{
+"text": "Modified",
+"where": [
+"title"
+],
+"count": 3
+},
+{
+"text": "Projects",
+"where": [
+"label",
+"title"
+],
+"count": 3
+},
+{
+"text": "Refreshed credentials for all automations.",
+"where": [
+"title"
+],
+"count": 3
+},
+{
+"text": "Reload",
+"where": [
+"label",
+"title"
+],
+"count": 3
+},
+{
+"text": "Render failed",
+"where": [
+"message"
+],
+"count": 3
+},
+{
+"text": "Schedule",
+"where": [
+"displayName",
+"label"
+],
+"count": 3
+},
+{
+"text": "Skills",
+"where": [
+"label",
+"title"
+],
+"count": 3
+},
+{
+"text": "Split Terminal",
+"where": [
+"label",
+"tooltip"
+],
+"count": 3
+},
+{
+"text": "Stop Subagent",
+"where": [
+"content",
+"title",
+"tooltip"
+],
+"count": 3
+},
+{
+"text": "Terminal Commands",
+"where": [
+"label",
+"title"
+],
+"count": 3
+},
+{
+"text": "Terminals",
+"where": [
+"label",
+"title"
+],
+"count": 3
+},
+{
+"text": "Unknown",
+"where": [
+"label"
+],
+"count": 3
+},
+{
+"text": "Update Available",
+"where": [
+"title"
+],
+"count": 3
+},
+{
+"text": "Uploads",
+"where": [
+"title"
+],
+"count": 3
+},
+{
+"text": "Volume",
+"where": [
+"label"
+],
+"count": 3
+},
+{
+"text": "Workspaces",
+"where": [
+"label",
+"text",
+"title"
+],
+"count": 3
+},
+{
+"text": "You should not enter any sensitive information on this site (for example, passwords or credit cards), because it could be stolen by attackers.",
+"where": [
+"description"
+],
+"count": 3
+},
+{
+"text": "Your connection to this site is not secure",
+"where": [
+"summary"
+],
+"count": 3
+},
+{
+"text": "Account",
+"where": [
+"title"
+],
+"count": 2
+},
+{
+"text": "Account connected.",
+"where": [
+"message"
+],
+"count": 2
+},
+{
+"text": "Add MCP Server",
+"where": [
+"title",
+"tooltip"
+],
+"count": 2
+},
+{
+"text": "Add Shortcut",
+"where": [
+"label",
+"tooltip"
+],
+"count": 2
+},
+{
+"text": "Added (Staged)",
+"where": [
+"title"
+],
+"count": 2
+},
+{
+"text": "Agent",
+"where": [
+"label",
+"title"
+],
+"count": 2
+},
+{
+"text": "Agent terminated due to error",
+"where": [
+"title"
+],
+"count": 2
+},
+{
+"text": "An error occurred while submitting your feedback. Please try again.",
+"where": [
+"message"
+],
+"count": 2
+},
+{
+"text": "Appearance",
+"where": [
+"title"
+],
+"count": 2
+},
+{
+"text": "Application",
+"where": [
+"label",
+"title"
+],
+"count": 2
+},
+{
+"text": "Archive project",
+"where": [
+"label"
+],
+"count": 2
+},
+{
+"text": "Artifact",
+"where": [
+"text"
+],
+"count": 2
+},
+{
+"text": "Background Task Output",
+"where": [
+"text"
+],
+"count": 2
+},
+{
+"text": "Branch",
+"where": [
+"label"
+],
+"count": 2
+},
+{
+"text": "Branch Changes",
+"where": [
+"title"
+],
+"count": 2
+},
+{
+"text": "Browser",
+"where": [
+"label",
+"title"
+],
+"count": 2
+},
+{
+"text": "Build With Google Plugins",
+"where": [
+"label",
+"title"
+],
+"count": 2
+},
+{
+"text": "Chief of Staff canvas",
+"where": [
+"title"
+],
+"count": 2
+},
+{
+"text": "Close Tab",
+"where": [
+"label"
+],
+"count": 2
+},
+{
+"text": "Connect",
+"where": [
+"label"
+],
+"count": 2
+},
+{
+"text": "Connectors",
+"where": [
+"label",
+"title"
+],
+"count": 2
+},
+{
+"text": "Context Providers",
+"where": [
+"label",
+"title"
+],
+"count": 2
+},
+{
+"text": "Continue your work from another device with Remote Control. Scan the QR code or open the link below.",
+"where": [
+"description"
+],
+"count": 2
+},
+{
+"text": "Controls the actions the agent can take.",
+"where": [
+"description"
+],
+"count": 2
+},
+{
+"text": "Conversation History",
+"where": [
+"text",
+"tooltipText"
+],
+"count": 2
+},
+{
+"text": "Coordinator settings",
+"where": [
+"title",
+"tooltip"
+],
+"count": 2
+},
+{
+"text": "Custom View",
+"where": [
+"title"
+],
+"count": 2
+},
+{
+"text": "Default Customizations",
+"where": [
+"title"
+],
+"count": 2
+},
+{
+"text": "Delete Conversation",
+"where": [
+"label",
+"title"
+],
+"count": 2
+},
+{
+"text": "Delete Permanently",
+"where": [
+"content",
+"label"
+],
+"count": 2
+},
+{
+"text": "Delete Side Question",
+"where": [
+"title",
+"tooltip"
+],
+"count": 2
+},
+{
+"text": "Deleted",
+"where": [
+"title"
+],
+"count": 2
+},
+{
+"text": "Device Name",
+"where": [
+"label"
+],
+"count": 2
+},
+{
+"text": "Disconnect",
+"where": [
+"label"
+],
+"count": 2
+},
+{
+"text": "Download",
+"where": [
+"ariaLabel",
+"tooltip"
+],
+"count": 2
+},
+{
+"text": "Edit",
+"where": [
+"label",
+"tooltip"
+],
+"count": 2
+},
+{
+"text": "Edit Shortcut",
+"where": [
+"label",
+"tooltip"
+],
+"count": 2
+},
+{
+"text": "Email",
+"where": [
+"label"
+],
+"count": 2
+},
+{
+"text": "Embedded web preview",
+"where": [
+"title"
+],
+"count": 2
+},
+{
+"text": "Enable Notifications",
+"where": [
+"title"
+],
+"count": 2
+},
+{
+"text": "Enable Remote Control",
+"where": [
+"label"
+],
+"count": 2
+},
+{
+"text": "Enable Sandbox Mode",
+"where": [
+"label"
+],
+"count": 2
+},
+{
+"text": "Enter authorization code...",
+"where": [
+"placeholder"
+],
+"count": 2
+},
+{
+"text": "Enter device name...",
+"where": [
+"placeholder"
+],
+"count": 2
+},
+{
+"text": "Error:",
+"where": [
+"title"
+],
+"count": 2
+},
+{
+"text": "Errors",
+"where": [
+"label"
+],
+"count": 2
+},
+{
+"text": "Export as PDF",
+"where": [
+"tooltip"
+],
+"count": 2
+},
+{
+"text": "File explorer",
+"where": [
+"text"
+],
+"count": 2
+},
+{
+"text": "Files Changed",
+"where": [
+"title"
+],
+"count": 2
+},
+{
+"text": "Files modified by the agent in this conversation",
+"where": [
+"subtitle"
+],
+"count": 2
+},
+{
+"text": "Fork",
+"where": [
+"label",
+"title"
+],
+"count": 2
+},
+{
+"text": "Forward",
+"where": [
+"label",
+"title"
+],
+"count": 2
+},
+{
+"text": "Full machine",
+"where": [
+"displayName"
+],
+"count": 2
+},
+{
+"text": "Global",
+"where": [
+"label"
+],
+"count": 2
+},
+{
+"text": "Goals",
+"where": [
+"title"
+],
+"count": 2
+},
+{
+"text": "Google Chat",
+"where": [
+"label",
+"tooltip"
+],
+"count": 2
+},
+{
+"text": "Include Jetski Default Customizations",
+"where": [
+"label"
+],
+"count": 2
+},
+{
+"text": "Invalid Media",
+"where": [
+"title"
+],
+"count": 2
+},
+{
+"text": "Links",
+"where": [
+"title"
+],
+"count": 2
+},
+{
+"text": "Local",
+"where": [
+"label",
+"title"
+],
+"count": 2
+},
+{
+"text": "Local Windows environment",
+"where": [
+"label"
+],
+"count": 2
+},
+{
+"text": "Logs",
+"where": [
+"label"
+],
+"count": 2
+},
+{
+"text": "MCP Configuration Error:",
+"where": [
+"title"
+],
+"count": 2
+},
+{
+"text": "MCP Install Error:",
+"where": [
+"title"
+],
+"count": 2
+},
+{
+"text": "Manage Hooks",
+"where": [
+"label",
+"title"
+],
+"count": 2
+},
+{
+"text": "Minimize",
+"where": [
+"label",
+"tooltip"
+],
+"count": 2
+},
+{
+"text": "Model quota reached",
+"where": [
+"title"
+],
+"count": 2
+},
+{
+"text": "Modified Files",
+"where": [
+"title"
+],
+"count": 2
+},
+{
+"text": "More",
+"where": [
+"title"
+],
+"count": 2
+},
+{
+"text": "Network Permissions",
+"where": [
+"title"
+],
+"count": 2
+},
+{
+"text": "New Group",
+"where": [
+"label",
+"title"
+],
+"count": 2
+},
+{
+"text": "New Worktree",
+"where": [
+"title"
+],
+"count": 2
+},
+{
+"text": "Next Page",
+"where": [
+"title"
+],
+"count": 2
+},
+{
+"text": "No documents",
+"where": [
+"emptyText"
+],
+"count": 2
+},
+{
+"text": "No uploads",
+"where": [
+"emptyText"
+],
+"count": 2
+},
+{
+"text": "Open Blame in Code Search",
+"where": [
+"ariaLabel",
+"tooltip"
+],
+"count": 2
+},
+{
+"text": "Open Conversation Picker",
+"where": [
+"label"
+],
+"count": 2
+},
+{
+"text": "Open Settings",
+"where": [
+"label"
+],
+"count": 2
+},
+{
+"text": "Open in New Window",
+"where": [
+"label",
+"tooltip"
+],
+"count": 2
+},
+{
+"text": "Open in Notebook View",
+"where": [
+"ariaLabel",
+"tooltip"
+],
+"count": 2
+},
+{
+"text": "Open in Remote Control",
+"where": [
+"title"
+],
+"count": 2
+},
+{
+"text": "Open in Side Panel",
+"where": [
+"label"
+],
+"count": 2
+},
+{
+"text": "Other",
+"where": [
+"label"
+],
+"count": 2
+},
+{
+"text": "Overview",
+"where": [
+"label"
+],
+"count": 2
+},
+{
+"text": "Permission Details",
+"where": [
+"title"
+],
+"count": 2
+},
+{
+"text": "Preview is not available for this file type.",
+"where": [
+"message"
+],
+"count": 2
+},
+{
+"text": "Previous Page",
+"where": [
+"title"
+],
+"count": 2
+},
+{
+"text": "Project Settings",
+"where": [
+"label"
+],
+"count": 2
+},
+{
+"text": "Provide Feedback",
+"where": [
+"label",
+"text"
+],
+"count": 2
+},
+{
+"text": "Pull Requests",
+"where": [
+"header",
+"label"
+],
+"count": 2
+},
+{
+"text": "Push succeeded",
+"where": [
+"title"
+],
+"count": 2
+},
+{
+"text": "Read URLs",
+"where": [
+"label"
+],
+"count": 2
+},
+{
+"text": "Remote Control",
+"where": [
+"title",
+"tooltip"
+],
+"count": 2
+},
+{
+"text": "Remove Shortcut",
+"where": [
+"label",
+"tooltip"
+],
+"count": 2
+},
+{
+"text": "Remove from Group",
+"where": [
+"label"
+],
+"count": 2
+},
+{
+"text": "Rename",
+"where": [
+"label",
+"tooltip"
+],
+"count": 2
+},
+{
+"text": "Reset Zoom",
+"where": [
+"label"
+],
+"count": 2
+},
+{
+"text": "Reset to Default",
+"where": [
+"label",
+"tooltip"
+],
+"count": 2
+},
+{
+"text": "Restricts agent tools to a secure, isolated local sandbox.",
+"where": [
+"description"
+],
+"count": 2
+},
+{
+"text": "Review",
+"where": [
+"label",
+"title"
+],
+"count": 2
+},
+{
+"text": "Runs as",
+"where": [
+"ariaLabel"
+],
+"count": 2
+},
+{
+"text": "Scheduled Tasks",
+"where": [
+"label",
+"title"
+],
+"count": 2
+},
+{
+"text": "Search MCP servers by name",
+"where": [
+"placeholder"
+],
+"count": 2
+},
+{
+"text": "Search conversations...",
+"where": [
+"placeholder"
+],
+"count": 2
+},
+{
+"text": "See Plans",
+"where": [
+"label"
+],
+"count": 2
+},
+{
+"text": "See more results",
+"where": [
+"label"
+],
+"count": 2
+},
+{
+"text": "Select",
+"where": [
+"name"
+],
+"count": 2
+},
+{
+"text": "Select another model",
+"where": [
+"label"
+],
+"count": 2
+},
+{
+"text": "Selected element preview",
+"where": [
+"alt"
+],
+"count": 2
+},
+{
+"text": "Side Questions",
+"where": [
+"title"
+],
+"count": 2
+},
+{
+"text": "Split Down",
+"where": [
+"label"
+],
+"count": 2
+},
+{
+"text": "Split Right",
+"where": [
+"label"
+],
+"count": 2
+},
+{
+"text": "Staged Changes",
+"where": [
+"title"
+],
+"count": 2
+},
+{
+"text": "Stop",
+"where": [
+"label",
+"tooltip"
+],
+"count": 2
+},
+{
+"text": "System default",
+"where": [
+"label"
+],
+"count": 2
+},
+{
+"text": "Terminal Command Auto Execution",
+"where": [
+"label"
+],
+"count": 2
+},
+{
+"text": "This is a CitC workspace (Fig share)",
+"where": [
+"content"
+],
+"count": 2
+},
+{
+"text": "This plugin requires authentication before the agent can use its tools.",
+"where": [
+"message"
+],
+"count": 2
+},
+{
+"text": "Toggle Thumbnails",
+"where": [
+"title"
+],
+"count": 2
+},
+{
+"text": "Tool Permissions",
+"where": [
+"label",
+"title"
+],
+"count": 2
+},
+{
+"text": "Turbo mode",
+"where": [
+"displayName"
+],
+"count": 2
+},
+{
+"text": "UI Extensions",
+"where": [
+"label",
+"title"
+],
+"count": 2
+},
+{
+"text": "Undo",
+"where": [
+"label"
+],
+"count": 2
+},
+{
+"text": "View archived in the sidebar (![filter](icon://filter_list) menu).",
+"where": [
+"message"
+],
+"count": 2
+},
+{
+"text": "Workspace",
+"where": [
+"label",
+"title"
+],
+"count": 2
+},
+{
+"text": "Your changes were not saved. Please try again.",
+"where": [
+"message"
+],
+"count": 2
+},
+{
+"text": "e.g., /path/to/file",
+"where": [
+"placeholder"
+],
+"count": 2
+},
+{
+"text": "e.g., https://example.com",
+"where": [
+"placeholder"
+],
+"count": 2
+},
+{
+"text": "(Optional) Tell us more or type your reason...",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "(empty)",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "+x)),K=new Headers(t.header);for(let M of[",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": ",l),B.createElement(",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "./script.sh",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "// Greet a user by name",
+"where": [
+"text"
+],
+"count": 1
+},
+{
+"text": ";Hl(b,a.zb);b.a+=",
+"where": [
+"name"
+],
+"count": 1
+},
+{
+"text": "@lexical/clipboard/GetClipboardData",
+"where": [
+"name"
+],
+"count": 1
+},
+{
+"text": "@lexical/clipboard/Import",
+"where": [
+"name"
+],
+"count": 1
+},
+{
+"text": "@lexical/react/ReactProvider",
+"where": [
+"name"
+],
+"count": 1
+},
+{
+"text": "A label for this computer when you connect from another device. Changing it reconnects.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "A nickname for identifying this application in the companion website. Changing this will restart the connection.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "A shell setup script run before every command the agent executes.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "ABFS Workspace (Alpha)",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "AI Credits Used to Generate Response",
+"where": [
+"text"
+],
+"count": 1
+},
+{
+"text": "Aborted due to condition callback returning false.",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "Accent",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Accept Step",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Access grants",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Accessibility",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Account connection was not completed.",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Accounts",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Action required",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Actions",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Active Skills",
+"where": [
+"text"
+],
+"count": 1
+},
+{
+"text": "Add Hook Card",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Add MCP Servers",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Add files",
+"where": [
+"content"
+],
+"count": 1
+},
+{
+"text": "Add inline comment",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Add screenshot to conversation",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Add to Chat/Quote",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Added",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Admin escalation",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Advanced Settings",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "After",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Agent Non-Workspace File Access",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "All",
+"where": [
+"name"
+],
+"count": 1
+},
+{
+"text": "All Files",
+"where": [
+"name"
+],
+"count": 1
+},
+{
+"text": "All tools (*)",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Allow",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Allow Once",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Allow sandboxed commands to make network requests.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Allow/deny agent browser actuation access to specific URLs.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Allow/deny agent browser file downloads from specific sites.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Allow/deny agent command execution outside the sandbox.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Allow/deny agent read access to specific URLs or domains.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Allow/deny agent read access to specific files or directories.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Allow/deny agent write access to specific files or directories.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Allow/deny specific terminal commands.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Always Allow",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Amend",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Amend succeeded",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Annotation",
+"where": [
+"name"
+],
+"count": 1
+},
+{
+"text": "Announcements and tips",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Antigravity",
+"where": [
+"name"
+],
+"count": 1
+},
+{
+"text": "Antigravity Interactive HTML",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "App update required",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "App version",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Archive",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Archive / Restore",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Archive This Conversation",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Archive Workspace",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Arlo",
+"where": [
+"name"
+],
+"count": 1
+},
+{
+"text": "Ask a quick question without interrupting the main conversation.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Ask about your code or any topic, get clear answers.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Ask before sensitive operations.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Ask the agent to diagnose and fix this server",
+"where": [
+"tooltip"
+],
+"count": 1
+},
+{
+"text": "Attach Antigravity server logs",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Attach terminal output",
+"where": [
+"text"
+],
+"count": 1
+},
+{
+"text": "Attackers might be able to see the images you're looking at on this site and trick you by modifying them.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Authenticate",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Authentication expired",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Author",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Auto",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Automatic Check for Updates",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Automatically decide if commands run.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Automatically prompt you to restart the app when a new update is available. When disabled, you can check for updates manually from the app menu.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Automatically reproduce bugs, trace causes, test fixes.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Background",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Background tasks and terminals agents left running, across all conversations.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Backoff",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Bad Response",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Baseline model quota reached",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Before",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Best of N",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Best-of-N Ended",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Best-of-N Started",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Binary file not shown",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "Block",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Browse MCP resources",
+"where": [
+"text"
+],
+"count": 1
+},
+{
+"text": "Browse and enable plugins from the Build With Google catalog.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Browse rules",
+"where": [
+"text"
+],
+"count": 1
+},
+{
+"text": "Browse the Marketplace",
+"where": [
+"children"
+],
+"count": 1
+},
+{
+"text": "Browser Actuation Permissions",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Browser Actuation Rules",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Browser Javascript Execution Policy",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Browser Subagent",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Browser Use",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Browser actions",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Browser downloads",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Browser tools (browser_.*)",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Browsing History",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Buganizer",
+"where": [
+"tooltip"
+],
+"count": 1
+},
+{
+"text": "Build new features",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Build with one agent or a team",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Built In",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Built to help, not hurt",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Button",
+"where": [
+"displayName"
+],
+"count": 1
+},
+{
+"text": "By default, agents work in folders you choose and ask before sensitive changes. Adjust this anytime in Settings.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Cancel All Tasks",
+"where": [
+"tooltip"
+],
+"count": 1
+},
+{
+"text": "Cancel Generation",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Cancel Render Page Failed",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "Cancel Render Thumbnail Failed",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "Cancel Sending Message",
+"where": [
+"tooltip"
+],
+"count": 1
+},
+{
+"text": "Cancel download",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Cannot parse folder URI.",
+"where": [
+"content"
+],
+"count": 1
+},
+{
+"text": "Capture Console Logs",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Capture Screenshot",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Change model",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Change schedule",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Chat",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Chat Input",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Chat Layout",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Check for Updates",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Checkbox",
+"where": [
+"displayName"
+],
+"count": 1
+},
+{
+"text": "Chief of Staff voice mode is active",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Choose how much detail is shown during a conversation.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Choose where links open by default when clicked.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Choose where terminal sessions appear.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "CitC Clone",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "CitC Workspace",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "CitC Workspace Type",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Clear Search",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Cleo",
+"where": [
+"name"
+],
+"count": 1
+},
+{
+"text": "Click to copy URL",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Click to learn more about sources",
+"where": [
+"content"
+],
+"count": 1
+},
+{
+"text": "Click to view or edit comment",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Clone current workspace into a new independent workspace",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Close",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Close (Esc)",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Close Other Tabs",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Close Tabs to the Left",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Close Tabs to the Right",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Close Terminal Tab",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Close split view and go to forked conversation",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Cog Workspace",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Collapse All Folders",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Command Palette",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Command Setup Script",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Commands and files these agents can use.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Comment",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Comment on Selection",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Comment on the plan before your agent starts, and get a walkthrough when it finishes.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Comments",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Commit",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Commit succeeded",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Compacting",
+"where": [
+"summary"
+],
+"count": 1
+},
+{
+"text": "Complete Onboarding Step",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Complete verification",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Configure GitHub access policies.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Configure agent execution, queued message delivery, and permissions.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Configure allowed and denied URLs for reading.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Configure allowed and denied paths for file reads and writes.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Configure allowed commands outside the sandbox.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Configure allowed terminal commands.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Configure built-in browser, link opening, and browser subagent preferences.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Configure external tools via Model Context Protocol.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Configure hooks that run on agent lifecycle events.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Configure the agent's visual theme and display preferences.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Configure the default width of markdown artifacts.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Configure the maximum width of the conversation panel.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Configure when follow-up messages are sent.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Configure workspace-specific permissions, resources, and customizations.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Configures how the agent tries to access files outside of its working folders.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Confirm Undo",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Connect GitHub",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Connect an account so the agent can use this app.",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "Connected Google Drive and GitHub resources",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Connection is secure",
+"where": [
+"summary"
+],
+"count": 1
+},
+{
+"text": "Connection security information is not available for this page",
+"where": [
+"summary"
+],
+"count": 1
+},
+{
+"text": "Context and Quota Indicator",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Continue Response",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Continue with Google",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Continue with Google Cloud",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Contrast",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Controls permissions for remote conversations.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Controls whether terminal commands require your approval before running.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Controls whether the agent can run custom JavaScript to automate complex browser actions.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Conversation",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Conversation Archived",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Conversation ID",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Conversation Name",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Conversation Steps",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Conversation Unarchived",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Conversation Width",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Conversation copied as Markdown to clipboard",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Conversation limit reached",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Conversation name",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "Conversation unavailable",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Cookie",
+"where": [
+"name"
+],
+"count": 1
+},
+{
+"text": "Cookies and site data",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Coordinators",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Copied",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Copy Config File Path",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Copy Content",
+"where": [
+"tooltip"
+],
+"count": 1
+},
+{
+"text": "Copy Conversation ID",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Copy Conversation Markdown",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Copy File Name",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Copy File Path",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Copy Image",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Copy Image Address",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Copy Link",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Copy Link Address",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Copy Message",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Copy Trajectory ID",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Copy command",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Copy debug info",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Copy full URL to clipboard",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Copy to clipboard",
+"where": [
+"content"
+],
+"count": 1
+},
+{
+"text": "Could not create Cog workspace",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Could not create project",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Couldn't connect",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "Couldn't edit queued message",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Couldn't load Google Drive link title",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Couldn't mark conversations as read",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Create a Plugin with the Agent",
+"where": [
+"tooltip"
+],
+"count": 1
+},
+{
+"text": "Create a new project from one or more folders.",
+"where": [
+"tooltipText"
+],
+"count": 1
+},
+{
+"text": "Create a new project using normal folders and/or citc workspaces.",
+"where": [
+"tooltipText"
+],
+"count": 1
+},
+{
+"text": "Create a project on a machine you reach over SSH. It opens in that host's own window.",
+"where": [
+"tooltipText"
+],
+"count": 1
+},
+{
+"text": "Create a project on this computer or remotely.",
+"where": [
+"tooltipText"
+],
+"count": 1
+},
+{
+"text": "Created a new branch on GitHub.",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "Created a new branch on Origin.",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "Critique",
+"where": [
+"tooltip"
+],
+"count": 1
+},
+{
+"text": "Current workspace",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Currently installed",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Custom",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Custom Agent Error:",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Custom Context Menus",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Custom Order",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Custom agents are not available in Best of N mode.",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Customize Global Skills",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Daily conversation limit reached",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Daily environment time used",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Danger Zone",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Dark",
+"where": [
+"displayName"
+],
+"count": 1
+},
+{
+"text": "Dark Theme",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Dark preview",
+"where": [
+"alt"
+],
+"count": 1
+},
+{
+"text": "Day of the month",
+"where": [
+"ariaLabel"
+],
+"count": 1
+},
+{
+"text": "Day of the week",
+"where": [
+"ariaLabel"
+],
+"count": 1
+},
+{
+"text": "Debug and fix",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Declaration",
+"where": [
+"name"
+],
+"count": 1
+},
+{
+"text": "Default (Mendel)",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Default Cog Branch / Ref",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Default Cog Repository",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Default Workspace VCS",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Delete All Remote Agents Data",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Delete All Remote Agents Data?",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Delete Handler",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Delete Hook",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Delete MCP Server",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Delete Skill",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Delete Task",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Delete all recordings?",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Delete comment",
+"where": [
+"tooltip"
+],
+"count": 1
+},
+{
+"text": "Deny",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Describe what you want. Your agent plans and builds it, and brings in other agents when needed.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Details",
+"where": [
+"children"
+],
+"count": 1
+},
+{
+"text": "Determines the markup language of the output.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Dev mode: Localhost server automatically detected",
+"where": [
+"tooltip"
+],
+"count": 1
+},
+{
+"text": "Developer",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Developer-only tools. These settings do not affect other users.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Developer: Reset NUX",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Developer: Reset Onboarding",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Disabled. Open Details to finish setup or enable.",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Disabled. Open the plugin page to finish setup.",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Discard",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Discard comment draft",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Discard unstaged changes",
+"where": [
+"tooltip"
+],
+"count": 1
+},
+{
+"text": "Dismiss",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Dismiss service announcement",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Display",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Docs, Sheets, Slides, and folders",
+"where": [
+"text"
+],
+"count": 1
+},
+{
+"text": "Don't show this for 2 days",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Download Diagnostics",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Download File",
+"where": [
+"tooltip"
+],
+"count": 1
+},
+{
+"text": "Download Location",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Download PDF",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Download files",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Download this site as an app to get notified when the agent needs your attention or completes a task.",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "Downloads",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Draft documents, emails, and notes that sound like you.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Drag to resize, double-click to reset",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Drawer",
+"where": [
+"name"
+],
+"count": 1
+},
+{
+"text": "Drive",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "E.g. locations/global/workforcePools...",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "Edit Conversation Title",
+"where": [
+"content"
+],
+"count": 1
+},
+{
+"text": "Edit comment",
+"where": [
+"tooltip"
+],
+"count": 1
+},
+{
+"text": "Edition",
+"where": [
+"name"
+],
+"count": 1
+},
+{
+"text": "Electron (Android Desktop)",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Electron (Desktop)",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Electron (Gemini App)",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Enable",
+"where": [
+"confirmLabel"
+],
+"count": 1
+},
+{
+"text": "Enable AI Credit Overages",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Enable Browser Tools",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Enable Notifications for Agent",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Enable Overages",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Enable Sounds for Agent",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Enable Telemetry",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Enable Terminal Sandbox",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Enable fine-grained GitHub permissions and define the org, repository, and resource-level access the agent is allowed to use.",
+"where": [
+"subtitle"
+],
+"count": 1
+},
+{
+"text": "Enable telemetry in Settings before changing per-conversation telemetry.",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "Enter a URL (e.g. http://localhost:8080)",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "Enter always submits. This adds a second shortcut.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Enter project name...",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "Enter the configuration values this MCP server needs. Saving restarts the server with them.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Enter to Send",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Enter tool name or server...",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "Enterprise",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Environment",
+"where": [
+"ariaLabel"
+],
+"count": 1
+},
+{
+"text": "Environments",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Equalize Split Panes",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Error Loading Models",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Error fetching MCP prompt",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Europe",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Every command requires approval.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Every day",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Every hour",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Every week",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Every weekday",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Execute URLs",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Execution",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Expand All Folders",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Explore other marketplace customizations",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Explore the plugin marketplace",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Export Artifact",
+"where": [
+"dialogTitle"
+],
+"count": 1
+},
+{
+"text": "Export artifact",
+"where": [
+"content"
+],
+"count": 1
+},
+{
+"text": "Extension",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Extension (Antigravity IDE)",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Extension (Cider)",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Extension (Eclipse)",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Extension (VS Code)",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Extension (Visual Studio)",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "External",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "External tools the agent can call via Model Context Protocol.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Failed to Amend",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Failed to Commit",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Failed to Generate Commit Message",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Failed to Push",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Failed to clone project locally",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Failed to continue",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Failed to create CitC clone workspace",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Failed to create remote project",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Failed to create terminal",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Failed to create worktree",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Failed to delete conversation",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Failed to delete side question",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Failed to export artifact",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Failed to fork conversation",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Failed to get all annotations",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "Failed to get annotations",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "Failed to inspect license for this project",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "Failed to load comments",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "Failed to load resources",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "Failed to proceed",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Failed to read file",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "Failed to rename conversation",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Failed to render diagram",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "Failed to render math",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "Failed to revert conversation",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Failed to save token to ~/.env",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "Failed to send side question",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Failed to start Best of N mode",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Failed to start conversation",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Failed to start side question",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Failed to stop agent",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Failed to stop conversation",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Failed to unarchive local project",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Failed to upload HTML artifact to Drive",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Failed to validate the saved GitHub token.",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "File Access Rules",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "File Permissions",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "File Picker",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "File Reads",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "File Writes",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Files and resources in cloud workspaces",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Files, folders, and repositories you connect are accessible to your agent in this project, including during background or scheduled runs.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Filter",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Filter files...",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "Filter resources...",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "Filter rows...",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "Find",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "Find References",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Find in Conversation",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Find in Pane",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Finn",
+"where": [
+"name"
+],
+"count": 1
+},
+{
+"text": "Fit Mode",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Flash",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Flash Lite",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Focus Input",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Fola",
+"where": [
+"name"
+],
+"count": 1
+},
+{
+"text": "Folder",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Folder doesn't exist",
+"where": [
+"content"
+],
+"count": 1
+},
+{
+"text": "Folders these agents can access.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Font",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Font Size",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "For example: Morning bug summary",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "For example: every morning, summarize new bugs assigned to me and anything that changed overnight.",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "Foreground",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Fork conversation in this folder",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Fork in New Workspace",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Fork in Shared Workspace",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Fork warning",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "From",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Full Error",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Gemini 2.5 Flash Image",
+"where": [
+"displayName"
+],
+"count": 1
+},
+{
+"text": "Gemini 3 Pro Image",
+"where": [
+"displayName"
+],
+"count": 1
+},
+{
+"text": "Gemini 3.1 Flash Image",
+"where": [
+"displayName"
+],
+"count": 1
+},
+{
+"text": "Gemini Flash Next",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Generated image preview",
+"where": [
+"alt"
+],
+"count": 1
+},
+{
+"text": "Generations",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Gero",
+"where": [
+"name"
+],
+"count": 1
+},
+{
+"text": "Get notified when the agent needs your attention or completes a task.",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "Getting scripts...",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Getting started with Google Antigravity",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Git-on-Borg repository used when creating a new Cog workspace from your initial prompt (e.g., chromium/src or android/platform/superproject).",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "GitHub Permissions",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "GitHub Personal Access Token",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "GitHub Policies",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "GitHub: not signed in",
+"where": [
+"ariaLabel"
+],
+"count": 1
+},
+{
+"text": "Go Back",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Go Back in Pane",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Go Forward",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Go Forward in Pane",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Go to Accounts",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Good Response",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Google (internal)",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Google Docs",
+"where": [
+"tooltip"
+],
+"count": 1
+},
+{
+"text": "Google One Referral",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Google Sheets",
+"where": [
+"tooltip"
+],
+"count": 1
+},
+{
+"text": "Google Slides",
+"where": [
+"tooltip"
+],
+"count": 1
+},
+{
+"text": "Google3 Configuration",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Got it",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Group By",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Group name",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "Hand off a feature and come back to working code.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Hook will only trigger if the tool name matches run_command or view_file.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Hook will only trigger if the tool name matches run_command.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Hook will only trigger if the tool name starts with browser_.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Hook will trigger if any tool is executed.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Host Environment",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "How often",
+"where": [
+"ariaLabel"
+],
+"count": 1
+},
+{
+"text": "I prefer an immediate single response to prioritize productivity right now.",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Ignore events emitted by automated review or robot accounts (groupagent-*).",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Ignore events triggered by the automation owner to avoid self-trigger loops.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Import AI Studio Project",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "In a rush",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Include default customizations, such as default skills.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Include unstaged changes",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Inline PDF preview is not available in this environment.",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "Inline Widget",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Input device for voice mode and dictation.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Install or enable the Google Drive plugin in Customizations to search files with @drive: or paste Drive links",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Installed",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Installed MCP Servers",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Insufficient AI Credits",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Interface Layout",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "It was already sent or couldn't be removed from the queue.",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "Jump to Next Prompt",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Jump to Previous Prompt",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Keep In Menu Bar",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Keep Open",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Keep the app accessible from the menu bar and running in the background when all windows are closed.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Keeps working in this folder. Nothing is copied.",
+"where": [
+"tooltip"
+],
+"count": 1
+},
+{
+"text": "Keyboard shortcuts for quick navigation and control.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Label",
+"where": [
+"name"
+],
+"count": 1
+},
+{
+"text": "Labs",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Last 7 days",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Last Prompt",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Last Updated",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Learn more",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Light",
+"where": [
+"displayName"
+],
+"count": 1
+},
+{
+"text": "Light Theme",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Light preview",
+"where": [
+"alt"
+],
+"count": 1
+},
+{
+"text": "Link Settings",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Link copied to clipboard.",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "Linux",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Loading apps...",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Loading installed plugins...",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Loading instances...",
+"where": [
+"displayName"
+],
+"count": 1
+},
+{
+"text": "Loading subagent...",
+"where": [
+"text"
+],
+"count": 1
+},
+{
+"text": "Local Checkout",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Local Permissions",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Location",
+"where": [
+"name"
+],
+"count": 1
+},
+{
+"text": "Log back in",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Log in to use the agent",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "Logs each telemetry event to the browser's DevTools console as it fires, with the click or key that caused it. Stays on across reloads until you turn it off.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Lora",
+"where": [
+"name"
+],
+"count": 1
+},
+{
+"text": "MCP Authentication Error:",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "MCP Restart Error:",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "MCP server error",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "MCP servers",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "MCP tools",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Machine",
+"where": [
+"ariaLabel"
+],
+"count": 1
+},
+{
+"text": "Main Agent",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Manage and delete your data anytime",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Manage fine-grained permissions for GitHub.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Manage your conversations from the companion website.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Manage your model quota and credits.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Manage your notification preferences.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Manage your plan, credentials, and general preferences.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Managed by Enterprise Gateway",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Manifest Changes",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Mark All as Read",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Mark This Conversation as Read",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Mark This Conversation as Unread",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Mark as Read",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Mark as Unread",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Markdown Artifact Width",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Marketing Emails",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Marketplace",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Match when any modified file path starts with the given depot prefix.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Match when push_def equals or is a child of the given PushDef prefix.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Match when the issue component equals or is under the given Buganizer component ID.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Match when the principal belongs to the specified MDB group.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Match when the principal equals any listed username or belongs to any listed mdb/ group.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Maximize",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Members",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Mention Page",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Mentions",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Mermaid diagram",
+"where": [
+"alt"
+],
+"count": 1
+},
+{
+"text": "Method not found",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "Microphone",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Model Credits",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "More Actions",
+"where": [
+"tooltip"
+],
+"count": 1
+},
+{
+"text": "More Plugins",
+"where": [
+"displayName"
+],
+"count": 1
+},
+{
+"text": "More actions",
+"where": [
+"tooltip"
+],
+"count": 1
+},
+{
+"text": "More cloud environments",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Mouse button pressed",
+"where": [
+"content"
+],
+"count": 1
+},
+{
+"text": "Mouse button released",
+"where": [
+"content"
+],
+"count": 1
+},
+{
+"text": "Move Conversation Down",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Move Conversation Up",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Move to Group",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Move to New Group",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Mute Voice Mic",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Mute Voice Speaker",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Navigation",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Neno",
+"where": [
+"name"
+],
+"count": 1
+},
+{
+"text": "Network Access Rules",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "New Agent Script",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "New Conversation Button",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "New Coordinator",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "New Project",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "New Side Question",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "New Tab",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "New Terminal Tab",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "New Window",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "New Workspace",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "New hook name",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "New models have been enabled for you!",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Next Side Panel Tab",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Next match",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Next question",
+"where": [
+"tooltip"
+],
+"count": 1
+},
+{
+"text": "Nickname",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "No Model Selected",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "No Models Available",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "No coordinators",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "No links",
+"where": [
+"emptyText"
+],
+"count": 1
+},
+{
+"text": "No matching flags",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "No model specified for Battle Mode, falling back to use current selected model",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "No models are available for your current project or account. Please check your project settings and IAM permissions.",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "No plugin loads from this folder.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "No plugins available.",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "Not Signed In",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Not signed in",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Not suitable for Best-of-N",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Notebook cell output",
+"where": [
+"alt"
+],
+"count": 1
+},
+{
+"text": "Notification Preferences",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Notifications",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Number of hours",
+"where": [
+"ariaLabel"
+],
+"count": 1
+},
+{
+"text": "Offline",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Olin",
+"where": [
+"name"
+],
+"count": 1
+},
+{
+"text": "On a schedule",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Online",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Only stored on your machine.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Open",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Open Command Palette",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Open Commit Graph",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Open Conversation",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Open Conversation History",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Open Conversation in New Tab",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Open File",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Open File Search",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Open Folder",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Open Folder (Interactive)",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Open Image in New Tab",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Open In",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Open Keyboard Shortcuts",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Open Link in External Browser",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Open Link in New Tab",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Open Links In",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Open Preferences",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Open Search",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Open Terminal",
+"where": [
+"content"
+],
+"count": 1
+},
+{
+"text": "Open Trajectory Debug View",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Open Workspace Selector",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Open in Built-in Browser",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Open in Cider",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Open in External Browser",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Open in New Tab",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Open in Tab",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Open in external browser",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Open in full conversation",
+"where": [
+"tooltip"
+],
+"count": 1
+},
+{
+"text": "Open in new tab",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Open in side pane",
+"where": [
+"tooltip"
+],
+"count": 1
+},
+{
+"text": "Open in tab",
+"where": [
+"tooltip"
+],
+"count": 1
+},
+{
+"text": "Open on another device",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Open on phone",
+"where": [
+"tooltip"
+],
+"count": 1
+},
+{
+"text": "Open project settings",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Open side-by-side view",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Operating System",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Optimize the interface and terminal output for screen readers.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Optimized for you",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Optional branch or ref used when creating a new Cog workspace (defaults to main if unset).",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Options",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Organization Allowed Domains (Read-Only)",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Output",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Outside of folders file access policy",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Override feature environment",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Owner",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Paste auth code",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "Paste authorization code",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "Paste code",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "Pause this agent; it keeps its place and streams. Resume to continue.",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Pay As You Go",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Pending",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Permission Preset",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Permission Settings",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Pick up this remote conversation on your phone or in any browser. Scan the QR code or open the link below.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Pin / Unpin Conversation",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Pin This Conversation",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Pinned Actions",
+"where": [
+"ariaLabel"
+],
+"count": 1
+},
+{
+"text": "Pinned Conversations",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Plan",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Plan upgrade required",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Play a sound when your action is needed or the agent finishes.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Please list the steps to reproduce the issue",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "Plugin Operation Error:",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Plugin update required",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Preset",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Prevent Sleep",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Prevent the computer from sleeping while the app is running.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Preview",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Previous Side Panel Tab",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Previous match",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Previous question",
+"where": [
+"tooltip"
+],
+"count": 1
+},
+{
+"text": "Print telemetry to the console",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Pro",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Proceed with Plan",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Project",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Project 4K",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Project 4K interface without developer tooling.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Project Name",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Project options",
+"where": [
+"ariaLabel"
+],
+"count": 1
+},
+{
+"text": "Prompt to run when triggered...",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "Prompt too simple",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Purchase Credits",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Push",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Queued Messages",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Quota",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Quote",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Quote Selection",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Read files",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Reads",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Recent",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Recent Files",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Recent files",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Recordings",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Refresh MCP servers",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Refresh gcert Credentials",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Refresh quota and credits data",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Reject Step",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Remote Agents Data",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Remote Control Instances",
+"where": [
+"heading"
+],
+"count": 1
+},
+{
+"text": "Remote Control link",
+"where": [
+"ariaLabel"
+],
+"count": 1
+},
+{
+"text": "Remote agents are busy",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Remove from Recent",
+"where": [
+"tooltip"
+],
+"count": 1
+},
+{
+"text": "Remove from Split",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Remove from history (Shift+Delete)",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Remove from list",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Remove individual uploaded files or connected resources in Project Settings, or delete a project or conversation to remove its stored files.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Rename Conversation",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Rename Group",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Rename This Conversation",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Renamed",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Render display math flush left.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Render display math in leqno style (left-justified tags).",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Reopen Closed Tab",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Repeat unit",
+"where": [
+"ariaLabel"
+],
+"count": 1
+},
+{
+"text": "Replace the default browser right-click menu with quick actions.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Replace with",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Replace with New",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Repository",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Request Review",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Research anything",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Reset All to Defaults",
+"where": [
+"tooltip"
+],
+"count": 1
+},
+{
+"text": "Reset to preset",
+"where": [
+"content"
+],
+"count": 1
+},
+{
+"text": "Reset zoom (0)",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Restore",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Restore Conversation",
+"where": [
+"content"
+],
+"count": 1
+},
+{
+"text": "Resume comment draft",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Resume it to load this file.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Resume it to open a new terminal. Anything that was running in this one has stopped.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Resume this agent where it paused",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Retry",
+"where": [
+"content"
+],
+"count": 1
+},
+{
+"text": "Revert file changes",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Review plans and walkthroughs",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Run all commands without restrictions.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Run in a new worktree",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Run in your current workspace",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Run terminal commands with sandbox restrictions.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Running",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Runs on this computer",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Runs remotely",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "SSH Config",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "SSH Host",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Sample GDoc",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Sandbox Allow Network",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Save",
+"where": [
+"confirmLabel"
+],
+"count": 1
+},
+{
+"text": "Save audio recordings",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Screen Reader Mode",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Screen Recording",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Search Conversations",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Search Google Drive",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Search branches",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "Search connectors",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "Search conversations",
+"where": [
+"text"
+],
+"count": 1
+},
+{
+"text": "Search customizations...",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "Search file contents...",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "Search flags",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "Search for commands...",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "Search for conversations...",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "Search projects...",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "Security",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Security Preset",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "See all",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Seek",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Select Model",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Select Model to Send Message",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Select Next Conversation",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Select Previous Conversation",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Select a folder.",
+"where": [
+"tooltipText"
+],
+"count": 1
+},
+{
+"text": "Select a model using the model selector in the input box",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "Select or enter a workspace URI",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "Select the workspace type that will be used for new conversations started with the New Workspace option.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Select your license",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Selected region",
+"where": [
+"alt"
+],
+"count": 1
+},
+{
+"text": "Semantic",
+"where": [
+"name"
+],
+"count": 1
+},
+{
+"text": "Send Now",
+"where": [
+"tooltip"
+],
+"count": 1
+},
+{
+"text": "Send feedback as",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Send messages with the keyboard's Enter key instead of starting a new line.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Send reply",
+"where": [
+"tooltip"
+],
+"count": 1
+},
+{
+"text": "Sent",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Set the rules, define the boundaries.",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Set the volume of agent sounds.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Set up authentication",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Settings Unavailable",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Setup required",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Share",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Share your referral link with friends",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Shortcuts",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Show Details",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Show how full the context window is next to the send button. Click it for a breakdown and to see your model quota.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Show in folder",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Show system notifications when your action is needed or the agent finishes.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Side Question",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Sign in again",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Sign in required.",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "Sign in to finish setting up this plugin.",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Sign-in required",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Simulate a different host (Electron, desktop or mobile Web, Extension, remote control, or installed PWA).",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Simulate a different user cohort (Google, External, Enterprise).",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Simulate running on a different OS.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Skills & Rules",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Sort By",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Sort Conversations",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Sound",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Split",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Split Conversation Horizontally",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Split Conversation Vertically",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Stage change",
+"where": [
+"tooltip"
+],
+"count": 1
+},
+{
+"text": "Staged index changes and working tree changes",
+"where": [
+"subtitle"
+],
+"count": 1
+},
+{
+"text": "Standalone",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Standalone Terminals",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Start Voice Recording",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Starting",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Status",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Stay up to date.",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Stop All Subagents",
+"where": [
+"tooltip"
+],
+"count": 1
+},
+{
+"text": "Stop Editing",
+"where": [
+"tooltip"
+],
+"count": 1
+},
+{
+"text": "Stop Execution",
+"where": [
+"content"
+],
+"count": 1
+},
+{
+"text": "Stop Voice Recording",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Stop subagent",
+"where": [
+"ariaLabel"
+],
+"count": 1
+},
+{
+"text": "Stop this agent",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Stopped",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Stored and mounted in your cloud environment",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Subagent ended",
+"where": [
+"text"
+],
+"count": 1
+},
+{
+"text": "Submit Prompt (Alternate to Enter)",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Subscription",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Switch Roles",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Switch To",
+"where": [
+"heading"
+],
+"count": 1
+},
+{
+"text": "Switch to This Computer",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Sync JJ Worktrees to Head",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Sync newly created JJ worktrees to head when starting a conversation.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "System",
+"where": [
+"displayName"
+],
+"count": 1
+},
+{
+"text": "Target text in PDF...",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "Tari",
+"where": [
+"name"
+],
+"count": 1
+},
+{
+"text": "Task",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Telemetry",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Telemetry is disabled in Settings",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Terminal & Tooling Permissions",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Terminal Placement",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Terminal: Add to Chat",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Text attachment",
+"where": [
+"text"
+],
+"count": 1
+},
+{
+"text": "Thank you! Your feedback has been submitted successfully.",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "The Hub sent an unexpected response.",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "The branch was pushed to GitLab.",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "The change was pushed to Gerrit.",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "The conversation could not be loaded because its data was not found.",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "The conversation was compacted while generating this response.",
+"where": [
+"text"
+],
+"count": 1
+},
+{
+"text": "The current trigger rate is too high.",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "The full developer experience.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "The remote shared a link for this push.",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "Theme",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Themes",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "There was an error with your authentication. To log in, click",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "Thinking",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "This computer",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "This conversation is also open in another app. Sending messages from both may cause conflicts.",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "This conversation is not on disk. Delete it to remove it from your sidebar.",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "This prompt is straightforward and does not need alternative comparisons.",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "This request is not well-suited for parallel Best-of-N generation.",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Thumbnails",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Time",
+"where": [
+"ariaLabel"
+],
+"count": 1
+},
+{
+"text": "Time Zone",
+"where": [
+"displayName"
+],
+"count": 1
+},
+{
+"text": "To use the agent, please login",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "Toggle",
+"where": [
+"name"
+],
+"count": 1
+},
+{
+"text": "Toggle Between Light/Dark Themes",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Toggle Environment Selector",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Toggle File Viewer",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Toggle Maximize Side Panel",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Toggle Model Selector",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Toggle Overview Panel",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Toggle Project Selector",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Toggle Side Panel",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Toggle Sidebar",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Toggle Terminal",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Toggle Voice Recording",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Toggle Word Wrap",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Token Usage",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Too many environments running",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Too many requests, please try again in a bit!",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "Too many surveys",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Trajectory Debug View",
+"where": [
+"tooltip"
+],
+"count": 1
+},
+{
+"text": "True changes vs the parent workspace",
+"where": [
+"subtitle"
+],
+"count": 1
+},
+{
+"text": "Try again",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Turbo",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Turn on a flag you don't have",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "Turn on strict / LaTeX faithfulness mode, which throws an error if the input uses features that are not supported by LaTeX.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Type",
+"where": [
+"name"
+],
+"count": 1
+},
+{
+"text": "Type a voice variant name, such as rev27.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Type absolute path or navigate folders...",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "UI extensions",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Unauthenticated",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Uncommitted",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Undo to Here",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "United States",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Unknown edit",
+"where": [
+"content"
+],
+"count": 1
+},
+{
+"text": "Unknown file edit",
+"where": [
+"content"
+],
+"count": 1
+},
+{
+"text": "Unpin This Conversation",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Unsandboxed commands",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Unstage change",
+"where": [
+"tooltip"
+],
+"count": 1
+},
+{
+"text": "Untitled",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "Untracked",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Untracked (Unstaged)",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Updater",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Upload Files",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Uploaded project files and in-chat attachments are stored on Google servers and mounted into your cloud sandbox so your agent can read and work with them.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Uploaded to Google Drive",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Usage",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Use full Git clones for Best of N",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Use full VCS clones for Best of N",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Use theme to be imported with settings",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "User Type",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "User uploaded image",
+"where": [
+"alt"
+],
+"count": 1
+},
+{
+"text": "VCS used when creating a new workspace, including workspaces generated based off your initial prompt.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Verification required",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "View",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "View Debug",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "View MCP servers",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "View Page",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "View site information",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Voice",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Voice Speed",
+"where": [
+"content"
+],
+"count": 1
+},
+{
+"text": "Voice engine",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Voice recording is unavailable while the Chief of Staff mic is on",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "Web (desktop)",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Web (desktop, PWA)",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Web (desktop, remote control)",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Web (desktop, remote control, PWA)",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Web (mobile)",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Web (mobile, PWA)",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Web (mobile, remote control)",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Web (mobile, remote control, PWA)",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Website",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "What should it do?",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "What should the agent do on each run?",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "What should the agent do on each run? For example: summarize new bugs assigned to me and anything that changed overnight.",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "What should this coordinator accomplish?",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "Whatever the voice-engine-addr flag serves you.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "When",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "When enabled, the agent will include default customizations, including default skills.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "When enabled, the values below replace the auto-detected OS, host, and user type used for feature gating.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "When something happens",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Where",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Where it runs",
+"where": [
+"ariaLabel"
+],
+"count": 1
+},
+{
+"text": "Which workspace the New Conversation button and keyboard shortcut start you in.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Why are you opting out of auto-triggered Best-of-N?",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Window",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Windows",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Work in Google3. Create conversations in new and existing workspaces.",
+"where": [
+"content"
+],
+"count": 1
+},
+{
+"text": "Work in a CitC workspace.",
+"where": [
+"tooltipText"
+],
+"count": 1
+},
+{
+"text": "Work in a Cog workspace.",
+"where": [
+"tooltipText"
+],
+"count": 1
+},
+{
+"text": "Work in an ABFS workspace.",
+"where": [
+"tooltipText"
+],
+"count": 1
+},
+{
+"text": "Work with local agents from another device.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Workspace URI query parameter",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Workspace setup warning",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Worktree",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Worktrees are a git feature. This folder is shared as is.",
+"where": [
+"content"
+],
+"count": 1
+},
+{
+"text": "Write a comment...",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "Write and edit docs",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "Write files",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "You are in control",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "You're viewing a blank page",
+"where": [
+"summary"
+],
+"count": 1
+},
+{
+"text": "You're viewing a local or shared file",
+"where": [
+"summary"
+],
+"count": 1
+},
+{
+"text": "Your connection to this site is not fully secure",
+"where": [
+"summary"
+],
+"count": 1
+},
+{
+"text": "Your information (for example, passwords or credit card numbers) is private when it is sent to this site.",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "Your session has expired. Please log back in to continue.",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "Zoom",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Zoom in (+)",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "Zoom out (-)",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "bold strikethrough",
+"where": [
+"body"
+],
+"count": 1
+},
+{
+"text": "bold underline",
+"where": [
+"body"
+],
+"count": 1
+},
+{
+"text": "bold underline strikethrough",
+"where": [
+"body"
+],
+"count": 1
+},
+{
+"text": "browser:code-block",
+"where": [
+"displayName"
+],
+"count": 1
+},
+{
+"text": "browser:text",
+"where": [
+"displayName"
+],
+"count": 1
+},
+{
+"text": "code/timeOrigin",
+"where": [
+"name"
+],
+"count": 1
+},
+{
+"text": "default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' blob:; worker-src blob:; connect-src 'none'",
+"where": [
+"content"
+],
+"count": 1
+},
+{
+"text": "e.g. Release helper",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "e.g. ci.yml,deploy.yml or *",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "e.g. google or *",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "e.g. jetski or *",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "e.g. main,dev or *",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "e.g. work",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "e.g., chromium/src",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "e.g., curl",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "e.g., example.com",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "e.g., main or refs/heads/main",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "e.g., npm test",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "google/protobuf/descriptor.proto",
+"where": [
+"name"
+],
+"count": 1
+},
+{
+"text": "has_path_prefix(modified_files, ...)",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "has_push_def_prefix(push_def, ...)",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "has_subcomponent(component_id, ...)",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "http://localhost:8080",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "image for artifact level comment",
+"where": [
+"alt"
+],
+"count": 1
+},
+{
+"text": "image for comment",
+"where": [
+"alt"
+],
+"count": 1
+},
+{
+"text": "italic bold",
+"where": [
+"body"
+],
+"count": 1
+},
+{
+"text": "italic bold strikethrough",
+"where": [
+"body"
+],
+"count": 1
+},
+{
+"text": "italic bold underline",
+"where": [
+"body"
+],
+"count": 1
+},
+{
+"text": "italic bold underline strikethrough",
+"where": [
+"body"
+],
+"count": 1
+},
+{
+"text": "italic strikethrough",
+"where": [
+"body"
+],
+"count": 1
+},
+{
+"text": "italic underline",
+"where": [
+"body"
+],
+"count": 1
+},
+{
+"text": "italic underline strikethrough",
+"where": [
+"body"
+],
+"count": 1
+},
+{
+"text": "line bounding box",
+"where": [
+"ariaLabel"
+],
+"count": 1
+},
+{
+"text": "run_command or view_file",
+"where": [
+"label"
+],
+"count": 1
+},
+{
+"text": "script source must not be empty",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "square bounding box",
+"where": [
+"ariaLabel"
+],
+"count": 1
+},
+{
+"text": "text-[14px] leading-6",
+"where": [
+"body"
+],
+"count": 1
+},
+{
+"text": "text-[16px] leading-7",
+"where": [
+"body"
+],
+"count": 1
+},
+{
+"text": "text-amber-600 dark:text-amber-500",
+"where": [
+"text"
+],
+"count": 1
+},
+{
+"text": "text-green-600 dark:text-green-500",
+"where": [
+"text"
+],
+"count": 1
+},
+{
+"text": "text-orange-600 dark:text-orange-500",
+"where": [
+"text"
+],
+"count": 1
+},
+{
+"text": "text-teal-600 dark:text-teal-500",
+"where": [
+"text"
+],
+"count": 1
+},
+{
+"text": "underline strikethrough",
+"where": [
+"body"
+],
+"count": 1
+},
+{
+"text": "unknown error",
+"where": [
+"message"
+],
+"count": 1
+},
+{
+"text": "user@host:port",
+"where": [
+"placeholder"
+],
+"count": 1
+},
+{
+"text": "view full search results",
+"where": [
+"title"
+],
+"count": 1
+},
+{
+"text": "view_file read_resource write_to_file replace_file_content multi_replace_file_content sed_file notebook_edit",
+"where": [
+"description"
+],
+"count": 1
+},
+{
+"text": "you@company.com",
+"where": [
+"placeholder"
+],
+"count": 1
+}
+]

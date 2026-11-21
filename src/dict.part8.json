@@ -1,0 +1,21 @@
+{
+ "A comma-separated list like org-a, org-b, or * for all.": "以逗号分隔的列表，例如 org-a, org-b，或使用 * 表示全部。",
+ "Describe the feature you would like to see...": "描述你希望看到的功能…",
+ "Display modes the app supports.": "应用支持的显示模式。",
+ "Display modes the host supports.": "宿主支持的显示模式。",
+ "Fires after a tool step completes.": "在工具步骤完成后触发。",
+ "Fires before a tool step executes.": "在工具步骤执行前触发。",
+ "Fires before the model is called.": "在调用模型之前触发。",
+ "How loud Jetski's voice is.": "Jetski 语音的音量。",
+ "Media upload failed after 3 attempts.": "媒体上传在 3 次尝试后失败。",
+ "No custom flag matches your search.": "没有匹配的自定义标志。",
+ "No skills or rules match this filter.": "没有匹配此筛选条件的技能或规则。",
+ "Please provide more detailed steps to reproduce (at least 5 characters).": "请提供更详细的复现步骤（至少 5 个字符）。",
+ "Select category to search...": "选择要搜索的分类…",
+ "This step can be retried.": "此步骤可以重试。",
+ "Copy the folder elsewhere first if you might want it back.": "如果你之后可能要用，请先把文件夹复制到别处。",
+ "Pick a model to change it.": "选择一个模型以更改。",
+ "Agent is waiting for your input.": "智能体正在等待你的输入。",
+ "Waiting for your input": "等待你的输入",
+ "Needs your input": "需要你的输入"
+}
