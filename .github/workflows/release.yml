@@ -1,4 +1,4 @@
-name: Build Minimal Release Package
+name: Build Release Package & EXE
 
 on:
   push:
@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   package:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -21,28 +21,34 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Build zh-cn pack
-        run: python -X utf8 tools/build.py
+      - name: Build zh-cn pack and standalone EXE
+        shell: powershell
+        run: |
+          python -X utf8 tools\build_exe.py --out Antigravity中文助手.exe
 
       - name: Prepare minimal release bundle
+        shell: powershell
         run: |
-          mkdir -p release_pkg/build release_pkg/src release_pkg/tools
-          cp build/zh-cn.pack.js build/meta.json release_pkg/build/
-          cp src/main-hook.js release_pkg/src/
-          cp tools/install.ps1 tools/create_shortcut.ps1 tools/install.py tools/asar.py release_pkg/tools/
-          cp *.bat README.md release_pkg/
-          cd release_pkg && zip -r ../Antigravity-zh-cn.zip .
-          ls -lh ../Antigravity-zh-cn.zip
+          New-Item -ItemType Directory -Path release_pkg\build, release_pkg\src, release_pkg\tools -Force | Out-Null
+          Copy-Item build\zh-cn.pack.js, build\meta.json release_pkg\build\
+          Copy-Item src\main-hook.js release_pkg\src\
+          Copy-Item tools\install.ps1, tools\create_shortcut.ps1, tools\install.py, tools\asar.py release_pkg\tools\
+          Copy-Item *.bat, README.md, Antigravity中文助手.exe release_pkg\
+          Compress-Archive -Path release_pkg\* -DestinationPath Antigravity-zh-cn.zip -Force
 
-      - name: Upload artifact
+      - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
           name: Antigravity-zh-cn
-          path: Antigravity-zh-cn.zip
+          path: |
+            Antigravity-zh-cn.zip
+            Antigravity中文助手.exe
 
       - name: Create GitHub Release
         if: startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v2
         with:
-          files: Antigravity-zh-cn.zip
+          files: |
+            Antigravity-zh-cn.zip
+            Antigravity中文助手.exe
           generate_release_notes: true

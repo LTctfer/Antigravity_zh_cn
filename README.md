@@ -6,7 +6,14 @@
 
 ## 1. 一键安装与快捷用法
 
-### 方式 A：零依赖一行命令在线安装（无需 Git / Python）
+### 方式 A：图形界面单文件工具（最推荐，免 Python / Git）
+
+直接双击根目录下的 **`Antigravity中文助手.exe`**（仅 ~158 KB，内嵌完整词库与 ASAR 打包内核）：
+* 一键安装 / 修复汉化（运行中可自动关闭并重开）
+* 创建无黑框桌面自愈快捷方式
+* 本地 / 在线热更新词库、还原英文原版
+
+### 方式 B：零依赖一行命令在线安装（无需下载仓库）
 
 在 Windows PowerShell 中直接执行：
 
@@ -14,7 +21,7 @@
 irm https://raw.githubusercontent.com/LTctfer/Antigravity_zh_cn/main/tools/install.ps1 | iex
 ```
 
-### 方式 B：本地脚本安装（有 Python 自动重编，无 Python 自动回退 PowerShell）
+### 方式 C：本地脚本安装（有 Python 自动重编，无 Python 自动回退 PowerShell）
 
 ```bat
 安装中文.bat
@@ -78,6 +85,8 @@ src/
   rules.zh-CN.json    动态文案规则（问候语、快捷键行、相对时间、tokens 计数…）
 tools/
   build.py            打包词典 + 规则 + 内核 -> build/zh-cn.pack.js
+  build_exe.py        调用系统 csc.exe 编译单文件图形助手 Antigravity中文助手.exe
+  gui_installer.cs    独立 WinForms 安装/热更新/自愈启动助手源码
   install.py          备份 / 注入 / 外置同步 / 自愈 / 还原
   install.ps1         免 Python 原生 PowerShell 全功能安装器（支持在线一行命令）
   create_shortcut.ps1 创建无黑框自愈桌面快捷方式
